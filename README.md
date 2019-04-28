@@ -1,6 +1,14 @@
 # Catatan Seekor: **JAVASCRIPT**
 ##### by Mahbub Zulkarnain
 
+## Table of Contents
+* [Type data](#type-data)
+* [Variables](#variables)
+* [Function](#function-1)
+* [Conditional](#conditional)
+* [Looping](#looping)
+* [Tips and Tricks](#tips-and-tricks)
+
 ## Type Data
 
 ### String
