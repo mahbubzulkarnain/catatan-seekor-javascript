@@ -55,6 +55,12 @@ iniArray = [];
 console.log(typeof iniArray); // object
 console.log(iniArray instanceof Array); // true
 ```
+```javascript
+let data = [ "a", "b", "c"];
+
+console.log(data[0]) // 'a'
+console.log(data[data.length - 1]) // 'c'
+```
 
 ### Object
 ```javascript
@@ -66,10 +72,11 @@ console.log(iniObject instanceof Object); // true
 ```
 ```javascript
 let data = {
-  a: 'ini a',
-  b: 'ini b',
-  c: 'ini c',
+  a: "ini a",
+  b: "ini b",
+  c: "ini c",
 }
+
 console.log(data.a) // 'ini a'
 console.log(data['a']) // 'ini a'
 console.log(data); // { a: 'ini a', b: 'ini b', c: 'ini c' }
@@ -91,6 +98,7 @@ let dataAfter = {
   ['c'] : dataBefore['c'] + ' telah di update juga',
   d : '5'
 }
+
 console.log({
   ...dataAfter,
   d : +dataAfter.d + 5 
