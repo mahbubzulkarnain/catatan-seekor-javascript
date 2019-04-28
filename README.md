@@ -330,3 +330,39 @@ console.log((() => {
   return output
 })()) // 'true'
 ```
+
+## Tips and Tricks
+### Random
+```javascript
+let data = ['1337', 'Random', 666, 'Mahbub', 10, 1993, 'Zulkarnain'];
+
+let result = data[Math.floor(Math.random() * data.length)];
+```
+```javascript
+const max = 10;
+const min = 1;
+
+let result = Math.floor(Math.random() * (max - min + 1)) + min;
+```
+```javascript
+const max = 10;
+
+let data = [];
+for (let i = 1; data.push(i++) < max;); 
+```
+```javascript
+const length = 10;
+
+let data = '';
+for (; data.length < length; data += Math.random().toString(36).substr(2));
+
+let result = data.substr(0, length);
+```
+```javascript
+const max = 10;
+
+let data = [];
+for (let i = 1; data.push(i++) < max;); 
+
+let result = data.sort(()=>Math.random() - 0.5);
+```
