@@ -64,6 +64,30 @@ iniObject = {};
 console.log(typeof iniObject); // object
 console.log(iniObject instanceof Object); // true
 ```
+```javascript
+let data = {
+  a: 'ini a',
+  b: 'ini b',
+  c: 'ini c',
+}
+console.log(data.a) // 'ini a'
+console.log(data['a']) // 'ini a'
+console.log(data); // { a: 'ini a', b: 'ini b', c: 'ini c' }
+```
+```javascript
+let dataBefore = {
+  a: 'ini a',
+  b: 'ini b',
+  c: 'ini c',
+}
+
+let dataAfter = {
+  ...dataBefore,
+  ['a'] : 'ini a telah di update',
+  ['c'] : dataBefore['c'] + ' telah di update juga'
+}
+console.log(dataAfter); // { a: 'ini a telah di update', b: 'ini b', c: 'ini c telah di update juga' }
+```
 
 ### Null
 ```javascript
