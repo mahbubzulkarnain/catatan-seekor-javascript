@@ -334,35 +334,36 @@ console.log((() => {
 ## Tips and Tricks
 ### Random
 ```javascript
-let data = ['1337', 'Random', 666, 'Mahbub', 10, 1993, 'Zulkarnain'];
-
-let result = data[Math.floor(Math.random() * data.length)];
+// Get random item from array
+((data)=>{
+  return data[Math.floor(Math.random() * data.length)]
+})(['1337', 'Random', 666, 'Mahbub', 10, 1993, 'Zulkarnain'])
 ```
 ```javascript
-const max = 10;
-const min = 1;
-
-let result = Math.floor(Math.random() * (max - min + 1)) + min;
+// Get random number with range
+((min, max)=>{
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+})(1, 10)
 ```
 ```javascript
-const max = 10;
-
-let data = [];
-for (let i = 1; data.push(i++) < max;); 
+// Generate array of number with range
+((min, max)=>{
+  let data = [];
+  for (let i = min; data.push(i++) < max;);
+  return data;
+})(1, 10) 
 ```
 ```javascript
-const length = 10;
-
-let data = '';
-for (; data.length < length; data += Math.random().toString(36).substr(2));
-
-let result = data.substr(0, length);
+// Generate random string with specified length
+((length)=>{
+  let data = '';
+  for (; data.length < length; data += Math.random().toString(36).substr(2));
+  return data.substr(0, length);
+})(10)
 ```
 ```javascript
-const max = 10;
-
-let data = [];
-for (let i = 1; data.push(i++) < max;); 
-
-let result = data.sort(()=>Math.random() - 0.5);
+// Suffle an array of numbers
+((data)=>{
+  return data.sort(()=>Math.random() - 0.5);
+})([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ])
 ```
