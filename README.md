@@ -88,9 +88,13 @@ let dataBefore = {
 let dataAfter = {
   ...dataBefore,
   ['a'] : 'ini a telah di update',
-  ['c'] : dataBefore['c'] + ' telah di update juga'
+  ['c'] : dataBefore['c'] + ' telah di update juga',
+  d : '5'
 }
-console.log(dataAfter); // { a: 'ini a telah di update', b: 'ini b', c: 'ini c telah di update juga' }
+console.log({
+  ...dataAfter,
+  d : +dataAfter.d + 5 
+}); // { a: 'ini a telah di update', b: 'ini b', c: 'ini c telah di update juga', d: 10 }
 ```
 
 ### Null
