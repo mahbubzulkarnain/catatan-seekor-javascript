@@ -73,6 +73,10 @@ let data = {
 console.log(data.a) // 'ini a'
 console.log(data['a']) // 'ini a'
 console.log(data); // { a: 'ini a', b: 'ini b', c: 'ini c' }
+
+console.log(Object.keys(data)); // [ 'a', 'b', 'c' ]
+console.log(Object.values(data)); // [ 'ini a', 'ini b', 'ini c' ]
+
 ```
 ```javascript
 let dataBefore = {
