@@ -8,6 +8,7 @@
 * [Conditional](#conditional)
 * [Looping](#looping)
 * [Tips and Tricks](#tips-and-tricks)
+* [Links](#links)
 
 ## Type Data
 
@@ -89,6 +90,10 @@ console.log(data.a) // 'ini a'
 console.log(data['a']) // 'ini a'
 console.log(data); // { a: 'ini a', b: 'ini b', c: 'ini c' }
 
+const { b, c } = data;
+console.log( b ); // 'ini b'
+console.log( c ); // 'ini c'
+
 console.log(Object.keys(data)); // [ 'a', 'b', 'c' ]
 console.log(Object.values(data)); // [ 'ini a', 'ini b', 'ini c' ]
 
@@ -163,6 +168,33 @@ d  = a += b /= c;    // ?
 ```
 
 ## Function
+```javascript
+function introduction(name) {
+  console.log(`Hai, my name is ${ name }.`);
+};
+
+introduction('Mahbub'); // Hai, my name is Mahbub.
+```
+```javascript
+function introduction({ firstName, lastName }) {
+  console.log(`Hai, my name is ${ firstName } ${ lastName }.`);
+};
+
+introduction({firstName: 'Mahbub', lastName: 'Zulkarnain'}); // Hai, my name is Mahbub Zulkarnain.
+```
+```javascript
+function introduction({ name: { firstName, lastName }, hobby }) {
+  console.log(`Hai, my name is ${ firstName } ${ lastName }. My favorite hobby is ${ hobby }.`);
+};
+
+introduction(
+  {
+    name: { firstName: 'Mahbub', lastName: 'Zulkarnain' },
+    hobby: 'traveling'
+  },
+); // Hai, my name is Mahbub Zulkarnain. My favorite hobby is traveling.
+```
+
 ### Declaration
 ```javascript
 // bisa di gunakan sebelum deklarasi function
@@ -180,22 +212,22 @@ console.log(iniFunctionDeclaration()); // tampil text ini
 ### Expression
 ```javascript
 // tidak bisa di gunakan sebelum deklarasi function
-console.log(iniFunctionDeclaration()); // RefferenceError: iniFunctionDeclaration is not defined
+console.log(iniFunctionExpressions()); // RefferenceError: iniFunctionExpressions is not defined
 
 // contoh : deklarasi "function expressions"
-var iniFunctionDeclaration = function() {
+var iniFunctionExpressions = function() {
   return "tampil text ini";
 };
 
 // OR
 
 // contoh : deklarasi "function expressions"
-var iniFunctionDeclaration = () => {
+var iniFunctionExpressions = () => {
   return "tampil text ini";
 };
 
 // bisa di gunakan sesudah deklarasi function
-console.log(iniFunctionDeclaration()); // tampil text ini
+console.log(iniFunctionExpressions()); // tampil text ini
 ```
 
 ## Conditional
@@ -247,11 +279,11 @@ console.log((() => {
   if (condition) return isTrue; 
 })()) // 'text true'
 
-console.log((()=>{
+console.log((() => {
   return (condition) && isTrue
 })()) // 'text true'
 
-console.log((()=>{
+console.log((() => {
   return (!condition) || isTrue
 })()) // 'text true'
 ```
@@ -267,7 +299,7 @@ console.log((() => {
   else return isFalse;
 })()) // 'text true'
 
-console.log((()=>{
+console.log((() => {
   return condition ? isTrue : isFalse
 })()) // 'text true'
 ```
@@ -343,7 +375,7 @@ console.log((() => {
 ### Convert
 ```javascript
 // Convert number to rupiah
-((number, isShowRp = true)=>{
+((number, isShowRp = true) => {
   return (isShowRp ? 'Rp': '') + Number
       .parseFloat(+number ? +number : 0)
       .toFixed(0)
@@ -355,19 +387,19 @@ console.log((() => {
 ### Random
 ```javascript
 // Get random item from array
-((data)=>{
+((data) => {
   return data[Math.floor(Math.random() * data.length)]
 })(['1337', 'Random', 666, 'Mahbub', 10, 1993, 'Zulkarnain'])
 ```
 ```javascript
 // Get random number with range
-((min, max)=>{
+((min, max) => {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 })(1, 10)
 ```
 ```javascript
 // Generate array of number with range
-((min, max)=>{
+((min, max) => {
   let data = [];
   for (let i = min; data.push(i++) < max;);
   return data;
@@ -375,7 +407,7 @@ console.log((() => {
 ```
 ```javascript
 // Generate random string with specified length
-((length)=>{
+((length) => {
   let data = '';
   for (; data.length < length; data += Math.random().toString(36).substr(2));
   return data.substr(0, length);
@@ -383,7 +415,21 @@ console.log((() => {
 ```
 ```javascript
 // Suffle an array of numbers
-((data)=>{
+((data) => {
   return data.sort(()=>Math.random() - 0.5);
 })([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ])
 ```
+
+## Links
+* [30 Seconds of Code](https://github.com/30-seconds/30-seconds-of-code) by 30-seconds
+* [33 JS Concepts](https://github.com/leonardomso/33-js-concepts) by leonardomso
+* [Clean Code Javascript](https://github.com/ryanmcdermott/clean-code-javascript) by ryanmcdermott
+* [Google Cloud Node](https://github.com/googleapis/google-cloud-node) by googleapis
+* [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms) by trekhleb
+* [Math as Code](https://github.com/Jam3/math-as-code) by Jam3
+* [Modern JS Cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet) by mbeaudru
+* [Nginx Admin's Handbook](https://github.com/trimstray/nginx-admins-handbook) by trimstray
+* [Project Based Learning](https://github.com/tuvtran/project-based-learning) by tuvtran
+* [Public APIs](https://github.com/toddmotto/public-apis) by toddmotto
+* [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) by trimstray
+* [Web Developer Shortcut](https://github.com/rkukuh/web-developer-shortcut) by rkukuh
