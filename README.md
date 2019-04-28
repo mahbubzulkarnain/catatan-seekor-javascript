@@ -340,6 +340,18 @@ console.log((() => {
 ```
 
 ## Tips and Tricks
+### Convert
+```javascript
+// Convert number to rupiah
+((number, isShowRp = true)=>{
+  return (isShowRp ? 'Rp': '') + Number
+      .parseFloat(+number ? +number : 0)
+      .toFixed(0)
+      .toString()
+      .replace(/\B(?=(\d{3})+(?!\d))/g, '.')
+})(100000) // Rp100.000
+```
+
 ### Random
 ```javascript
 // Get random item from array
