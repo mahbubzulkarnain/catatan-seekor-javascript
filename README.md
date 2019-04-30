@@ -8,13 +8,14 @@
 * [Conditional](#conditional)
 * [Looping](#looping)
 * [Tips and Tricks](#tips-and-tricks)
-* [Links](#links)
-* [Forum](#forum)
 * [Course](#course)
+* [Forum](#forum)
+* [Links](#links)
+* [Testing](#testing)
 
 ## Type Data
 
-### String
+##### String
 ```javascript
 iniString = 'Type Data String';
 iniString = "Type Data String";
@@ -24,7 +25,7 @@ iniString = `Type Data String`;
 console.log(typeof iniString) // string
 ```
 
-### Number
+##### Number
 ```javascript
 iniNumber = 0;
 iniNumber = 0.1;
@@ -39,7 +40,7 @@ iniNumber = Number.MIN_SAFE_INTEGER; // -9007199254740991
 console.log(typeof iniNumber); // number
 ```
 
-### Boolean
+##### Boolean
 ```javascript
 iniBoolean = true;
 iniBoolean = false;
@@ -48,7 +49,7 @@ iniBoolean = false;
 console.log(typeof iniBoolean); // boolean
 ```
 
-### Function
+##### Function
 ```javascript
 iniFunction = function() {};
 iniFunction = () => {};
@@ -58,7 +59,7 @@ console.log(typeof iniFunction); // function
 console.log(iniFunction instanceof Function); // true
 ```
 
-### Array
+##### Array
 ```javascript
 iniArray = [];
 ```
@@ -73,7 +74,7 @@ console.log(data[0]) // 'a'
 console.log(data[data.length - 1]) // 'c'
 ```
 
-### Object
+##### Object
 ```javascript
 iniObject = {};
 ```
@@ -120,7 +121,7 @@ console.log({
 }); // { a: 'ini a telah di update', b: 'ini b', c: 'ini c telah di update juga', d: 10 }
 ```
 
-### Null
+##### Null
 ```javascript
 iniNull = null;
 ```
@@ -128,7 +129,7 @@ iniNull = null;
 console.log(typeof iniNull); // object
 ```
 
-### Undefined
+##### Undefined
 ```javascript
 iniUndefined = undefined;
 ```
@@ -138,22 +139,22 @@ console.log(typeof iniUndefined); // undefined
 
 
 ## Variables
-### VAR ( Global )
+##### VAR ( Global )
 ```javascript
 var iniVariableGlobal = TYPE_DATA;
 ```
 
-### LET ( Local )
+##### LET ( Local )
 ```javascript
 let iniVariableGlobal = TYPE_DATA;
 ```
 
-### CONST ( Read Only )
+##### CONST ( Read Only )
 ```javascript
 let iniVariableGlobal = TYPE_DATA;
 ```
 
-## Assignment Operator
+##### Assignment Operator
 ```javascript
 a  = 1;              // a = 1;
 a += 1;              // a = a + 1;
@@ -197,7 +198,7 @@ introduction(
 ); // 'Hai, my name is Mahbub Zulkarnain. My favorite hobby is traveling.'
 ```
 
-### Declaration
+##### Declaration
 ```javascript
 // bisa di gunakan sebelum deklarasi function
 console.log(iniFunctionDeclaration()); // 'tampil text ini'
@@ -211,7 +212,7 @@ function iniFunctionDeclaration() {
 console.log(iniFunctionDeclaration()); // 'tampil text ini'
 ```
 
-### Expression
+##### Expression
 ```javascript
 // tidak bisa di gunakan sebelum deklarasi function
 console.log(iniFunctionExpressions()); // RefferenceError: iniFunctionExpressions is not defined
@@ -232,7 +233,7 @@ var iniFunctionExpressions = () => {
 console.log(iniFunctionExpressions()); // 'tampil text ini'
 ```
 
-### Async/Await
+##### Async/Await
 ```javascript
 async function asyncFunction() {
   return 'ini function async';
@@ -255,7 +256,7 @@ async function asyncFunction() {
 ```
 
 ## Conditional
-### Comparison and Logical Operator
+##### Comparison and Logical Operator
 ```javascript
 const conditional = !false // true
 ```
@@ -294,7 +295,7 @@ console.log(!!+'1337');                 // true
 console.log(!+'satu');                  // true
 ```
 
-### The if Statement
+##### The _if_ Statement
 ```javascript
 const condition = true;
 const isTrue = 'text true';
@@ -312,7 +313,7 @@ console.log((() => {
 })()); // 'text true'
 ```
 
-### The else Statement
+##### The _else_ Statement
 ```javascript
 const condition = true;
 const isTrue = 'text true';
@@ -328,10 +329,10 @@ console.log((() => {
 })()); // 'text true'
 ```
 
-### The else if Statement
+##### The _else if_ Statement
 ```javascript
-const condition = true;
-const condition2 = false;
+const condition = false;
+const condition2 = true;
 const isTrue = 'text true';
 const isFalse = 'text false';
 
@@ -339,15 +340,22 @@ console.log((() => {
   if (condition) return isTrue; 
   else if (condition2) return 'else if true'; 
   else return isFalse;
-})()); // 'text true'
+})()); // 'else if true'
+
+console.log((() => {
+  return condition 
+  ? isTrue 
+  : condition2 
+    ? 'else if true'
+    : isFalse
+})()); // 'else if true'
 ```
 
-### The switch case Statement
+##### The _switch case_ Statement
 ```javascript
 const condition = 1;
 const isTrue = 'text true';
 const isFalse = 'text false';
-
 
 console.log((() => {
   let output;
@@ -367,8 +375,22 @@ console.log((() => {
 })()); // 'With case 2'
 ```
 
+##### The _try catch finally_ Statement
+```javascript
+try {
+  // tryCode - Block of code to try
+}
+catch(err) {
+  // catchCode - Block of code to handle errors
+} 
+finally {
+  // finallyCode - Block of code to be executed regardless of the try / catch result
+}
+```
+source https://www.w3schools.com/jsref/jsref_try_catch.asp
+
 ## Looping
-### The for Statement
+##### The _for_ Statement
 ```javascript
 let input = ['t','r','u','e'];
 
@@ -381,7 +403,7 @@ console.log((() => {
 })()); // 'true'
 ```
 
-### The while Statement
+##### The _while_ Statement
 ```javascript
 let input = ['t','r','u','e'];
 
@@ -396,7 +418,7 @@ console.log((() => {
 ```
 
 ## Tips and Tricks
-### Convert
+##### Convert
 ```javascript
 // Convert number to rupiah
 ((number, isShowRp = true) => {
@@ -408,7 +430,7 @@ console.log((() => {
 })(100000); // Rp100.000
 ```
 
-### Random
+##### Random
 ```javascript
 // Get random item from array
 ((data) => {
@@ -444,8 +466,15 @@ console.log((() => {
 })([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]);
 ```
 
+## Course
+* [Hacktiv8 Indonesia](https://hacktiv8.com)
+
+## Forum
+##### Telegram
+* [JavaScript Indonesia Channel](https://t.me/Indonesia_Javascript)
+
 ## Links
-#### Github
+##### Github
 * [30 Seconds of Code](https://github.com/30-seconds/30-seconds-of-code) by 30-seconds
 * [33 JS Concepts](https://github.com/leonardomso/33-js-concepts) by leonardomso
 * [Clean Code Javascript](https://github.com/ryanmcdermott/clean-code-javascript) by ryanmcdermott
@@ -459,12 +488,21 @@ console.log((() => {
 * [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) by trimstray
 * [Web Developer Shortcut](https://github.com/rkukuh/web-developer-shortcut) by rkukuh
 
-#### Website
+##### Website
+* [Javascripting](https://www.javascripting.com/) ( List of Javascript Library )
 * [Skptricks](https://www.skptricks.com)
+* [W3Schools](https://www.w3schools.com/jsref/default.asp)
 
-## Forum
-### Telegram
-* [JavaScript Indonesia Channel](https://t.me/Indonesia_Javascript) 
+##### Youtube
+* [Dasar Pemrograman dengan Javascript](https://www.youtube.com/playlist?list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w) by Web Programming UNPAS
+* [JavaScript Tutorials for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET) by The Net Ninja
+* [Modern JavaScript Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc) by The Net Ninja
 
-## Course
-* [Hacktiv8 Indonesia](https://hacktiv8.com)
+## Testing
+* [Burp Suite](https://portswigger.net/burp)
+* [K6](https://k6.io)
+* [Load Impact](https://loadimpact.com)
+* [New Relic](https://newrelic.com)
+* [Security Headers](https://securityheaders.com)
+* [Sn1per](https://github.com/1N3/Sn1per) by 1N3
+* [Storybook](https://storybook.js.org)
