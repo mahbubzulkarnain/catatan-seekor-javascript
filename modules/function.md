@@ -1,6 +1,17 @@
 # [Catatan Seekor: **JAVASCRIPT**](https://github.com/mahbubzulkarnain/catatan-seekor-javascript) / Function
 ##### by Mahbub Zulkarnain
 
+## Table of Contents
+* [Type Data](https://github.com/mahbubzulkarnain/catatan-seekor-javascript/blob/master/modules/type_data.md)
+* [Variables](https://github.com/mahbubzulkarnain/catatan-seekor-javascript/blob/master/modules/variables.md)
+* Function
+* [Conditional](https://github.com/mahbubzulkarnain/catatan-seekor-javascript/blob/master/modules/conditional.md)
+* [Looping](https://github.com/mahbubzulkarnain/catatan-seekor-javascript/blob/master/modules/looping.md)
+* [Tips and Tricks](https://github.com/mahbubzulkarnain/catatan-seekor-javascript/blob/master/modules/tips_and_tricks.md)
+* [Links](#links)
+* [Forum](#forum)
+* [Course](#course)
+
 ```javascript
 function introduction(name) {
   console.log(`Hai, my name is ${ name }.`);

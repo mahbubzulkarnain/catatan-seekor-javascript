@@ -1,6 +1,17 @@
 # [Catatan Seekor: **JAVASCRIPT**](https://github.com/mahbubzulkarnain/catatan-seekor-javascript) / Tips and Tricks
 ##### by Mahbub Zulkarnain
 
+## Table of Contents
+* [Type Data](https://github.com/mahbubzulkarnain/catatan-seekor-javascript/blob/master/modules/type_data.md)
+* [Variables](https://github.com/mahbubzulkarnain/catatan-seekor-javascript/blob/master/modules/variables.md)
+* [Function](https://github.com/mahbubzulkarnain/catatan-seekor-javascript/blob/master/modules/function.md)
+* [Conditional](https://github.com/mahbubzulkarnain/catatan-seekor-javascript/blob/master/modules/conditional.md)
+* [Looping](https://github.com/mahbubzulkarnain/catatan-seekor-javascript/blob/master/modules/looping.md)
+* Tips and Tricks
+* [Links](#links)
+* [Forum](#forum)
+* [Course](#course)
+
 ### Convert
 ```javascript
 // Convert number to rupiah
