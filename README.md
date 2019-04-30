@@ -49,7 +49,7 @@ console.log(typeof iniBoolean); // boolean
 ### Function
 ```javascript
 iniFunction = function() {};
-iniFunction = ()=>{};
+iniFunction = () => {};
 ```
 ```javascript
 console.log(typeof iniFunction); // function
@@ -173,14 +173,14 @@ function introduction(name) {
   console.log(`Hai, my name is ${ name }.`);
 };
 
-introduction('Mahbub'); // Hai, my name is Mahbub.
+introduction('Mahbub'); // 'Hai, my name is Mahbub.'
 ```
 ```javascript
 function introduction({ firstName, lastName }) {
   console.log(`Hai, my name is ${ firstName } ${ lastName }.`);
 };
 
-introduction({firstName: 'Mahbub', lastName: 'Zulkarnain'}); // Hai, my name is Mahbub Zulkarnain.
+introduction({firstName: 'Mahbub', lastName: 'Zulkarnain'}); // 'Hai, my name is Mahbub Zulkarnain.'
 ```
 ```javascript
 function introduction({ name: { firstName, lastName }, hobby }) {
@@ -192,13 +192,13 @@ introduction(
     name: { firstName: 'Mahbub', lastName: 'Zulkarnain' },
     hobby: 'traveling'
   },
-); // Hai, my name is Mahbub Zulkarnain. My favorite hobby is traveling.
+); // 'Hai, my name is Mahbub Zulkarnain. My favorite hobby is traveling.'
 ```
 
 ### Declaration
 ```javascript
 // bisa di gunakan sebelum deklarasi function
-console.log(iniFunctionDeclaration()); // tampil text ini
+console.log(iniFunctionDeclaration()); // 'tampil text ini'
 
 // contoh : deklarasi "function declarations"
 function iniFunctionDeclaration() {
@@ -206,7 +206,7 @@ function iniFunctionDeclaration() {
 };
 
 // bisa di gunakan sesudah deklarasi function
-console.log(iniFunctionDeclaration()); // tampil text ini
+console.log(iniFunctionDeclaration()); // 'tampil text ini'
 ```
 
 ### Expression
@@ -227,7 +227,29 @@ var iniFunctionExpressions = () => {
 };
 
 // bisa di gunakan sesudah deklarasi function
-console.log(iniFunctionExpressions()); // tampil text ini
+console.log(iniFunctionExpressions()); // 'tampil text ini'
+```
+
+### Async/Await
+```javascript
+async function asyncFunction() {
+  return 'ini function async';
+}
+
+asyncFunction().then(console.log); // 'ini function async'
+```
+```javascript
+async function asyncFunction() {
+  return 'ini function async';
+};
+
+(async () => {
+  try {
+    console.log(await asyncFunction());    
+  } catch (e) {
+    console.log(e.message);
+  }
+})(); // 'ini function async'
 ```
 
 ## Conditional
@@ -277,15 +299,15 @@ const isTrue = 'text true';
 
 console.log((() => {
   if (condition) return isTrue; 
-})()) // 'text true'
+})()); // 'text true'
 
 console.log((() => {
   return (condition) && isTrue
-})()) // 'text true'
+})()); // 'text true'
 
 console.log((() => {
   return (!condition) || isTrue
-})()) // 'text true'
+})()); // 'text true'
 ```
 
 ### The else Statement
@@ -297,11 +319,11 @@ const isFalse = 'text false';
 console.log((() => {
   if (condition) return isTrue; 
   else return isFalse;
-})()) // 'text true'
+})()); // 'text true'
 
 console.log((() => {
   return condition ? isTrue : isFalse
-})()) // 'text true'
+})()); // 'text true'
 ```
 
 ### The else if Statement
@@ -315,7 +337,7 @@ console.log((() => {
   if (condition) return isTrue; 
   else if (condition2) return 'else if true'; 
   else return isFalse;
-})()) // 'text true'
+})()); // 'text true'
 ```
 
 ### The switch case Statement
@@ -340,7 +362,7 @@ console.log((() => {
       break;
   }
   return output;
-})()) // 'With case 2'
+})()); // 'With case 2'
 ```
 
 ## Looping
@@ -354,7 +376,7 @@ console.log((() => {
     output += input[i];
   } 
   return output
-})()) // 'true'
+})()); // 'true'
 ```
 
 ### The while Statement
@@ -368,7 +390,7 @@ console.log((() => {
     i++;
   } 
   return output
-})()) // 'true'
+})()); // 'true'
 ```
 
 ## Tips and Tricks
@@ -381,7 +403,7 @@ console.log((() => {
       .toFixed(0)
       .toString()
       .replace(/\B(?=(\d{3})+(?!\d))/g, '.')
-})(100000) // Rp100.000
+})(100000); // Rp100.000
 ```
 
 ### Random
@@ -389,13 +411,13 @@ console.log((() => {
 // Get random item from array
 ((data) => {
   return data[Math.floor(Math.random() * data.length)]
-})(['1337', 'Random', 666, 'Mahbub', 10, 1993, 'Zulkarnain'])
+})(['1337', 'Random', 666, 'Mahbub', 10, 1993, 'Zulkarnain']);
 ```
 ```javascript
 // Get random number with range
 ((min, max) => {
   return Math.floor(Math.random() * (max - min + 1)) + min;
-})(1, 10)
+})(1, 10);
 ```
 ```javascript
 // Generate array of number with range
@@ -403,7 +425,7 @@ console.log((() => {
   let data = [];
   for (let i = min; data.push(i++) < max;);
   return data;
-})(1, 10) 
+})(1, 10); 
 ```
 ```javascript
 // Generate random string with specified length
@@ -411,13 +433,13 @@ console.log((() => {
   let data = '';
   for (; data.length < length; data += Math.random().toString(36).substr(2));
   return data.substr(0, length);
-})(10)
+})(10);
 ```
 ```javascript
 // Suffle an array of numbers
 ((data) => {
-  return data.sort(()=>Math.random() - 0.5);
-})([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ])
+  return data.sort(() => Math.random() - 0.5);
+})([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]);
 ```
 
 ## Links
@@ -431,5 +453,13 @@ console.log((() => {
 * [Nginx Admin's Handbook](https://github.com/trimstray/nginx-admins-handbook) by trimstray
 * [Project Based Learning](https://github.com/tuvtran/project-based-learning) by tuvtran
 * [Public APIs](https://github.com/toddmotto/public-apis) by toddmotto
+* [Skptricks](https://www.skptricks.com)
 * [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) by trimstray
 * [Web Developer Shortcut](https://github.com/rkukuh/web-developer-shortcut) by rkukuh
+
+## Forum
+###Telegram
+* [JavaScript Indonesia Channel](https://t.me/Indonesia_Javascript) 
+
+## Course
+* [Hacktiv8 Indonesia](https://hacktiv8.com)
