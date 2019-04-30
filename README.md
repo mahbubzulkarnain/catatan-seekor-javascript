@@ -9,6 +9,8 @@
 * [Looping](#looping)
 * [Tips and Tricks](#tips-and-tricks)
 * [Links](#links)
+* [Forum](#forum)
+* [Course](#course)
 
 ## Type Data
 
