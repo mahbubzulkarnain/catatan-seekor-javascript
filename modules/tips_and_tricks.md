@@ -8,9 +8,9 @@
 * [Conditional](https://github.com/mahbubzulkarnain/catatan-seekor-javascript/blob/master/modules/conditional.md)
 * [Looping](https://github.com/mahbubzulkarnain/catatan-seekor-javascript/blob/master/modules/looping.md)
 * Tips and Tricks
-* [Links](#links)
-* [Forum](#forum)
-* [Course](#course)
+* [Links](https://github.com/mahbubzulkarnain/catatan-seekor-javascript#links)
+* [Forum](https://github.com/mahbubzulkarnain/catatan-seekor-javascript#forum)
+* [Course](https://github.com/mahbubzulkarnain/catatan-seekor-javascript#course)
 
 ### Convert
 ```javascript
