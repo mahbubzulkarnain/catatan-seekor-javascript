@@ -15,16 +15,6 @@
 
 ## Type Data
 
-##### String
-```javascript
-iniString = 'Type Data String';
-iniString = "Type Data String";
-iniString = `Type Data String`;
-```
-```javascript
-console.log(typeof iniString) // string
-```
-
 ##### Number
 ```javascript
 iniNumber = 0;
@@ -38,6 +28,22 @@ iniNumber = Number.MIN_SAFE_INTEGER; // -9007199254740991
 ```
 ```javascript
 console.log(typeof iniNumber); // number
+```
+
+##### String
+```javascript
+iniString = 'Type Data String';
+iniString = "Type Data String";
+iniString = `Type Data String`;
+```
+```javascript
+console.log(typeof iniString) // string
+```
+```javascript
+let hours = ('0' + 1).slice(-2);  
+let minutes = ('0' + 37).slice(-2);
+
+console.log(`${hours}:${minutes} AM`); // '01:37 AM'
 ```
 
 ##### Boolean
@@ -66,12 +72,44 @@ iniArray = [];
 ```javascript
 console.log(typeof iniArray); // object
 console.log(iniArray instanceof Array); // true
+console.log(Array.isArray(iniArray)); // true
 ```
 ```javascript
 let data = [ "a", "b", "c"];
 
 console.log(data[0]) // 'a'
 console.log(data[data.length - 1]) // 'c'
+```
+```javascript
+let data = [ 0, 1, 2, 3, 4 ];
+console.log(
+  data.indexOf( 10 )
+); // -1
+```
+```javascript
+let data = [ 0, 1, 2, 3, 4 ];
+
+console.log(
+  data.filter((item, index) => {
+    return item !== 0 && index !== (data.length - 1);
+  })
+); // [ 1, 2, 3 ]
+```
+```javascript
+let data = [];
+
+(new Array(5).fill()).forEach((item, index)=> {
+  data.push(index)
+})
+
+console.log( data ) // [ 0, 1, 2, 3, 4]
+```
+```javascript
+console.log(
+  (new Array(5).fill('')).map((item, index)=> {
+    return index;
+  })
+); // [ 0, 1, 2, 3, 4 ]
 ```
 
 ##### Object
@@ -119,6 +157,22 @@ console.log({
   ...dataAfter,
   d : +dataAfter.d + 5 
 }); // { a: 'ini a telah di update', b: 'ini b', c: 'ini c telah di update juga', d: 10 }
+```
+```javascript
+let data = {
+  name: ['Name is required.'],
+  email: ['Email is required.'],
+  password: ['Password is required.'],
+};
+
+for (const [key, value] of Object.entries(data)) {
+  console.log(value[0]);
+};
+
+// Output:
+// Name is required.
+// Email is required.
+// Password is required.
 ```
 
 ##### Null
@@ -389,14 +443,34 @@ finally {
 ```
 source https://www.w3schools.com/jsref/jsref_try_catch.asp
 
+```javascript
+const isError = true;
+let message = '';
+
+try {
+  if( isError ) throw 'throw from block try';
+  message += 'from block try. ';
+}
+catch (e) {
+  message += `from block catch, with message: "${e}". `;
+}
+finally {
+  message += 'from block finally. ';
+}
+
+console.log(message); // from block catch, with message: "throw from block try". from block finally.
+```
+
 ## Looping
 ##### The _for_ Statement
 ```javascript
-let input = ['t','r','u','e'];
+let input = ['t','','r','','u','','e','1','2'];
 
 console.log((() => {
   let output = "";
   for (let i = 0; i < input.length; i++){
+    if( input[i] === '') continue;
+    if( output.length > 3) break;
     output += input[i];
   } 
   return output
@@ -417,20 +491,21 @@ console.log((() => {
 })()); // 'true'
 ```
 
-## Tips and Tricks
-##### Convert
+##### The _do while_ Statement
 ```javascript
-// Convert number to rupiah
-((number, isShowRp = true) => {
-  return (isShowRp ? 'Rp': '') + Number
-      .parseFloat(+number ? +number : 0)
-      .toFixed(0)
-      .toString()
-      .replace(/\B(?=(\d{3})+(?!\d))/g, '.')
-})(100000); // Rp100.000
+let input = ['t','r','u','e'];
+
+console.log((() => {
+  let output = ""; let i = 0;
+  do {
+    output += input[i];
+    i++;
+  } while(i < input.length) 
+  return output
+})()); // 'true'
 ```
 
-##### Random
+## Tips and Tricks
 ```javascript
 // Get random item from array
 ((data) => {
@@ -466,6 +541,41 @@ console.log((() => {
 })([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]);
 ```
 
+##### Convert
+```javascript
+// Convert number to rupiah
+((number, isShowRp = true) => {
+  return (isShowRp ? 'Rp': '') + Number
+      .parseFloat(+number ? +number : 0)
+      .toFixed(0)
+      .toString()
+      .replace(/\B(?=(\d{3})+(?!\d))/g, '.')
+})(100000); // Rp100.000
+```
+
+##### RegExp
+```javascript
+// validation email
+const email = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+console.log(email.test('mahbubzulkarnain@domain.com')); // true
+```
+```javascript
+// validation password
+// Min 6 characters which contain at least one numeric digit, one uppercase letter, one lowercase letter, and one special character
+const password = /^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9])(?!.*\s).{6,}$/;
+console.log(password.test('Mahbub!23')); // true
+```
+```javascript
+// validation url
+const url = /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([-.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/;
+console.log(url.test('https://github.com/mahbubzulkarnain')); // true
+```
+```javascript
+// validation username
+const username = /(^[a-zA-Z][a-zA-Z0-9._]+[a-zA-Z0-9]).{6,}$/g;
+console.log(username.test('mahbubzulkarnain')); // true
+```
+
 ## Course
 * [Hacktiv8 Indonesia](https://hacktiv8.com)
 
@@ -474,6 +584,19 @@ console.log((() => {
 * [JavaScript Indonesia Channel](https://t.me/Indonesia_Javascript)
 
 ## Links
+##### Docs
+* [Angular](https://angular.io/guide/quickstart)
+* [Apollo](https://www.apollographql.com/docs)
+* [Certbot](https://certbot.eff.org/docs/)
+* [Expo](https://docs.expo.io/versions/latest)
+* [Express JS](https://expressjs.com/en/starter/installing.html)
+* [GraphQL](https://graphql.org/code/#javascript)
+* [Native Base](https://docs.nativebase.io)
+* [PM2](https://pm2.io/doc/en/runtime/overview)
+* [React JS](https://reactjs.org/docs/getting-started.html)
+* [React Native](https://facebook.github.io/react-native/docs/getting-started)
+* [Redis](https://redis.io/documentation)
+
 ##### Github
 * [30 Seconds of Code](https://github.com/30-seconds/30-seconds-of-code) by 30-seconds
 * [33 JS Concepts](https://github.com/leonardomso/33-js-concepts) by leonardomso
@@ -488,9 +611,46 @@ console.log((() => {
 * [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) by trimstray
 * [Web Developer Shortcut](https://github.com/rkukuh/web-developer-shortcut) by rkukuh
 
+##### NPM
+Dependencies
+* [Apollo Boost](https://www.npmjs.com/package/apollo-boost)
+* [Axios](https://www.npmjs.com/package/axios)
+* [Bcrypt](https://www.npmjs.com/package/bcrypt)
+* [Cors](https://www.npmjs.com/package/cors)
+* [D3 Interpolate](https://www.npmjs.com/package/d3-interpolate)
+* [Express Validator](https://www.npmjs.com/package/express-validator)
+* [Firebase](https://www.npmjs.com/package/firebase)
+* [Form Data](https://www.npmjs.com/package/form-data)
+* [Internet Printing Protocol (IPP) for nodejs](https://www.npmjs.com/package/ipp)
+* [JSONWebToken (JWT)](https://www.npmjs.com/package/jsonwebtoken)
+* [JSPDF](https://www.npmjs.com/package/jspdf)
+* [Lodash](https://www.npmjs.com/package/lodash)
+* [Moment](https://www.npmjs.com/package/moment)
+* [Mongoose](https://www.npmjs.com/package/mongoose)
+* [Node Printer](https://www.npmjs.com/package/node-printer) for Local Only
+* [Passport](https://www.npmjs.com/package/passport)
+* [QRCode](https://www.npmjs.com/package/qrcode)
+* [React Redux](https://www.npmjs.com/package/react-redux)
+* [React Native Render HTML](https://www.npmjs.com/package/react-native-render-html)
+* [React Native QRCode](https://www.npmjs.com/package/react-native-qrcode)
+* [React Navigation](https://www.npmjs.com/package/react-navigation)
+* [Redux](https://www.npmjs.com/package/redux)
+* [Redux Thunk](https://www.npmjs.com/package/redux-thunk)
+* [Sequelize](https://www.npmjs.com/package/sequelize)
+
+DevDependencies
+* [Chai](https://www.npmjs.com/package/chai)
+* [Chai HTTP](https://www.npmjs.com/package/chai-http)
+* [Dotenv](https://www.npmjs.com/package/dotenv)
+* [Mocha](https://www.npmjs.com/package/mocha)
+* [NYC](https://www.npmjs.com/package/nyc)
+
 ##### Website
-* [Javascripting](https://www.javascripting.com/) ( List of Javascript Library )
-* [Skptricks](https://www.skptricks.com)
+* [Free Code Camp](https://www.freecodecamp.org)
+* [Javascripting](https://www.javascripting.com) ( List of Javascript Library )
+* [Regex Lib](http://regexlib.com)
+* [Sabe](https://sabe.io/classes/javascript)
+* [Skptricks](https://www.skptricks.com/search/label/javascript)
 * [W3Schools](https://www.w3schools.com/jsref/default.asp)
 
 ##### Youtube
@@ -505,4 +665,5 @@ console.log((() => {
 * [New Relic](https://newrelic.com)
 * [Security Headers](https://securityheaders.com)
 * [Sn1per](https://github.com/1N3/Sn1per) by 1N3
+* [Snyk](https://snyk.io)
 * [Storybook](https://storybook.js.org)
