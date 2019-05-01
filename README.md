@@ -1,21 +1,24 @@
-# Catatan Seekor: **JAVASCRIPT**
-##### by Mahbub Zulkarnain
+# Catatan Seekor: JAVASCRIPT
+
+### by Mahbub Zulkarnain
 
 ## Table of Contents
-* [Type data](#type-data)
-* [Variables](#variables)
-* [Function](#function-1)
-* [Conditional](#conditional)
-* [Looping](#looping)
-* [Tips and Tricks](#tips-and-tricks)
-* [Course](#course)
-* [Forum](#forum)
-* [Links](#links)
-* [Testing](#testing)
+
+* [Type data](./#type-data)
+* [Variables](./#variables)
+* [Function](./#function-1)
+* [Conditional](./#conditional)
+* [Looping](./#looping)
+* [Tips and Tricks](./#tips-and-tricks)
+* [Course](./#course)
+* [Forum](./#forum)
+* [Links](./#links)
+* [Testing](./#testing)
 
 ## Type Data
 
-##### Number
+### Number
+
 ```javascript
 iniNumber = 0;
 iniNumber = 0.1;
@@ -26,19 +29,23 @@ iniNumber = Number.MIN_VALUE;        // 5e-324
 iniNumber = Number.MAX_SAFE_INTEGER; // 9007199254740991
 iniNumber = Number.MIN_SAFE_INTEGER; // -9007199254740991
 ```
+
 ```javascript
 console.log(typeof iniNumber); // number
 ```
 
-##### String
+### String
+
 ```javascript
 iniString = 'Type Data String';
 iniString = "Type Data String";
 iniString = `Type Data String`;
 ```
+
 ```javascript
 console.log(typeof iniString) // string
 ```
+
 ```javascript
 let hours = ('0' + 1).slice(-2);  
 let minutes = ('0' + 37).slice(-2);
@@ -46,46 +53,55 @@ let minutes = ('0' + 37).slice(-2);
 console.log(`${hours}:${minutes} AM`); // '01:37 AM'
 ```
 
-##### Boolean
+### Boolean
+
 ```javascript
 iniBoolean = true;
 iniBoolean = false;
 ```
+
 ```javascript
 console.log(typeof iniBoolean); // boolean
 ```
 
-##### Function
+### Function
+
 ```javascript
 iniFunction = function() {};
 iniFunction = () => {};
 ```
+
 ```javascript
 console.log(typeof iniFunction); // function
 console.log(iniFunction instanceof Function); // true
 ```
 
-##### Array
+### Array
+
 ```javascript
 iniArray = [];
 ```
+
 ```javascript
 console.log(typeof iniArray); // object
 console.log(iniArray instanceof Array); // true
 console.log(Array.isArray(iniArray)); // true
 ```
+
 ```javascript
 let data = [ "a", "b", "c"];
 
 console.log(data[0]) // 'a'
 console.log(data[data.length - 1]) // 'c'
 ```
+
 ```javascript
 let data = [ 0, 1, 2, 3, 4 ];
 console.log(
   data.indexOf( 10 )
 ); // -1
 ```
+
 ```javascript
 let data = [ 0, 1, 2, 3, 4 ];
 
@@ -95,6 +111,7 @@ console.log(
   })
 ); // [ 1, 2, 3 ]
 ```
+
 ```javascript
 let data = [];
 
@@ -104,6 +121,7 @@ let data = [];
 
 console.log( data ) // [ 0, 1, 2, 3, 4]
 ```
+
 ```javascript
 console.log(
   (new Array(5).fill('')).map((item, index)=> {
@@ -112,14 +130,17 @@ console.log(
 ); // [ 0, 1, 2, 3, 4 ]
 ```
 
-##### Object
+### Object
+
 ```javascript
 iniObject = {};
 ```
+
 ```javascript
 console.log(typeof iniObject); // object
 console.log(iniObject instanceof Object); // true
 ```
+
 ```javascript
 let data = {
   a: "ini a",
@@ -137,8 +158,8 @@ console.log( c ); // 'ini c'
 
 console.log(Object.keys(data)); // [ 'a', 'b', 'c' ]
 console.log(Object.values(data)); // [ 'ini a', 'ini b', 'ini c' ]
-
 ```
+
 ```javascript
 let dataBefore = {
   a: 'ini a',
@@ -158,6 +179,7 @@ console.log({
   d : +dataAfter.d + 5 
 }); // { a: 'ini a telah di update', b: 'ini b', c: 'ini c telah di update juga', d: 10 }
 ```
+
 ```javascript
 let data = {
   name: ['Name is required.'],
@@ -175,40 +197,48 @@ for (const [key, value] of Object.entries(data)) {
 // Password is required.
 ```
 
-##### Null
+### Null
+
 ```javascript
 iniNull = null;
 ```
+
 ```javascript
 console.log(typeof iniNull); // object
 ```
 
-##### Undefined
+### Undefined
+
 ```javascript
 iniUndefined = undefined;
 ```
+
 ```javascript
 console.log(typeof iniUndefined); // undefined
 ```
 
-
 ## Variables
-##### VAR ( Global )
+
+### VAR \( Global \)
+
 ```javascript
 var iniVariableGlobal = TYPE_DATA;
 ```
 
-##### LET ( Local )
+### LET \( Local \)
+
 ```javascript
 let iniVariableGlobal = TYPE_DATA;
 ```
 
-##### CONST ( Read Only )
+### CONST \( Read Only \)
+
 ```javascript
 let iniVariableGlobal = TYPE_DATA;
 ```
 
-##### Assignment Operator
+### Assignment Operator
+
 ```javascript
 a  = 1;              // a = 1;
 a += 1;              // a = a + 1;
@@ -217,14 +247,16 @@ a *= 1;              // a = a * 1;
 a /= 1;              // a = a / 1;
 a %= 1;              // a = a % 1;
 ```
+
 ```javascript
 a  = 1 + 1;          //  1  + 1 = 2
 b  = a + 1;          // (2) + 1 = 3
 c  = a = b = 3;      // c = 3, a = 3, b = 3
-d  = a += b /= c;    // ? 
+d  = a += b /= c;    // ?
 ```
 
 ## Function
+
 ```javascript
 function introduction(name) {
   console.log(`Hai, my name is ${ name }.`);
@@ -232,6 +264,7 @@ function introduction(name) {
 
 introduction('Mahbub'); // 'Hai, my name is Mahbub.'
 ```
+
 ```javascript
 function introduction({ firstName, lastName }) {
   console.log(`Hai, my name is ${ firstName } ${ lastName }.`);
@@ -239,6 +272,7 @@ function introduction({ firstName, lastName }) {
 
 introduction({firstName: 'Mahbub', lastName: 'Zulkarnain'}); // 'Hai, my name is Mahbub Zulkarnain.'
 ```
+
 ```javascript
 function introduction({ name: { firstName, lastName }, hobby }) {
   console.log(`Hai, my name is ${ firstName } ${ lastName }. My favorite hobby is ${ hobby }.`);
@@ -252,7 +286,8 @@ introduction(
 ); // 'Hai, my name is Mahbub Zulkarnain. My favorite hobby is traveling.'
 ```
 
-##### Declaration
+### Declaration
+
 ```javascript
 // bisa di gunakan sebelum deklarasi function
 console.log(iniFunctionDeclaration()); // 'tampil text ini'
@@ -266,7 +301,8 @@ function iniFunctionDeclaration() {
 console.log(iniFunctionDeclaration()); // 'tampil text ini'
 ```
 
-##### Expression
+### Expression
+
 ```javascript
 // tidak bisa di gunakan sebelum deklarasi function
 console.log(iniFunctionExpressions()); // RefferenceError: iniFunctionExpressions is not defined
@@ -287,7 +323,8 @@ var iniFunctionExpressions = () => {
 console.log(iniFunctionExpressions()); // 'tampil text ini'
 ```
 
-##### Async/Await
+### Async/Await
+
 ```javascript
 async function asyncFunction() {
   return 'ini function async';
@@ -295,6 +332,7 @@ async function asyncFunction() {
 
 asyncFunction().then(console.log); // 'ini function async'
 ```
+
 ```javascript
 async function asyncFunction() {
   return 'ini function async';
@@ -310,10 +348,13 @@ async function asyncFunction() {
 ```
 
 ## Conditional
-##### Comparison and Logical Operator
+
+### Comparison and Logical Operator
+
 ```javascript
 const conditional = !false // true
 ```
+
 ```javascript
 let dataIsNotEmpty = '';
 let dataIsNotEmpty = 0;
@@ -325,6 +366,7 @@ console.log(!!dataIsNotEmpty);          // false
 console.log(!!!dataIsNotEmpty);         // true
 console.log(!!!!!!!!!!dataIsNotEmpty);  // ?
 ```
+
 ```javascript
 console.log(0 == 0);                    // true
 console.log(0 == '0');                  // true
@@ -332,6 +374,7 @@ console.log(0 != '0');                  // false
 console.log(true != 'true');            // true
 console.log(!(true != 'true'));         // false
 ```
+
 ```javascript
 console.log(0 < -1);                    // false
 console.log(-1 <= '-1');                // true
@@ -340,6 +383,7 @@ console.log(-1 >= -1);                  // true
 console.log(true && !false);            // true
 console.log(true || false);             // true
 ```
+
 ```javascript
 console.log(0 === 0);                   // true
 console.log(0 === '0');                 // false
@@ -349,7 +393,8 @@ console.log(!!+'1337');                 // true
 console.log(!+'satu');                  // true
 ```
 
-##### The _if_ Statement
+### The _if_ Statement
+
 ```javascript
 const condition = true;
 const isTrue = 'text true';
@@ -367,7 +412,8 @@ console.log((() => {
 })()); // 'text true'
 ```
 
-##### The _else_ Statement
+### The _else_ Statement
+
 ```javascript
 const condition = true;
 const isTrue = 'text true';
@@ -383,7 +429,8 @@ console.log((() => {
 })()); // 'text true'
 ```
 
-##### The _else if_ Statement
+### The _else if_ Statement
+
 ```javascript
 const condition = false;
 const condition2 = true;
@@ -405,7 +452,8 @@ console.log((() => {
 })()); // 'else if true'
 ```
 
-##### The _switch case_ Statement
+### The _switch case_ Statement
+
 ```javascript
 const condition = 1;
 const isTrue = 'text true';
@@ -429,7 +477,8 @@ console.log((() => {
 })()); // 'With case 2'
 ```
 
-##### The _try catch finally_ Statement
+### The _try catch finally_ Statement
+
 ```javascript
 try {
   // tryCode - Block of code to try
@@ -441,7 +490,8 @@ finally {
   // finallyCode - Block of code to be executed regardless of the try / catch result
 }
 ```
-source https://www.w3schools.com/jsref/jsref_try_catch.asp
+
+source [https://www.w3schools.com/jsref/jsref\_try\_catch.asp](https://www.w3schools.com/jsref/jsref_try_catch.asp)
 
 ```javascript
 const isError = true;
@@ -462,7 +512,9 @@ console.log(message); // from block catch, with message: "throw from block try".
 ```
 
 ## Looping
-##### The _for_ Statement
+
+### The _for_ Statement
+
 ```javascript
 let input = ['t','','r','','u','','e','1','2'];
 
@@ -477,7 +529,8 @@ console.log((() => {
 })()); // 'true'
 ```
 
-##### The _while_ Statement
+### The _while_ Statement
+
 ```javascript
 let input = ['t','r','u','e'];
 
@@ -491,7 +544,8 @@ console.log((() => {
 })()); // 'true'
 ```
 
-##### The _do while_ Statement
+### The _do while_ Statement
+
 ```javascript
 let input = ['t','r','u','e'];
 
@@ -506,26 +560,30 @@ console.log((() => {
 ```
 
 ## Tips and Tricks
+
 ```javascript
 // Get random item from array
 ((data) => {
   return data[Math.floor(Math.random() * data.length)]
 })(['1337', 'Random', 666, 'Mahbub', 10, 1993, 'Zulkarnain']);
 ```
+
 ```javascript
 // Get random number with range
 ((min, max) => {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 })(1, 10);
 ```
+
 ```javascript
 // Generate array of number with range
 ((min, max) => {
   let data = [];
   for (let i = min; data.push(i++) < max;);
   return data;
-})(1, 10); 
+})(1, 10);
 ```
+
 ```javascript
 // Generate random string with specified length
 ((length) => {
@@ -534,6 +592,7 @@ console.log((() => {
   return data.substr(0, length);
 })(10);
 ```
+
 ```javascript
 // Suffle an array of numbers
 ((data) => {
@@ -541,7 +600,8 @@ console.log((() => {
 })([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]);
 ```
 
-##### Convert
+### Convert
+
 ```javascript
 // Convert number to rupiah
 ((number, isShowRp = true) => {
@@ -553,23 +613,27 @@ console.log((() => {
 })(100000); // Rp100.000
 ```
 
-##### RegExp
+### RegExp
+
 ```javascript
 // validation email
 const email = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 console.log(email.test('mahbubzulkarnain@domain.com')); // true
 ```
+
 ```javascript
 // validation password
 // Min 6 characters which contain at least one numeric digit, one uppercase letter, one lowercase letter, and one special character
 const password = /^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9])(?!.*\s).{6,}$/;
 console.log(password.test('Mahbub!23')); // true
 ```
+
 ```javascript
 // validation url
 const url = /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([-.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/;
 console.log(url.test('https://github.com/mahbubzulkarnain')); // true
 ```
+
 ```javascript
 // validation username
 const username = /(^[a-zA-Z][a-zA-Z0-9._]+[a-zA-Z0-9]).{6,}$/g;
@@ -577,14 +641,19 @@ console.log(username.test('mahbubzulkarnain')); // true
 ```
 
 ## Course
+
 * [Hacktiv8 Indonesia](https://hacktiv8.com)
 
 ## Forum
-##### Telegram
+
+### Telegram
+
 * [JavaScript Indonesia Channel](https://t.me/Indonesia_Javascript)
 
 ## Links
-##### Docs
+
+### Docs
+
 * [Angular](https://angular.io/guide/quickstart)
 * [Apollo](https://www.apollographql.com/docs)
 * [Certbot](https://certbot.eff.org/docs/)
@@ -597,7 +666,8 @@ console.log(username.test('mahbubzulkarnain')); // true
 * [React Native](https://facebook.github.io/react-native/docs/getting-started)
 * [Redis](https://redis.io/documentation)
 
-##### Github
+### Github
+
 * [30 Seconds of Code](https://github.com/30-seconds/30-seconds-of-code) by 30-seconds
 * [33 JS Concepts](https://github.com/leonardomso/33-js-concepts) by leonardomso
 * [Clean Code Javascript](https://github.com/ryanmcdermott/clean-code-javascript) by ryanmcdermott
@@ -611,8 +681,10 @@ console.log(username.test('mahbubzulkarnain')); // true
 * [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) by trimstray
 * [Web Developer Shortcut](https://github.com/rkukuh/web-developer-shortcut) by rkukuh
 
-##### NPM
+### NPM
+
 Dependencies
+
 * [Apollo Boost](https://www.npmjs.com/package/apollo-boost)
 * [Axios](https://www.npmjs.com/package/axios)
 * [Bcrypt](https://www.npmjs.com/package/bcrypt)
@@ -621,8 +693,8 @@ Dependencies
 * [Express Validator](https://www.npmjs.com/package/express-validator)
 * [Firebase](https://www.npmjs.com/package/firebase)
 * [Form Data](https://www.npmjs.com/package/form-data)
-* [Internet Printing Protocol (IPP) for nodejs](https://www.npmjs.com/package/ipp)
-* [JSONWebToken (JWT)](https://www.npmjs.com/package/jsonwebtoken)
+* [Internet Printing Protocol \(IPP\) for nodejs](https://www.npmjs.com/package/ipp)
+* [JSONWebToken \(JWT\)](https://www.npmjs.com/package/jsonwebtoken)
 * [JSPDF](https://www.npmjs.com/package/jspdf)
 * [Lodash](https://www.npmjs.com/package/lodash)
 * [Moment](https://www.npmjs.com/package/moment)
@@ -639,26 +711,30 @@ Dependencies
 * [Sequelize](https://www.npmjs.com/package/sequelize)
 
 DevDependencies
+
 * [Chai](https://www.npmjs.com/package/chai)
 * [Chai HTTP](https://www.npmjs.com/package/chai-http)
 * [Dotenv](https://www.npmjs.com/package/dotenv)
 * [Mocha](https://www.npmjs.com/package/mocha)
 * [NYC](https://www.npmjs.com/package/nyc)
 
-##### Website
+### Website
+
 * [Free Code Camp](https://www.freecodecamp.org)
-* [Javascripting](https://www.javascripting.com) ( List of Javascript Library )
+* [Javascripting](https://www.javascripting.com) \( List of Javascript Library \)
 * [Regex Lib](http://regexlib.com)
 * [Sabe](https://sabe.io/classes/javascript)
 * [Skptricks](https://www.skptricks.com/search/label/javascript)
 * [W3Schools](https://www.w3schools.com/jsref/default.asp)
 
-##### Youtube
+### Youtube
+
 * [Dasar Pemrograman dengan Javascript](https://www.youtube.com/playlist?list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w) by Web Programming UNPAS
 * [JavaScript Tutorials for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET) by The Net Ninja
 * [Modern JavaScript Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc) by The Net Ninja
 
 ## Testing
+
 * [Burp Suite](https://portswigger.net/burp)
 * [K6](https://k6.io)
 * [Load Impact](https://loadimpact.com)
@@ -667,3 +743,4 @@ DevDependencies
 * [Sn1per](https://github.com/1N3/Sn1per) by 1N3
 * [Snyk](https://snyk.io)
 * [Storybook](https://storybook.js.org)
+
