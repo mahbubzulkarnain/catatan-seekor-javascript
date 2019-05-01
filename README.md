@@ -1,5 +1,6 @@
-# Catatan Seekor: THE SERIES
+---
+description: by Mahbub Zulkarnain
+---
 
-* [Catatan Seekor: JAVASCRIPT](catatan-seekor-javascript.md)
-* [Catatan Seekor: GOLANG](catatan-seekor-golang.md)
+# Catatan Seekor: THE SERIES
 

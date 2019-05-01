@@ -1,19 +1,8 @@
+---
+description: 'Brendan Eich ( July 4, 1961 )'
+---
+
 # Catatan Seekor: JAVASCRIPT
-
-### by Mahbub Zulkarnain
-
-## Table of Contents
-
-* [Type data](./#type-data)
-* [Variables](./#variables)
-* [Function](./#function-1)
-* [Conditional](./#conditional)
-* [Looping](./#looping)
-* [Tips and Tricks](./#tips-and-tricks)
-* [Course](./#course)
-* [Forum](./#forum)
-* [Links](./#links)
-* [Testing](./#testing)
 
 ## Type Data
 
