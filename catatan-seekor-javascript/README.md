@@ -87,8 +87,21 @@ console.log(data[data.length - 1]) // 'c'
 ```javascript
 let data = [ 0, 1, 2, 3, 4 ];
 console.log(
+  data.indexOf( 2 )
+); // 2
+console.log(
   data.indexOf( 10 )
 ); // -1
+```
+
+```javascript
+let data = [ 0, 1, 2, 3, 4 ];
+console.log(
+    data.includes( 2 )
+); // true
+console.log(
+    data.includes( 10 )
+); // false
 ```
 
 ```javascript
@@ -99,6 +112,11 @@ console.log(
     return item !== 0 && index !== (data.length - 1);
   })
 ); // [ 1, 2, 3 ]
+```
+
+```javascript
+let data = Array.of( 0, 1, 2, 3, 4 );
+console.log( data ); // [ 0, 1, 2, 3, 4 ]
 ```
 
 ```javascript
@@ -273,6 +291,27 @@ introduction(
     hobby: 'traveling'
   },
 ); // 'Hai, my name is Mahbub Zulkarnain. My favorite hobby is traveling.'
+```
+
+```javascript
+function Person({ name: { firstName, lastName }, hobby }) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.hobby = hobby;
+}
+
+Person.prototype.say = function () {
+  console.log(`Hai, my name is ${ this.firstName } ${ this.lastName }. My favorite hobby is ${ this.hobby }.`);
+};
+
+const person = new Person(
+  {
+    name: { firstName: 'Mahbub', lastName: 'Zulkarnain' },
+    hobby: 'traveling'
+  },
+);
+
+person.say(); // 'Hai, my name is Mahbub Zulkarnain. My favorite hobby is traveling.'
 ```
 
 ### Declaration
@@ -686,6 +725,9 @@ console.log(username.test('mahbubzulkarnain')); // true
 
 ## Links
 
+* [Understanding Classes in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript)
+* [Understanding Prototypes and Inheritance in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript)
+
 ### Docs
 
 * [Angular](https://angular.io/guide/quickstart)
@@ -695,6 +737,7 @@ console.log(username.test('mahbubzulkarnain')); // true
 * [Express JS](https://expressjs.com/en/starter/installing.html)
 * [GraphQL](https://graphql.org/code/#javascript)
 * [Native Base](https://docs.nativebase.io)
+* [Ngrok](https://ngrok.com/docs)
 * [PM2](https://pm2.io/doc/en/runtime/overview)
 * [React JS](https://reactjs.org/docs/getting-started.html)
 * [React Native](https://facebook.github.io/react-native/docs/getting-started)
@@ -714,10 +757,6 @@ console.log(username.test('mahbubzulkarnain')); // true
 * [Public APIs](https://github.com/toddmotto/public-apis) by toddmotto
 * [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) by trimstray
 * [Web Developer Shortcut](https://github.com/rkukuh/web-developer-shortcut) by rkukuh
-
-### Medium
-
-* [Best Practices For Using TypeScript with Node.js](https://blog.bitsrc.io/best-practices-for-using-typescript-with-node-js-50907f8cc803?fbclid=IwAR2FTRd84GksVjTeITpymlBRVDzqlUtzvQJpxZI_jZD0QQ4LRev03wkk4Yg)
 
 ### NPM
 
