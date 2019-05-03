@@ -725,6 +725,8 @@ console.log(username.test('mahbubzulkarnain')); // true
 
 ## Links
 
+* [How to Use Local Storage with JavaScript](https://www.taniarascia.com/how-to-use-local-storage-with-javascript/)
+* [Promise.all with Async/Await](https://www.taniarascia.com/promise-all-with-async-await)
 * [Understanding Classes in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript)
 * [Understanding Prototypes and Inheritance in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript)
 
@@ -802,6 +804,7 @@ DevDependencies
 * [Regex Lib](http://regexlib.com)
 * [Sabe](https://sabe.io/classes/javascript)
 * [Skptricks](https://www.skptricks.com/search/label/javascript)
+* [Tania Rascia](https://www.taniarascia.com/blog/)
 * [W3Schools](https://www.w3schools.com/jsref/default.asp)
 
 ### Youtube
