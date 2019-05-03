@@ -317,7 +317,7 @@ console.log(iniFunctionExpressions()); // 'tampil text ini'
 ```javascript
 async function asyncFunction() {
   return 'ini function async';
-}
+};
 
 asyncFunction().then(console.log); // 'ini function async'
 ```
@@ -334,6 +334,51 @@ async function asyncFunction() {
     console.log(e.message);
   }
 })(); // 'ini function async'
+```
+
+## Classes
+
+```javascript
+class Introduction {
+  constructor(name) {
+    console.log(`Hai, my name is ${name}.`);
+  };
+};
+new Introduction('Mahbub'); // 'Hai, my name is Mahbub.'
+```
+
+```javascript
+class Person {
+  constructor({name: {firstName, lastName}, hobby}) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.hobby = hobby;
+  };
+
+  say() {
+    console.log(`Hai, my name is ${this.firstName} ${this.lastName}. My favorite hobby is ${this.hobby}.`);
+  };
+};
+
+const person = new Person({
+  name: { firstName: 'Mahbub', lastName: 'Zulkarnain' },
+  hobby: 'traveling'
+});
+
+person.say(); // 'Hai, my name is Mahbub Zulkarnain. My favorite hobby is traveling.'
+```
+
+```javascript
+class Person {
+  static say() {
+    console.log(`Hai, my name is ${this.firstName} ${this.lastName}. My favorite hobby is ${this.hobby}.`);
+  };
+};
+
+Person.say({
+  name: { firstName: 'Mahbub', lastName: 'Zulkarnain' },
+  hobby: 'traveling'
+}); // 'Hai, my name is Mahbub Zulkarnain. My favorite hobby is traveling.'
 ```
 
 ## Conditional
@@ -669,6 +714,10 @@ console.log(username.test('mahbubzulkarnain')); // true
 * [Public APIs](https://github.com/toddmotto/public-apis) by toddmotto
 * [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) by trimstray
 * [Web Developer Shortcut](https://github.com/rkukuh/web-developer-shortcut) by rkukuh
+
+### Medium
+
+* [Best Practices For Using TypeScript with Node.js](https://blog.bitsrc.io/best-practices-for-using-typescript-with-node-js-50907f8cc803?fbclid=IwAR2FTRd84GksVjTeITpymlBRVDzqlUtzvQJpxZI_jZD0QQ4LRev03wkk4Yg)
 
 ### NPM
 
