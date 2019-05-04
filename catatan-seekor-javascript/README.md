@@ -690,7 +690,7 @@ console.log((() => {
 
 ```javascript
 // validation email
-const email = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+const email = /(^[a-zA-Z][a-zA-Z0-9._]+[a-zA-Z0-9])@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 console.log(email.test('mahbubzulkarnain@domain.com')); // true
 ```
 
