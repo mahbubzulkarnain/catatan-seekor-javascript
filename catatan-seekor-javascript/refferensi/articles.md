@@ -2,7 +2,10 @@
 
 * [An Introduction To Storybook: Organize How You Build JS Components](https://scotch.io/tutorials/an-introduction-to-storybook-organize-how-you-build-js-components)
 * [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
+* [Handling Authentication with Nodejs](https://blog.usejournal.com/handling-authentication-with-nodejs-24fc29265e0f)
 * [How to Use Local Storage with JavaScript](https://www.taniarascia.com/how-to-use-local-storage-with-javascript/)
+* [JavaScript Web Application Security Guide](https://blog.usejournal.com/javascript-web-application-security-guide-fdade350e373)
+* [Nodejs Application Security](https://blog.usejournal.com/nodejs-application-security-80d5150a0366)
 * [Promise.all with Async/Await](https://www.taniarascia.com/promise-all-with-async-await)
 * [Understanding Classes in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript)
 * [Understanding Prototypes and Inheritance in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript)
