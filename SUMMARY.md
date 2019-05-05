@@ -18,6 +18,7 @@
     * [Video](catatan-seekor-javascript/refferensi/video.md)
     * [NPM](catatan-seekor-javascript/refferensi/npm.md)
     * [Course](catatan-seekor-javascript/refferensi/course.md)
+    * [Forum](catatan-seekor-javascript/refferensi/forum.md)
   * [Testing](catatan-seekor-javascript/testing.md)
   * [Tips and Tricks](catatan-seekor-javascript/tips-and-tricks.md)
 * [Catatan Seekor: PYTHON](catatan-seekor-python/README.md)
