@@ -75,6 +75,7 @@ console.log((() => {
   else return isFalse;
 })()); // 'text true'
 
+// Ternary Conditional Operator
 console.log((() => {
   return condition ? isTrue : isFalse
 })()); // 'text true'
@@ -94,6 +95,7 @@ console.log((() => {
   else return isFalse;
 })()); // 'else if true'
 
+// Ternary Conditional Operator
 console.log((() => {
   return condition 
   ? isTrue 
