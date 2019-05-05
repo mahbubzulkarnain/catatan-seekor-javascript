@@ -1,6 +1,6 @@
 # Looping
 
-### The _for_ Statement
+## The _for_ Statement
 
 ```javascript
 let input = ['t','','r','','u','','e','1','2'];
@@ -16,7 +16,7 @@ console.log((() => {
 })()); // 'true'
 ```
 
-### The _while_ Statement
+## The _while_ Statement
 
 ```javascript
 let input = ['t','r','u','e'];
@@ -31,7 +31,7 @@ console.log((() => {
 })()); // 'true'
 ```
 
-### The _do while_ Statement
+## The _do while_ Statement
 
 ```javascript
 let input = ['t','r','u','e'];
@@ -45,3 +45,4 @@ console.log((() => {
   return output
 })()); // 'true'
 ```
+

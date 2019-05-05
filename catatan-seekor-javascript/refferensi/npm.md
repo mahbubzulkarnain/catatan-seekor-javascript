@@ -1,6 +1,6 @@
 # NPM
 
-##### Dependencies
+## Dependencies
 
 * [Apollo Boost](https://www.npmjs.com/package/apollo-boost)
 * [Axios](https://www.npmjs.com/package/axios)
@@ -27,10 +27,11 @@
 * [Redux Thunk](https://www.npmjs.com/package/redux-thunk)
 * [Sequelize](https://www.npmjs.com/package/sequelize)
 
-##### DevDependencies
+## DevDependencies
 
 * [Chai](https://www.npmjs.com/package/chai)
 * [Chai HTTP](https://www.npmjs.com/package/chai-http)
 * [Dotenv](https://www.npmjs.com/package/dotenv)
 * [Mocha](https://www.npmjs.com/package/mocha)
 * [NYC](https://www.npmjs.com/package/nyc)
+

@@ -1,6 +1,6 @@
 # Conditional
 
-### Comparison and Logical Operator
+## Comparison and Logical Operator
 
 ```javascript
 const conditional = !false // true
@@ -44,7 +44,7 @@ console.log(!!+'1337');                 // true
 console.log(!+'satu');                  // true
 ```
 
-### The _if_ Statement
+## The _if_ Statement
 
 ```javascript
 const condition = true;
@@ -63,7 +63,7 @@ console.log((() => {
 })()); // 'text true'
 ```
 
-### The _else_ Statement
+## The _else_ Statement
 
 ```javascript
 const condition = true;
@@ -80,7 +80,7 @@ console.log((() => {
 })()); // 'text true'
 ```
 
-### The _else if_ Statement
+## The _else if_ Statement
 
 ```javascript
 const condition = false;
@@ -103,7 +103,7 @@ console.log((() => {
 })()); // 'else if true'
 ```
 
-### The _switch case_ Statement
+## The _switch case_ Statement
 
 ```javascript
 const condition = 1;
@@ -128,7 +128,7 @@ console.log((() => {
 })()); // 'With case 2'
 ```
 
-### The _try catch finally_ Statement
+## The _try catch finally_ Statement
 
 ```javascript
 try {
@@ -161,3 +161,4 @@ finally {
 
 console.log(message); // from block catch, with message: "throw from block try". from block finally.
 ```
+

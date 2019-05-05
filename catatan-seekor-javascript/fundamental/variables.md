@@ -1,24 +1,24 @@
 # Variables
 
-### VAR \( Global \)
+## VAR \( Global \)
 
 ```javascript
 var iniVariableGlobal = TYPE_DATA;
 ```
 
-### LET \( Local \)
+## LET \( Local \)
 
 ```javascript
 let iniVariableGlobal = TYPE_DATA;
 ```
 
-### CONST \( Read Only \)
+## CONST \( Read Only \)
 
 ```javascript
 let iniVariableGlobal = TYPE_DATA;
 ```
 
-### Assignment Operator
+## Assignment Operator
 
 ```javascript
 a  = 1;              // a = 1;
@@ -35,3 +35,4 @@ b  = a + 1;          // (2) + 1 = 3
 c  = a = b = 3;      // c = 3, a = 3, b = 3
 d  = a += b /= c;    // ?
 ```
+

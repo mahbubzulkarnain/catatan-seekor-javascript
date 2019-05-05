@@ -50,7 +50,7 @@ const person = new Person(
 person.say(); // 'Hai, my name is Mahbub Zulkarnain. My favorite hobby is traveling.'
 ```
 
-### Declaration
+## Declaration
 
 ```javascript
 // bisa di gunakan sebelum deklarasi function
@@ -65,7 +65,7 @@ function iniFunctionDeclaration() {
 console.log(iniFunctionDeclaration()); // 'tampil text ini'
 ```
 
-### Expression
+## Expression
 
 ```javascript
 // tidak bisa di gunakan sebelum deklarasi function
@@ -87,7 +87,7 @@ var iniFunctionExpressions = () => {
 console.log(iniFunctionExpressions()); // 'tampil text ini'
 ```
 
-### Async/Await
+## Async/Await
 
 ```javascript
 async function asyncFunction() {
@@ -110,3 +110,4 @@ async function asyncFunction() {
   }
 })(); // 'ini function async'
 ```
+

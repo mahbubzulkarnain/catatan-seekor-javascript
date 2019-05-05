@@ -1,6 +1,6 @@
 # Data Types
 
-### Number
+## Number
 
 ```javascript
 iniNumber = 0;
@@ -17,7 +17,7 @@ iniNumber = Number.MIN_SAFE_INTEGER; // -9007199254740991
 console.log(typeof iniNumber); // number
 ```
 
-### String
+## String
 
 ```javascript
 iniString = 'Type Data String';
@@ -36,7 +36,7 @@ let minutes = ('0' + 37).slice(-2);
 console.log(`${hours}:${minutes} AM`); // '01:37 AM'
 ```
 
-### Boolean
+## Boolean
 
 ```javascript
 iniBoolean = true;
@@ -47,7 +47,7 @@ iniBoolean = false;
 console.log(typeof iniBoolean); // boolean
 ```
 
-### Function
+## Function
 
 ```javascript
 iniFunction = function() {};
@@ -59,7 +59,7 @@ console.log(typeof iniFunction); // function
 console.log(iniFunction instanceof Function); // true
 ```
 
-### Array
+## Array
 
 ```javascript
 iniArray = [];
@@ -131,7 +131,7 @@ console.log(
 ); // [ 0, 1, 2, 3, 4 ]
 ```
 
-### Object
+## Object
 
 ```javascript
 iniObject = {};
@@ -198,7 +198,7 @@ for (const [key, value] of Object.entries(data)) {
 // Password is required.
 ```
 
-### Null
+## Null
 
 ```javascript
 iniNull = null;
@@ -208,7 +208,7 @@ iniNull = null;
 console.log(typeof iniNull); // object
 ```
 
-### Undefined
+## Undefined
 
 ```javascript
 iniUndefined = undefined;
@@ -217,3 +217,4 @@ iniUndefined = undefined;
 ```javascript
 console.log(typeof iniUndefined); // undefined
 ```
+

@@ -42,3 +42,4 @@ Person.say({
   hobby: 'traveling'
 }); // 'Hai, my name is Mahbub Zulkarnain. My favorite hobby is traveling.'
 ```
+

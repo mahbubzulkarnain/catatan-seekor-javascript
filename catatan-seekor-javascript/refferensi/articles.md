@@ -7,7 +7,7 @@
 * [Understanding Classes in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript)
 * [Understanding Prototypes and Inheritance in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript)
 
-##### Github
+## Github
 
 * [30 Seconds of Code](https://github.com/30-seconds/30-seconds-of-code) by 30-seconds
 * [33 JS Concepts](https://github.com/leonardomso/33-js-concepts) by Leonardo Maldonado
@@ -24,7 +24,7 @@
 * [Web Developer Shortcut](https://github.com/rkukuh/web-developer-shortcut) by R. Kukuh
 * [You Dont Know JS](https://github.com/getify/You-Dont-Know-JS) by Kyle Simpson
 
-##### Website
+## Website
 
 * [Free Code Camp](https://www.freecodecamp.org)
 * [Javascripting](https://www.javascripting.com) \( List of Javascript Library \)
@@ -34,3 +34,4 @@
 * [Tania Rascia](https://www.taniarascia.com/blog/)
 * [The Modern JavaScript Tutorial](https://javascript.info)
 * [W3Schools](https://www.w3schools.com/jsref/default.asp)
+
