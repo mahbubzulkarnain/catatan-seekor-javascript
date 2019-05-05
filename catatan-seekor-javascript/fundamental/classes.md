@@ -32,8 +32,8 @@ person.say(); // 'Hai, my name is Mahbub Zulkarnain. My favorite hobby is travel
 
 ```javascript
 class Person {
-  static say() {
-    console.log(`Hai, my name is ${this.firstName} ${this.lastName}. My favorite hobby is ${this.hobby}.`);
+  static say({name: {firstName, lastName}, hobby}) {
+    console.log(`Hai, my name is ${firstName} ${lastName}. My favorite hobby is ${hobby}.`);
   };
 }
 
