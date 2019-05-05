@@ -36,3 +36,11 @@ c  = a = b = 3;      // c = 3, a = 3, b = 3
 d  = a += b /= c;    // ?
 ```
 
+```text
+let a = 1; console.log(a++); // 1
+let a = 1; console.log(a--); // 1
+
+let a = 1; console.log(++a); // 2
+let a = 1; console.log(--a); // 0
+```
+
