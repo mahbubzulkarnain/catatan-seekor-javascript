@@ -23,7 +23,6 @@
 * [Modern JS Cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet) by Manuel Beaudru
 * [Nginx Admin's Handbook](https://github.com/trimstray/nginx-admins-handbook) by trimstray
 * [Project Based Learning](https://github.com/tuvtran/project-based-learning) by Tu V. Tran
-* [Public APIs](https://github.com/toddmotto/public-apis) by Todd Motto
 * [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) by trimstray
 * [Web Developer Shortcut](https://github.com/rkukuh/web-developer-shortcut) by R. Kukuh
 * [You Dont Know JS](https://github.com/getify/You-Dont-Know-JS) by Kyle Simpson
