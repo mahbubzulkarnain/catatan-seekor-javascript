@@ -10,6 +10,7 @@
     * [Function](catatan-seekor-javascript/fundamental/function.md)
     * [Classes](catatan-seekor-javascript/fundamental/classes.md)
     * [Looping](catatan-seekor-javascript/fundamental/looping.md)
+    * [Promise](catatan-seekor-javascript/fundamental/promise.md)
     * [RegExp](catatan-seekor-javascript/fundamental/regexp.md)
     * [Date](catatan-seekor-javascript/fundamental/date.md)
   * [Refferensi](catatan-seekor-javascript/refferensi/README.md)
