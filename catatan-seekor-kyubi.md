@@ -16,4 +16,5 @@
 #### Links
 
 * [Mutation XSS in Google Search](https://www.acunetix.com/blog/web-security-zone/mutation-xss-in-google-search/) by Tomasz Nidecki
+* [Web Penetration Testing](https://www.hackingarticles.in/web-penetration-testing/) by Rajpal Singh
 
