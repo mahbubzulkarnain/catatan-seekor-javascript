@@ -1,5 +1,10 @@
 # Stack Overflow
 
+#### Testing
+
+* [How to use ESLint with Jest](https://stackoverflow.com/questions/31629389/how-to-use-eslint-with-jest)
+* [JavaScript Standard Style does not recognize Mocha](https://stackoverflow.com/questions/30018271/javascript-standard-style-does-not-recognize-mocha)
+
 #### DynamoDB
 
 * [Append a new object to a JSON Array in DynamoDB using NodeJS](https://stackoverflow.com/questions/41400538/append-a-new-object-to-a-json-array-in-dynamodb-using-nodejs)

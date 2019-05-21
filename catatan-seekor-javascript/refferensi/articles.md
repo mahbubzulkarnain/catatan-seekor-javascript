@@ -8,6 +8,7 @@
 * [Install a local DynamoDB development database on your machine](https://medium.com/@vschroeder/install-a-local-dynamodb-development-database-on-your-machine-82dc38d59503)
 * [JavaScript Web Application Security Guide](https://blog.usejournal.com/javascript-web-application-security-guide-fdade350e373)
 * [Learn to Build Full-Stack Apps with Serverless and React on AWS](https://serverless-stack.com/)
+* [Membuat Realtime Chart dengan Apache Kafka + nodeJS + socket.io](https://medium.com/@iqbalsyamilayas/membuat-realtime-chart-dengan-apache-kafka-nodejs-socket-io-fa35b99b391)
 * [Nodejs Application Security](https://blog.usejournal.com/nodejs-application-security-80d5150a0366)
 * [Promise.all with Async/Await](https://www.taniarascia.com/promise-all-with-async-await)
 * [Understanding Classes in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript)

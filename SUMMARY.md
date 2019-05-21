@@ -32,4 +32,5 @@
 * [Catatan Seekor: PHP](catatan-seekor-php.md)
 * [Catatan Seekor: KYUBI](catatan-seekor-kyubi.md)
 * [...](....md)
+* [Catatan Seekor: DEVOPS](devops.md)
 
