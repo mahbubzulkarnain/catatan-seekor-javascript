@@ -33,4 +33,5 @@
 * [Catatan Seekor: KYUBI](catatan-seekor-kyubi.md)
 * [...](....md)
 * [Catatan Seekor: DEVOPS](devops.md)
+* [Catatan Seekor: LINUX](catatan-seekor-linux.md)
 
