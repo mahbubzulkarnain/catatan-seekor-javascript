@@ -7,6 +7,7 @@
 * [How to set up a GraphQL Server using Node.js, Express & MongoDB](https://medium.freecodecamp.org/how-to-set-up-a-graphql-server-using-node-js-express-mongodb-52421b73f474)
 * [How to Use Local Storage with JavaScript](https://www.taniarascia.com/how-to-use-local-storage-with-javascript/)
 * [Install a local DynamoDB development database on your machine](https://medium.com/@vschroeder/install-a-local-dynamodb-development-database-on-your-machine-82dc38d59503)
+* [Installing Node.js with nvm to Linux & macOS & WSL](https://gist.github.com/d2s/372b5943bce17b964a79)
 * [JavaScript Web Application Security Guide](https://blog.usejournal.com/javascript-web-application-security-guide-fdade350e373)
 * [Learn to Build Full-Stack Apps with Serverless and React on AWS](https://serverless-stack.com/)
 * [Membuat Realtime Chart dengan Apache Kafka + nodeJS + socket.io](https://medium.com/@iqbalsyamilayas/membuat-realtime-chart-dengan-apache-kafka-nodejs-socket-io-fa35b99b391)
