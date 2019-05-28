@@ -4,6 +4,7 @@
 
 * [How to use ESLint with Jest](https://stackoverflow.com/questions/31629389/how-to-use-eslint-with-jest)
 * [JavaScript Standard Style does not recognize Mocha](https://stackoverflow.com/questions/30018271/javascript-standard-style-does-not-recognize-mocha)
+* [Jest clean up after all tests have run](https://stackoverflow.com/questions/41316071/jest-clean-up-after-all-tests-have-run)
 
 #### DynamoDB
 
