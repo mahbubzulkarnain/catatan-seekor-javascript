@@ -9,13 +9,13 @@ var iniVariableGlobal = TYPE_DATA;
 ## LET \( Local \)
 
 ```javascript
-let iniVariableGlobal = TYPE_DATA;
+let iniVariableLocal = TYPE_DATA;
 ```
 
 ## CONST \( Read Only \)
 
 ```javascript
-let iniVariableGlobal = TYPE_DATA;
+const iniVariableReadOnly = TYPE_DATA;
 ```
 
 ## Assignment Operator

@@ -30,8 +30,8 @@
   * [Android](catatan-seekor-java/android.md)
 * [Catatan Seekor: GOLANG](catatan-seekor-golang.md)
 * [Catatan Seekor: PHP](catatan-seekor-php.md)
-* [Catatan Seekor: KYUBI](catatan-seekor-kyubi.md)
 * [...](....md)
 * [Catatan Seekor: DEVOPS](devops.md)
+* [Catatan Seekor: KYUBI](catatan-seekor-kyubi.md)
 * [Catatan Seekor: LINUX](catatan-seekor-linux.md)
 

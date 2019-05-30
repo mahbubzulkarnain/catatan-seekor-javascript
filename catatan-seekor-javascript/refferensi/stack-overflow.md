@@ -1,10 +1,15 @@
 # Stack Overflow
 
+* [How do JavaScript closures work?](https://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
+
 #### Testing
 
 * [How to use ESLint with Jest](https://stackoverflow.com/questions/31629389/how-to-use-eslint-with-jest)
+* [How do I run a single test using Jest?](https://stackoverflow.com/questions/42827054/how-do-i-run-a-single-test-using-jest)
+* [How do I test a single file using Jest?](https://stackoverflow.com/questions/28725955/how-do-i-test-a-single-file-using-jest)
 * [JavaScript Standard Style does not recognize Mocha](https://stackoverflow.com/questions/30018271/javascript-standard-style-does-not-recognize-mocha)
 * [Jest clean up after all tests have run](https://stackoverflow.com/questions/41316071/jest-clean-up-after-all-tests-have-run)
+* [Run only ONE test with Jest](https://stackoverflow.com/questions/44446626/run-only-one-test-with-jest)
 
 #### DynamoDB
 
