@@ -1,6 +1,7 @@
 # Stack Overflow
 
 * [How do JavaScript closures work?](https://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
+* [How to check if in-app purchase/subscription is valid? \(Node.js\)](https://medium.com/androidhub/how-to-validate-in-app-purchase-subscription-on-your-node-js-backend-a2b823470034)
 
 #### Testing
 

@@ -7,6 +7,7 @@
 #### Tools
 
 * [BeEF](https://sectools.org/tool/beef/)
+* [I can see your local web servers](http://http.jameshfisher.com/2019/05/26/i-can-see-your-local-web-servers/)
 * [Metasploit](https://www.metasploit.com/)
 * [Sn1per](https://github.com/1N3/Sn1per)
 * [SQLMAP](http://sqlmap.org/)
