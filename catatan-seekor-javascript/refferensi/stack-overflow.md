@@ -24,3 +24,7 @@
 
 * [Placement of catch BEFORE and AFTER then](https://stackoverflow.com/questions/42013104/placement-of-catch-before-and-after-then)
 
+#### Sequelize
+
+* [How to concat columns in Sequelize with SQLite database](https://stackoverflow.com/questions/41664565/how-to-concat-columns-in-sequelize-with-sqlite-database)
+
