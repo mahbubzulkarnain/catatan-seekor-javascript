@@ -31,6 +31,7 @@
 * [Catatan Seekor: GOLANG](catatan-seekor-golang.md)
 * [Catatan Seekor: PHP](catatan-seekor-php.md)
 * [...](....md)
+* [Catatan Seekor: POSTGRESQL](catatan-seekor-postgresql.md)
 * [Catatan Seekor: DEVOPS](devops.md)
 * [Catatan Seekor: KYUBI](catatan-seekor-kyubi.md)
 * [Catatan Seekor: LINUX](catatan-seekor-linux.md)

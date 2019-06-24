@@ -39,6 +39,11 @@
 })([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]);
 ```
 
+```javascript
+// Count some char in string
+((data) => (data || '').match(/1/g).length)('10101010')
+```
+
 ## Convert
 
 ```javascript
