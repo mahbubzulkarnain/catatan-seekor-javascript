@@ -10,6 +10,7 @@
 * [How do I test a single file using Jest?](https://stackoverflow.com/questions/28725955/how-do-i-test-a-single-file-using-jest)
 * [JavaScript Standard Style does not recognize Mocha](https://stackoverflow.com/questions/30018271/javascript-standard-style-does-not-recognize-mocha)
 * [Jest clean up after all tests have run](https://stackoverflow.com/questions/41316071/jest-clean-up-after-all-tests-have-run)
+* [Option “setupTestFrameworkScriptFile” was replaced by configuration “setupFilesAfterEnv”, which supports multiple paths](https://stackoverflow.com/questions/55752673/option-setuptestframeworkscriptfile-was-replaced-by-configuration-setupfilesa)
 * [Run only ONE test with Jest](https://stackoverflow.com/questions/44446626/run-only-one-test-with-jest)
 
 #### DynamoDB
