@@ -35,4 +35,5 @@
 * [Catatan Seekor: DEVOPS](devops.md)
 * [Catatan Seekor: KYUBI](catatan-seekor-kyubi.md)
 * [Catatan Seekor: LINUX](catatan-seekor-linux.md)
+* [Catatan Seekor: AWS](catatan-seekor-aws.md)
 
