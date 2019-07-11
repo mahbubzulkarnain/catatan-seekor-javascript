@@ -16,6 +16,7 @@
 * [Node.js RESTful API with DynamoDB Local](https://medium.com/quick-code/node-js-restful-api-with-dynamodb-local-7e342a934a24)
 * [Promise.all with Async/Await](https://www.taniarascia.com/promise-all-with-async-await)
 * [Serverless Zone](https://sls.zone/)
+* [Testing a Queue Jobs \(kue\) in Node JS](https://medium.com/helpful-tips/stubbing-a-job-queue-kue-with-sinon-js-3e293c9eb519)
 * [Understanding Classes in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript)
 * [Understanding Prototypes and Inheritance in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript)
 
