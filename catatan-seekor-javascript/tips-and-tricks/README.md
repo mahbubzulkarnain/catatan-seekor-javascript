@@ -41,7 +41,7 @@
 
 ```javascript
 // Count some char in string
-((data) => (data || '').match(/1/g).length)('10101010')
+((data) => ((data || '').match(/1/g) || []).length)('10101010')
 ```
 
 ## Convert
