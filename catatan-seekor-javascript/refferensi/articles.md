@@ -46,5 +46,6 @@
 * [Skptricks](https://www.skptricks.com/search/label/javascript)
 * [Tania Rascia](https://www.taniarascia.com/blog/)
 * [The Modern JavaScript Tutorial](https://javascript.info)
+* [Vinta](https://vinta.ws/code/)
 * [W3Schools](https://www.w3schools.com/jsref/default.asp)
 

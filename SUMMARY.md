@@ -37,4 +37,5 @@
 * [Catatan Seekor: KYUBI](catatan-seekor-kyubi.md)
 * [Catatan Seekor: LINUX](catatan-seekor-linux.md)
 * [Catatan Seekor: AWS](catatan-seekor-aws.md)
+* [Catatan Seekor: DESIGN](catatan-seekor-design.md)
 
