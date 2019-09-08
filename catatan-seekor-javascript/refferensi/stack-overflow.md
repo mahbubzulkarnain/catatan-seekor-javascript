@@ -15,6 +15,10 @@
 * [Option “setupTestFrameworkScriptFile” was replaced by configuration “setupFilesAfterEnv”, which supports multiple paths](https://stackoverflow.com/questions/55752673/option-setuptestframeworkscriptfile-was-replaced-by-configuration-setupfilesa)
 * [Run only ONE test with Jest](https://stackoverflow.com/questions/44446626/run-only-one-test-with-jest)
 
+**Typescript**
+
+* [Error TS1110 Build: Type expected](https://github.com/DefinitelyTyped/DefinitelyTyped/issues/8769#issuecomment-279212081)
+
 #### DynamoDB
 
 * [Append a new object to a JSON Array in DynamoDB using NodeJS](https://stackoverflow.com/questions/41400538/append-a-new-object-to-a-json-array-in-dynamodb-using-nodejs)
