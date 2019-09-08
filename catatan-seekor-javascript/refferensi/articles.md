@@ -1,14 +1,17 @@
 # Articles
 
 * [An Introduction To Storybook: Organize How You Build JS Components](https://scotch.io/tutorials/an-introduction-to-storybook-organize-how-you-build-js-components)
+* [Application State Management with React](https://kentcdodds.com/blog/application-state-management-with-react)
 * [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
 * [Handling Authentication with Nodejs](https://blog.usejournal.com/handling-authentication-with-nodejs-24fc29265e0f)
 * [How To: Add Test Coverage to your Serverless Applications](https://www.jeremydaly.com/how-to-add-test-coverage-to-your-serverless-applications/)
 * [How to Build a Real-time Chat App With NodeJS, Socket.IO, and MongoDB](https://blog.usejournal.com/how-to-build-a-real-time-chat-app-with-nodejs-socket-io-and-mongodb-7a4c9472edd1)
+* [How to implement useState with useReducer](https://kentcdodds.com/blog/how-to-implement-usestate-with-usereducer)
 * [How to set up a GraphQL Server using Node.js, Express & MongoDB](https://medium.freecodecamp.org/how-to-set-up-a-graphql-server-using-node-js-express-mongodb-52421b73f474)
 * [How to Use Local Storage with JavaScript](https://www.taniarascia.com/how-to-use-local-storage-with-javascript/)
 * [Install a local DynamoDB development database on your machine](https://medium.com/@vschroeder/install-a-local-dynamodb-development-database-on-your-machine-82dc38d59503)
 * [Installing Node.js with nvm to Linux & macOS & WSL](https://gist.github.com/d2s/372b5943bce17b964a79)
+* [JAMstack Apps - Open-Source and built with Automation Tools](https://dev.to/sm0ke/jamstack-apps-open-source-built-with-appseed-app-generator-4k66)
 * [JavaScript Web Application Security Guide](https://blog.usejournal.com/javascript-web-application-security-guide-fdade350e373)
 * [Learn to Build Full-Stack Apps with Serverless and React on AWS](https://serverless-stack.com/)
 * [Membuat Realtime Chart dengan Apache Kafka + nodeJS + socket.io](https://medium.com/@iqbalsyamilayas/membuat-realtime-chart-dengan-apache-kafka-nodejs-socket-io-fa35b99b391)
