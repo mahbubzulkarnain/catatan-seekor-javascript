@@ -18,7 +18,6 @@
 * [Nodejs Application Security](https://blog.usejournal.com/nodejs-application-security-80d5150a0366)
 * [Node.js RESTful API with DynamoDB Local](https://medium.com/quick-code/node-js-restful-api-with-dynamodb-local-7e342a934a24)
 * [Promise.all with Async/Await](https://www.taniarascia.com/promise-all-with-async-await)
-* [Sequelize ORM npm library found vulnerable to SQL Injection attacks](https://snyk.io/blog/sequelize-orm-npm-library-found-vulnerable-to-sql-injection-attacks/)
 * [Serverless Zone](https://sls.zone/)
 * [Testing a Queue Jobs \(kue\) in Node JS](https://medium.com/helpful-tips/stubbing-a-job-queue-kue-with-sinon-js-3e293c9eb519)
 * [Understanding Classes in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript)
