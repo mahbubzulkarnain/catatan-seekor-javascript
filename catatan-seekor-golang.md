@@ -79,6 +79,7 @@ fmt.Println(output) // "true"
 
 ### Links
 
+* [BogoToBogo](https://www.bogotobogo.com/GoLang/GoLang_HelloWorld.php)
 * [Dasar Pemrograman Golang](https://dasarpemrogramangolang.novalagung.com/)
 * [Membangun Realtime Canvas Drawing Dengan Go, Websocket dan P5.js](https://medium.com/@wuriyantomusobar/membangun-realtime-canvas-drawing-dengan-go-websocket-dan-p5-js-672c799d3044)
 * [Tutorial Edge](https://tutorialedge.net/course/golang/)
