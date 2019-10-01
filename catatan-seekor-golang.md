@@ -87,6 +87,12 @@ fmt.Println(output) // "true"
 * [Membangun Realtime Canvas Drawing Dengan Go, Websocket dan P5.js](https://medium.com/@wuriyantomusobar/membangun-realtime-canvas-drawing-dengan-go-websocket-dan-p5-js-672c799d3044)
 * [Tutorial Edge](https://tutorialedge.net/course/golang/)
 
+#### Architecture
+
+* [Clean Architecture using Golang](https://dev.to/eminetto/clean-architecture-using-golang-5791) by [Elton Minetto](https://github.com/eminetto)
+* [The Clean Code Blog](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) by [Robert C. Martin \( Uncle Bob \)](https://github.com/unclebob)
+* [Trying Clean Architecture on Golang](https://hackernoon.com/golang-clean-archithecture-efd6d7c43047) by [Iman Tumorang](https://github.com/bxcodec)
+
 #### Docs
 
 * [Golang](https://golang.org/doc/)
