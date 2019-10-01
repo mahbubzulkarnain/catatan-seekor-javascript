@@ -1,14 +1,18 @@
 # Articles
 
 * [An Introduction To Storybook: Organize How You Build JS Components](https://scotch.io/tutorials/an-introduction-to-storybook-organize-how-you-build-js-components)
+* [Advanced GraphQL Queries, Error Handling, Data Loader](https://code-maze.com/advanced-graphql-queries/)
 * [Application State Management with React](https://kentcdodds.com/blog/application-state-management-with-react)
 * [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
+* [GraphQL Best Practices](https://graphql.org/learn/best-practices/)
 * [GraphQL Resolvers: Best Practices](https://medium.com/paypal-engineering/graphql-resolvers-best-practices-cd36fdbcef55)
 * [Handling Authentication with Nodejs](https://blog.usejournal.com/handling-authentication-with-nodejs-24fc29265e0f)
+* [How Facebook organizes their GraphQL code](https://blog.apollographql.com/graphql-at-facebook-by-dan-schafer-38d65ef075af)
 * [How To: Add Test Coverage to your Serverless Applications](https://www.jeremydaly.com/how-to-add-test-coverage-to-your-serverless-applications/)
 * [How to Build a Real-time Chat App With NodeJS, Socket.IO, and MongoDB](https://blog.usejournal.com/how-to-build-a-real-time-chat-app-with-nodejs-socket-io-and-mongodb-7a4c9472edd1)
 * [How to implement useState with useReducer](https://kentcdodds.com/blog/how-to-implement-usestate-with-usereducer)
 * [How to set up a GraphQL Server using Node.js, Express & MongoDB](https://medium.freecodecamp.org/how-to-set-up-a-graphql-server-using-node-js-express-mongodb-52421b73f474)
+* [How to use DataLoaders in GraphQL](https://itnext.io/how-to-use-dataloader-js-9727c527efd0)
 * [How to Use Local Storage with JavaScript](https://www.taniarascia.com/how-to-use-local-storage-with-javascript/)
 * [Install a local DynamoDB development database on your machine](https://medium.com/@vschroeder/install-a-local-dynamodb-development-database-on-your-machine-82dc38d59503)
 * [Installing Node.js with nvm to Linux & macOS & WSL](https://gist.github.com/d2s/372b5943bce17b964a79)
