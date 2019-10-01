@@ -86,6 +86,7 @@ fmt.Println(output) // "true"
 * [Lambdas with GoLang — a technical guide](https://cloudnative.ly/lambdas-with-golang-a-technical-guide-6f381284897b)
 * [Membangun Realtime Canvas Drawing Dengan Go, Websocket dan P5.js](https://medium.com/@wuriyantomusobar/membangun-realtime-canvas-drawing-dengan-go-websocket-dan-p5-js-672c799d3044)
 * [Tutorial Edge](https://tutorialedge.net/course/golang/)
+* [Writing Great Go Code](https://scene-si.org/2018/07/24/writing-great-go-code/)
 
 #### Architecture
 
