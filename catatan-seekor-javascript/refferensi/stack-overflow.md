@@ -1,7 +1,9 @@
 # Stack Overflow
 
+* [Firebase REST auth when creating token with node.js admin sdk](https://stackoverflow.com/questions/42927643/firebase-rest-auth-when-creating-token-with-node-js-admin-sdk)
 * [How do I return the response from an asynchronous call?](https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call)
 * [How do JavaScript closures work?](https://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
+* [How to authenticate a firebase user from server without client side auth?](https://stackoverflow.com/questions/46626585/how-to-authenticate-a-firebase-user-from-server-without-client-side-auth)
 * [How to check if in-app purchase/subscription is valid? \(Node.js\)](https://medium.com/androidhub/how-to-validate-in-app-purchase-subscription-on-your-node-js-backend-a2b823470034)
 * [Invalid 'reference' directive syntax](https://github.com/DefinitelyTyped/DefinitelyTyped/issues/10097#issuecomment-499783519)
 
@@ -14,6 +16,7 @@
 * [Jest clean up after all tests have run](https://stackoverflow.com/questions/41316071/jest-clean-up-after-all-tests-have-run)
 * [Option “setupTestFrameworkScriptFile” was replaced by configuration “setupFilesAfterEnv”, which supports multiple paths](https://stackoverflow.com/questions/55752673/option-setuptestframeworkscriptfile-was-replaced-by-configuration-setupfilesa)
 * [Run only ONE test with Jest](https://stackoverflow.com/questions/44446626/run-only-one-test-with-jest)
+* [Test setting text value with React and Enzyme](https://stackoverflow.com/questions/41732318/test-setting-text-value-with-react-and-enzyme)
 
 **Typescript**
 
