@@ -30,6 +30,7 @@
 * [Serverless Zone](https://sls.zone/)
 * [Testing React Components with Enzyme and Jest](https://scotch.io/tutorials/testing-react-components-with-enzyme-and-jest)
 * [Testing a Queue Jobs \(kue\) in Node JS](https://medium.com/helpful-tips/stubbing-a-job-queue-kue-with-sinon-js-3e293c9eb519)
+* [The Power Of Serverless for Frontend Developers](https://serverless.css-tricks.com)
 * [Understanding Classes in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript)
 * [Understanding Prototypes and Inheritance in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript)
 
