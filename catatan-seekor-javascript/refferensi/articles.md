@@ -4,6 +4,7 @@
 * [An Introduction To Storybook: Organize How You Build JS Components](https://scotch.io/tutorials/an-introduction-to-storybook-organize-how-you-build-js-components)
 * [Application State Management with React](https://kentcdodds.com/blog/application-state-management-with-react)
 * [Authentication and Authorization in GraphQL \(and how GraphQL-Modules can help\)](https://medium.com/the-guild/authentication-and-authorization-in-graphql-and-how-graphql-modules-can-help-fadc1ee5b0c2)
+* [Deploy Your React App on Github Pages](https://medium.com/@hannawerman/deploy-your-react-app-on-github-pages-a1d4cfdc88e9)
 * [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
 * [GraphQL Best Practices](https://graphql.org/learn/best-practices/)
 * [GraphQL Resolvers: Best Practices](https://medium.com/paypal-engineering/graphql-resolvers-best-practices-cd36fdbcef55)
@@ -30,7 +31,6 @@
 * [Serverless Zone](https://sls.zone/)
 * [Testing React Components with Enzyme and Jest](https://scotch.io/tutorials/testing-react-components-with-enzyme-and-jest)
 * [Testing a Queue Jobs \(kue\) in Node JS](https://medium.com/helpful-tips/stubbing-a-job-queue-kue-with-sinon-js-3e293c9eb519)
-* [The Power Of Serverless for Frontend Developers](https://serverless.css-tricks.com)
 * [Understanding Classes in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript)
 * [Understanding Prototypes and Inheritance in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript)
 
@@ -60,6 +60,7 @@
 * [Skptricks](https://www.skptricks.com/search/label/javascript)
 * [Tania Rascia](https://www.taniarascia.com/blog/)
 * [The Modern JavaScript Tutorial](https://javascript.info)
+* [The Power Of Serverless for Frontend Developers](https://serverless.css-tricks.com)
 * [Vinta](https://vinta.ws/code/)
 * [W3Schools](https://www.w3schools.com/jsref/default.asp)
 
