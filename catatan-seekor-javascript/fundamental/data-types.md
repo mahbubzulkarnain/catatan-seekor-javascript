@@ -7,6 +7,7 @@ iniNumber = 0;
 iniNumber = 0.1;
 iniNumber = 1337e1;                  // 13370
 iniNumber = 1337e-2;                 // 13.37
+iniNumber = 1337*1e-3;               // 1.337
 iniNumber = Number.MAX_VALUE;        // 1.7976931348623157e+308
 iniNumber = Number.MIN_VALUE;        // 5e-324
 iniNumber = Number.MAX_SAFE_INTEGER; // 9007199254740991
