@@ -21,6 +21,7 @@
 **Typescript**
 
 * [Error TS1110 Build: Type expected](https://github.com/DefinitelyTyped/DefinitelyTyped/issues/8769#issuecomment-279212081)
+* [What is the “as syntax” pointed out by tslint?](https://stackoverflow.com/questions/44202311/what-is-the-as-syntax-pointed-out-by-tslint)
 
 #### DynamoDB
 
