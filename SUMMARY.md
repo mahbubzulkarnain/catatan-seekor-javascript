@@ -30,6 +30,7 @@
   * [Android](catatan-seekor-java/android.md)
 * [Catatan Seekor: GOLANG](catatan-seekor-golang.md)
 * [Catatan Seekor: PHP](catatan-seekor-php.md)
+* [Catatan Seekor: RUBY](catatan-seekor-ruby.md)
 * [...](....md)
 * [Catatan Seekor: GIT](catatan-seekor-git.md)
 * [Catatan Seekor: POSTGRESQL](catatan-seekor-postgresql.md)
