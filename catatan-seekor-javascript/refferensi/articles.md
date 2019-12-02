@@ -56,6 +56,7 @@
 
 * [Automation Step by Step](https://automationstepbystep.com/)
 * [Free Code Camp](https://www.freecodecamp.org)
+* [Free For Dev](https://free-for.dev/)
 * [Javascripting](https://www.javascripting.com) \( List of Javascript Library \)
 * [Regex Lib](http://regexlib.com)
 * [Sabe](https://sabe.io/classes/javascript)
