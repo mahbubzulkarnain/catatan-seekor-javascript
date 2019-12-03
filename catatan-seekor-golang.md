@@ -106,7 +106,7 @@ fmt.Println(output) // "true"
 
 #### Github
 
-* \*\*\*\*[**awesome-auth**](https://github.com/casbin/awesome-auth)\*\*\*\*
+* [awesome-auth](https://github.com/casbin/awesome-auth)
 
 #### Docs
 
