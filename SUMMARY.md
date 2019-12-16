@@ -22,6 +22,7 @@
     * [NPM](catatan-seekor-javascript/refferensi/npm.md)
     * [Course](catatan-seekor-javascript/refferensi/course.md)
   * [Testing](catatan-seekor-javascript/testing.md)
+  * [Tools](catatan-seekor-javascript/tools.md)
   * [Tips and Tricks](catatan-seekor-javascript/tips-and-tricks/README.md)
     * [RegExp](catatan-seekor-javascript/tips-and-tricks/regexp.md)
 * [Catatan Seekor: PYTHON](catatan-seekor-python/README.md)
