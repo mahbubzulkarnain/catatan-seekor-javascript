@@ -84,6 +84,7 @@ fmt.Println(output) // "true"
 * [Dasar Pemrograman Golang](https://dasarpemrogramangolang.novalagung.com/)
 * [Getting Started with Serverless Go](https://dev.to/yos/getting-started-with-serverless-go--1lff)
 * [Golang Programs](https://www.golangprograms.com)
+* [Implementasi Kafka menggunakan Golang + Testing](https://medium.com/easyread/implementasi-kafka-menggunakan-golang-testing-db183e0b3c29)
 * [Lambdas with GoLang — a technical guide](https://cloudnative.ly/lambdas-with-golang-a-technical-guide-6f381284897b)
 * [Membangun Realtime Canvas Drawing Dengan Go, Websocket dan P5.js](https://medium.com/@wuriyantomusobar/membangun-realtime-canvas-drawing-dengan-go-websocket-dan-p5-js-672c799d3044)
 * [Tutorial Edge](https://tutorialedge.net/course/golang/)
