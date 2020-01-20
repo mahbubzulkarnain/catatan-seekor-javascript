@@ -102,6 +102,7 @@ fmt.Println(output) // "true"
 
 * [Assigning null to JSON fields instead of empty strings](https://stackoverflow.com/questions/31048557/assigning-null-to-json-fields-instead-of-empty-strings)
 * [gometalinter / errcheck returns a warning on deferring a func which returns a variable](https://stackoverflow.com/questions/40397781/gometalinter-errcheck-returns-a-warning-on-deferring-a-func-which-returns-a-va)
+* [Remove diacritics using Go](https://stackoverflow.com/questions/26722450/remove-diacritics-using-go)
 
 #### CI/CD
 
