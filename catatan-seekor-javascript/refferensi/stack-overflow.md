@@ -37,6 +37,7 @@
 
 #### Sequelize
 
+* [Get total row count while paging](https://stackoverflow.com/questions/19125347/get-total-row-count-while-paging)
 * [How to concat columns in Sequelize with SQLite database](https://stackoverflow.com/questions/41664565/how-to-concat-columns-in-sequelize-with-sqlite-database)
 * [Number of active connections and remaining connections](https://dba.stackexchange.com/questions/161760/number-of-active-connections-and-remaining-connections)
 
