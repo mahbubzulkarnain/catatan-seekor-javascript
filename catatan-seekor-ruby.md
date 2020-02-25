@@ -9,4 +9,6 @@
 * [Meta robots tag: noindex, nofollow, noarchive, noodp & noydir](https://beginnersbook.com/2013/01/meta-robots-tag-noindex-nofollow-noarchive-noodp-noydir/)
 * [Ruby on Rails Cheatsheet](https://owasp.org/www-project-cheat-sheets/cheatsheets/Ruby_on_Rails_Cheatsheet)
 * [belajarrubyonrails](http://www.belajarrubyonrails.com/p/daftar-isi.html)
+* [How to map and remove nil values in Ruby](https://stackoverflow.com/questions/13485468/how-to-map-and-remove-nil-values-in-ruby)
+* [Rails 4 render json nested objects](https://stackoverflow.com/questions/20619560/rails-4-render-json-nested-objects)
 
