@@ -14,4 +14,5 @@
 * [Same Model for Two belongs\_to Associations](https://stackoverflow.com/questions/5294775/same-model-for-two-belongs-to-associations)
 * [Best practice about empty belongs\_to association](https://stackoverflow.com/questions/10462676/best-practice-about-empty-belongs-to-association)
 * [Rails - associate two different fields from one model as one association](https://stackoverflow.com/questions/20106711/rails-associate-two-different-fields-from-one-model-as-one-association)
+* [Running validations when using \`update\_all\`](https://stackoverflow.com/questions/39644646/running-validations-when-using-update-all)
 
