@@ -17,4 +17,5 @@
 * [Running validations when using \`update\_all\`](https://stackoverflow.com/questions/39644646/running-validations-when-using-update-all)
 * [You must use Bundler 2 or greater with this lockfile](https://github.com/rubygems/bundler/issues/6784)
 * [How to delete specific characters from a string in Ruby?](https://stackoverflow.com/questions/19637677/how-to-delete-specific-characters-from-a-string-in-ruby)
+* [ruby on rails find\_or\_initialize](https://stackoverflow.com/questions/12319832/ruby-on-rails-find-or-initialize)
 
