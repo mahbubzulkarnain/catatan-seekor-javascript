@@ -1,6 +1,6 @@
 # Catatan Seekor: RUBY
 
-#### Link
+#### **Link**
 
 * [Ruby on Rails Tutorial](https://www.railstutorial.org/book)
 * [An introduction to Ruby’s \*Splat and double \*\*Splat operators](https://www.freecodecamp.org/news/rubys-splat-and-double-splat-operators-ceb753329a78/)
@@ -16,4 +16,5 @@
 * [Rails - associate two different fields from one model as one association](https://stackoverflow.com/questions/20106711/rails-associate-two-different-fields-from-one-model-as-one-association)
 * [Running validations when using \`update\_all\`](https://stackoverflow.com/questions/39644646/running-validations-when-using-update-all)
 * [You must use Bundler 2 or greater with this lockfile](https://github.com/rubygems/bundler/issues/6784)
+* [How to delete specific characters from a string in Ruby?](https://stackoverflow.com/questions/19637677/how-to-delete-specific-characters-from-a-string-in-ruby)
 
