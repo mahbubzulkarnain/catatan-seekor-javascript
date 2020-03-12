@@ -19,4 +19,5 @@
 * [How to delete specific characters from a string in Ruby?](https://stackoverflow.com/questions/19637677/how-to-delete-specific-characters-from-a-string-in-ruby)
 * [ruby on rails find\_or\_initialize](https://stackoverflow.com/questions/12319832/ruby-on-rails-find-or-initialize)
 * [Setup and test Rails 6.0 with RSpec, FactoryBot, and Devise](https://matthewhoelter.com/2019/09/12/setting-up-and-testing-rails-6.0-with-rspec-factorybot-and-devise.html)
+* [How to use .nil? .empty? .blank? .present? in Rails 5](https://medium.com/le-wagon/how-to-use-nil-blank-present-exists-in-rails-5-fe03e78ab979)
 
