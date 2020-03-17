@@ -1,6 +1,6 @@
 # Catatan Seekor: RUBY
 
-#### **Link**
+#### Link
 
 * [Ruby on Rails Tutorial](https://www.railstutorial.org/book)
 * [An introduction to Ruby’s \*Splat and double \*\*Splat operators](https://www.freecodecamp.org/news/rubys-splat-and-double-splat-operators-ceb753329a78/)
@@ -21,4 +21,6 @@
 * [Setup and test Rails 6.0 with RSpec, FactoryBot, and Devise](https://matthewhoelter.com/2019/09/12/setting-up-and-testing-rails-6.0-with-rspec-factorybot-and-devise.html)
 * [How to use .nil? .empty? .blank? .present? in Rails 5](https://medium.com/le-wagon/how-to-use-nil-blank-present-exists-in-rails-5-fe03e78ab979)
 * [How to reset postgres' primary key sequence when it falls out of sync?](https://stackoverflow.com/questions/244243/how-to-reset-postgres-primary-key-sequence-when-it-falls-out-of-sync)
+* [How to check a checkbox in capybara?](https://stackoverflow.com/questions/8297624/how-to-check-a-checkbox-in-capybara)
+* [Capybara \(and Selenium\) with RSpec & Rails 3: quick tutorial](http://www.opinionatedprogrammer.com/2011/02/capybara-and-selenium-with-rspec-and-rails-3/#comment-220)
 
