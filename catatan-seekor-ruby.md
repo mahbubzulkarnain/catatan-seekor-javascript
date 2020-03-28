@@ -23,4 +23,5 @@
 * [How to reset postgres' primary key sequence when it falls out of sync?](https://stackoverflow.com/questions/244243/how-to-reset-postgres-primary-key-sequence-when-it-falls-out-of-sync)
 * [How to check a checkbox in capybara?](https://stackoverflow.com/questions/8297624/how-to-check-a-checkbox-in-capybara)
 * [Capybara \(and Selenium\) with RSpec & Rails 3: quick tutorial](http://www.opinionatedprogrammer.com/2011/02/capybara-and-selenium-with-rspec-and-rails-3/#comment-220)
+* [Using Named Scopes Across Models with ActiveRecord\#Merge](https://gorails.com/blog/activerecord-merge)
 
