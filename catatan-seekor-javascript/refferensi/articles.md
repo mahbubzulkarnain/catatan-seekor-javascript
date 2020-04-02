@@ -13,6 +13,7 @@
 * [How Facebook organizes their GraphQL code](https://blog.apollographql.com/graphql-at-facebook-by-dan-schafer-38d65ef075af)
 * [How To: Add Test Coverage to your Serverless Applications](https://www.jeremydaly.com/how-to-add-test-coverage-to-your-serverless-applications/)
 * [How to Build a Real-time Chat App With NodeJS, Socket.IO, and MongoDB](https://blog.usejournal.com/how-to-build-a-real-time-chat-app-with-nodejs-socket-io-and-mongodb-7a4c9472edd1)
+* [How to Debug a Node.js Application: Tips, Tricks and Tools](https://www.sitepoint.com/debug-node-app-tips-tricks-tools/)
 * [How to implement useState with useReducer](https://kentcdodds.com/blog/how-to-implement-usestate-with-usereducer)
 * [How to set up a GraphQL Server using Node.js, Express & MongoDB](https://medium.freecodecamp.org/how-to-set-up-a-graphql-server-using-node-js-express-mongodb-52421b73f474)
 * [HOW TO UNIT TEST REACT APPLICATIONS WITH JEST AND ENZYME](https://pusher.com/tutorials/react-jest-enzyme)
