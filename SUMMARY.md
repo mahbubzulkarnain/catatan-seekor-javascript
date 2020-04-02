@@ -21,6 +21,7 @@
     * [Forum](catatan-seekor-javascript/refferensi/forum.md)
     * [NPM](catatan-seekor-javascript/refferensi/npm.md)
     * [Course](catatan-seekor-javascript/refferensi/course.md)
+  * [Monitoring](catatan-seekor-javascript/monitoring.md)
   * [Testing](catatan-seekor-javascript/testing.md)
   * [Tools](catatan-seekor-javascript/tools.md)
   * [Tips and Tricks](catatan-seekor-javascript/tips-and-tricks/README.md)
