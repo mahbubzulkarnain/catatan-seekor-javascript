@@ -29,4 +29,5 @@
 * [The RSpec Tutorial](https://tutorials.railsapps.org/tutorials/rspec-quickstart)
 * [Rails Role-Based Authorization](https://tutorials.railsapps.org/tutorials/rails-devise-roles)
 * [Devise Quickstart Guide](https://tutorials.railsapps.org/tutorials/devise-quickstart)
+* [Rails 5.2 credentials](https://medium.com/cedarcode/rails-5-2-credentials-9b3324851336)
 
