@@ -26,4 +26,7 @@
 * [Using Named Scopes Across Models with ActiveRecord\#Merge](https://gorails.com/blog/activerecord-merge)
 * [How to Use link\_to in Rails](https://mixandgo.com/learn/how-to-use-link_to-in-rails)
 * [JavaScript file per view in Rails](https://stackoverflow.com/questions/602147/javascript-file-per-view-in-rails)
+* [The RSpec Tutorial](https://tutorials.railsapps.org/tutorials/rspec-quickstart)
+* [Rails Role-Based Authorization](https://tutorials.railsapps.org/tutorials/rails-devise-roles)
+* [Devise Quickstart Guide](https://tutorials.railsapps.org/tutorials/devise-quickstart)
 
