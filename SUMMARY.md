@@ -42,4 +42,5 @@
 * [Catatan Seekor: AWS](catatan-seekor-aws.md)
 * [Catatan Seekor: DESIGN](catatan-seekor-design.md)
 * [Catatan Seekor: SOFTWARE](catatan-seekor-software.md)
+* [Catatan Seekor: SEO](catatan-seekor-seo.md)
 
