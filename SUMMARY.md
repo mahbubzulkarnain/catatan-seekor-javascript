@@ -34,6 +34,7 @@
 * [Catatan Seekor: PHP](catatan-seekor-php.md)
 * [Catatan Seekor: RUBY](catatan-seekor-ruby.md)
 * [...](....md)
+* [Catatan Seekor: ALGORITHM](catatan-seekor-algorithm.md)
 * [Catatan Seekor: GIT](catatan-seekor-git.md)
 * [Catatan Seekor: POSTGRESQL](catatan-seekor-postgresql.md)
 * [Catatan Seekor: DEVOPS](devops.md)
