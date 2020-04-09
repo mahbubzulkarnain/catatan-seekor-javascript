@@ -29,7 +29,6 @@
 * [Nodejs Application Security](https://blog.usejournal.com/nodejs-application-security-80d5150a0366)
 * [Node.js RESTful API with DynamoDB Local](https://medium.com/quick-code/node-js-restful-api-with-dynamodb-local-7e342a934a24)
 * [Optimizing GraphQL Queries with DataLoader](https://spin.atomicobject.com/2017/05/15/optimize-graphql-queries/)
-* [Optimasi load Progressive Web Application \(PWA\) dengan React JS kurang dari 5 detik dalam koneksi slow 3G](https://medium.com/react-id/optimasi-load-progressive-web-application-pwa-dengan-react-js-kurang-dari-5-detik-dalam-koneksi-9c33980b68c0)
 * [Promise.all with Async/Await](https://www.taniarascia.com/promise-all-with-async-await)
 * [Serverless Zone](https://sls.zone/)
 * [Start testing your GraphQL Schema, Queries and, Mutations!](https://hackernoon.com/start-testing-your-graphql-schema-queries-and-mutations-b514911b1368)
