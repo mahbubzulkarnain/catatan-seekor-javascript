@@ -11,7 +11,6 @@ description: 'Michael Stonebraker ( Oct 11, 1943 ), Eugene Wong ( December 24, 1
 * [PostgreSQL SQL Tricks](https://postgres.cz/wiki/PostgreSQL_SQL_Tricks)
 * [Practical Persistence in Go: Organising Database Access](https://www.alexedwards.net/blog/organising-database-access)
 * [Sequelize ORM npm library found vulnerable to SQL Injection attacks](https://snyk.io/blog/sequelize-orm-npm-library-found-vulnerable-to-sql-injection-attacks/)
-* [What are '$$' used for in PL/pgSQL](https://stackoverflow.com/questions/12144284/what-are-used-for-in-pl-pgsql)
 
 #### Stackoverflow
 
