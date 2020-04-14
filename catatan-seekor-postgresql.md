@@ -17,4 +17,5 @@ description: 'Michael Stonebraker ( Oct 11, 1943 ), Eugene Wong ( December 24, 1
 #### Stackoverflow
 
 * [Syntax error at end of input in PostgreSQL](https://stackoverflow.com/questions/13119786/syntax-error-at-end-of-input-in-postgresql)
+* [psql: FATAL: role “postgres” does not exist](https://stackoverflow.com/questions/15301826/psql-fatal-role-postgres-does-not-exist)
 
