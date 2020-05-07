@@ -83,6 +83,7 @@ fmt.Println(output) // "true"
 * [BogoToBogo](https://www.bogotobogo.com/GoLang/GoLang_HelloWorld.php)
 * [Dasar Pemrograman Golang](https://dasarpemrogramangolang.novalagung.com/)
 * [Getting Started with Serverless Go](https://dev.to/yos/getting-started-with-serverless-go--1lff)
+* [Golang Bot](https://golangbot.com/)
 * [Golang Code](https://golangcode.com/)
 * [Golang Programs](https://www.golangprograms.com)
 * [Hot Example](https://golang.hotexamples.com/)
