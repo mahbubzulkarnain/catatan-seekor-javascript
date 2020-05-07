@@ -1,5 +1,6 @@
 # Articles
 
+* [7 JavaScript Design Patterns Every developer should know](https://codesource.io/javascript-design-patterns/)
 * [Advanced GraphQL Queries, Error Handling, Data Loader](https://code-maze.com/advanced-graphql-queries/)
 * [An Introduction To Storybook: Organize How You Build JS Components](https://scotch.io/tutorials/an-introduction-to-storybook-organize-how-you-build-js-components)
 * [Application State Management with React](https://kentcdodds.com/blog/application-state-management-with-react)
