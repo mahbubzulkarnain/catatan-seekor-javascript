@@ -38,6 +38,7 @@
 * [React Router v6 in Three Minutes](https://medium.com/better-programming/react-router-v6-in-two-minutes-a7a2963e2340)
 * [Serverless Zone](https://sls.zone/)
 * [Start testing your GraphQL Schema, Queries and, Mutations!](https://hackernoon.com/start-testing-your-graphql-schema-queries-and-mutations-b514911b1368)
+* [Static vs Unit vs Integration vs E2E Testing for Frontend Apps](https://kentcdodds.com/blog/unit-vs-integration-vs-e2e-tests)
 * [Testing React Components with Enzyme and Jest](https://scotch.io/tutorials/testing-react-components-with-enzyme-and-jest)
 * [Testing a Queue Jobs \(kue\) in Node JS](https://medium.com/helpful-tips/stubbing-a-job-queue-kue-with-sinon-js-3e293c9eb519)
 * [Understanding Classes in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript)
