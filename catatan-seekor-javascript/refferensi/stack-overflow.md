@@ -6,6 +6,7 @@
 * [How to authenticate a firebase user from server without client side auth?](https://stackoverflow.com/questions/46626585/how-to-authenticate-a-firebase-user-from-server-without-client-side-auth)
 * [How to check if in-app purchase/subscription is valid? \(Node.js\)](https://medium.com/androidhub/how-to-validate-in-app-purchase-subscription-on-your-node-js-backend-a2b823470034)
 * [Invalid 'reference' directive syntax](https://github.com/DefinitelyTyped/DefinitelyTyped/issues/10097#issuecomment-499783519)
+* [React/RCTBridgeDelegate.h' file not found](https://stackoverflow.com/questions/56916798/react-rctbridgedelegate-h-file-not-found)
 * [Set default node version with NVM](https://eric.blog/2016/08/23/set-default-node-version-with-nvm/)
 
 #### Testing
