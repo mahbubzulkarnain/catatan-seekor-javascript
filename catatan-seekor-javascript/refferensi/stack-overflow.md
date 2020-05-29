@@ -1,6 +1,5 @@
 # Stack Overflow
 
-* [ES6, how can you export an imported module in a single line?](https://stackoverflow.com/questions/35665759/es6-how-can-you-export-an-imported-module-in-a-single-line)
 * [Firebase REST auth when creating token with node.js admin sdk](https://stackoverflow.com/questions/42927643/firebase-rest-auth-when-creating-token-with-node-js-admin-sdk)
 * [How do I return the response from an asynchronous call?](https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call)
 * [How do JavaScript closures work?](https://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
