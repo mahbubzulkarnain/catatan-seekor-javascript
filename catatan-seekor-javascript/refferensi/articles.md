@@ -1,6 +1,7 @@
 # Articles
 
 * [7 JavaScript Design Patterns Every developer should know](https://codesource.io/javascript-design-patterns/)
+* [Adding Alias to Create React Native App \(CRNA\) in 2 minutes](https://medium.com/@sterlingcobb/adding-alias-to-create-react-native-app-crna-in-2-minutes-45574f4a7729)
 * [Advanced GraphQL Queries, Error Handling, Data Loader](https://code-maze.com/advanced-graphql-queries/)
 * [An Introduction To Storybook: Organize How You Build JS Components](https://scotch.io/tutorials/an-introduction-to-storybook-organize-how-you-build-js-components)
 * [Application State Management with React](https://kentcdodds.com/blog/application-state-management-with-react)
