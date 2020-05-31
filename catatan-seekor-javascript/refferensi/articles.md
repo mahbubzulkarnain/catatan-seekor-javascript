@@ -38,6 +38,7 @@
 * [Optimasi load Progressive Web Application \(PWA\) dengan React JS kurang dari 5 detik dalam koneksi slow 3G](https://medium.com/react-id/optimasi-load-progressive-web-application-pwa-dengan-react-js-kurang-dari-5-detik-dalam-koneksi-9c33980b68c0)
 * [Promise.all with Async/Await](https://www.taniarascia.com/promise-all-with-async-await)
 * [React Internationalization with i18n](https://www.robinwieruch.de/react-internationalization)
+* [React Parts](https://react.parts/)
 * [React Router v6 in Three Minutes](https://medium.com/better-programming/react-router-v6-in-two-minutes-a7a2963e2340)
 * [Serverless Zone](https://sls.zone/)
 * [Solved by Flexbox](https://philipwalton.github.io/solved-by-flexbox/)
