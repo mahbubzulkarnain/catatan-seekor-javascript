@@ -1,11 +1,13 @@
 # Stack Overflow
 
+* [ES6, how can you export an imported module in a single line?](https://stackoverflow.com/questions/35665759/es6-how-can-you-export-an-imported-module-in-a-single-line)
 * [Firebase REST auth when creating token with node.js admin sdk](https://stackoverflow.com/questions/42927643/firebase-rest-auth-when-creating-token-with-node-js-admin-sdk)
 * [How do I return the response from an asynchronous call?](https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call)
 * [How do JavaScript closures work?](https://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
 * [How to authenticate a firebase user from server without client side auth?](https://stackoverflow.com/questions/46626585/how-to-authenticate-a-firebase-user-from-server-without-client-side-auth)
 * [How to check if in-app purchase/subscription is valid? \(Node.js\)](https://medium.com/androidhub/how-to-validate-in-app-purchase-subscription-on-your-node-js-backend-a2b823470034)
 * [Invalid 'reference' directive syntax](https://github.com/DefinitelyTyped/DefinitelyTyped/issues/10097#issuecomment-499783519)
+* [Is React Native's LayoutAnimation supported on Android?](https://stackoverflow.com/questions/38357368/is-react-natives-layoutanimation-supported-on-android)
 * [React/RCTBridgeDelegate.h' file not found](https://stackoverflow.com/questions/56916798/react-rctbridgedelegate-h-file-not-found)
 * [Set default node version with NVM](https://eric.blog/2016/08/23/set-default-node-version-with-nvm/)
 

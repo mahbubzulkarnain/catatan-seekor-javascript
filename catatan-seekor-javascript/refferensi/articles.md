@@ -27,7 +27,6 @@
 * [How to Use Local Storage with JavaScript](https://www.taniarascia.com/how-to-use-local-storage-with-javascript/)
 * [Install a local DynamoDB development database on your machine](https://medium.com/@vschroeder/install-a-local-dynamodb-development-database-on-your-machine-82dc38d59503)
 * [Installing Node.js with nvm to Linux & macOS & WSL](https://gist.github.com/d2s/372b5943bce17b964a79)
-* [Is React Native's LayoutAnimation supported on Android?](https://stackoverflow.com/questions/38357368/is-react-natives-layoutanimation-supported-on-android)
 * [JAMstack Apps - Open-Source and built with Automation Tools](https://dev.to/sm0ke/jamstack-apps-open-source-built-with-appseed-app-generator-4k66)
 * [JavaScript Web Application Security Guide](https://blog.usejournal.com/javascript-web-application-security-guide-fdade350e373)
 * [JS illustrated: Promises](https://dev.to/kapantzak/js-illustrated-promises-3ign)
