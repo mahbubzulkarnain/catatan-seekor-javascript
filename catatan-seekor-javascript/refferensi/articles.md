@@ -36,6 +36,7 @@
 * [Node.js RESTful API with DynamoDB Local](https://medium.com/quick-code/node-js-restful-api-with-dynamodb-local-7e342a934a24)
 * [Optimizing GraphQL Queries with DataLoader](https://spin.atomicobject.com/2017/05/15/optimize-graphql-queries/)
 * [Optimasi load Progressive Web Application \(PWA\) dengan React JS kurang dari 5 detik dalam koneksi slow 3G](https://medium.com/react-id/optimasi-load-progressive-web-application-pwa-dengan-react-js-kurang-dari-5-detik-dalam-koneksi-9c33980b68c0)
+* [Organising Your React Application](https://levelup.gitconnected.com/enterprise-size-react-application-directory-structure-90b0ebc60d59)
 * [Promise.all with Async/Await](https://www.taniarascia.com/promise-all-with-async-await)
 * [React Internationalization with i18n](https://www.robinwieruch.de/react-internationalization)
 * [React Parts](https://react.parts/)

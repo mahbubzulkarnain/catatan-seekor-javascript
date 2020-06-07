@@ -5,11 +5,14 @@
 * [How do I return the response from an asynchronous call?](https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call)
 * [How do JavaScript closures work?](https://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
 * [How to authenticate a firebase user from server without client side auth?](https://stackoverflow.com/questions/46626585/how-to-authenticate-a-firebase-user-from-server-without-client-side-auth)
+* [How to better organize your React applications?](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1)
+* [How to change the back button label, react-navigation](https://stackoverflow.com/questions/46864951/how-to-change-the-back-button-label-react-navigation)
 * [How to check if in-app purchase/subscription is valid? \(Node.js\)](https://medium.com/androidhub/how-to-validate-in-app-purchase-subscription-on-your-node-js-backend-a2b823470034)
 * [How do i pass eslint checking for this.props.navigation.navigate \(react-navigation\)?](https://stackoverflow.com/questions/46578927/how-do-i-pass-eslint-checking-for-this-props-navigation-navigate-react-navigati)
 * [Invalid 'reference' directive syntax](https://github.com/DefinitelyTyped/DefinitelyTyped/issues/10097#issuecomment-499783519)
 * [Is React Native's LayoutAnimation supported on Android?](https://stackoverflow.com/questions/38357368/is-react-natives-layoutanimation-supported-on-android)
 * [React/RCTBridgeDelegate.h' file not found](https://stackoverflow.com/questions/56916798/react-rctbridgedelegate-h-file-not-found)
+* [React Best Practices](https://towardsdatascience.com/react-best-practices-804def6d5215)
 * [Set default node version with NVM](https://eric.blog/2016/08/23/set-default-node-version-with-nvm/)
 
 #### Testing
