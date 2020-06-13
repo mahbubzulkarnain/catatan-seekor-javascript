@@ -7,6 +7,7 @@
 * [An Introduction To Storybook: Organize How You Build JS Components](https://scotch.io/tutorials/an-introduction-to-storybook-organize-how-you-build-js-components)
 * [Application State Management with React](https://kentcdodds.com/blog/application-state-management-with-react)
 * [Authentication and Authorization in GraphQL \(and how GraphQL-Modules can help\)](https://medium.com/the-guild/authentication-and-authorization-in-graphql-and-how-graphql-modules-can-help-fadc1ee5b0c2)
+* [Best Practices for Serverless Development](https://medium.com/serverlessguru/best-practices-for-serverless-development-d13061b3593e)
 * [Build a Health Tracking App with React, GraphQL, and User Authentication](https://scotch.io/tutorials/build-a-health-tracking-app-with-react-graphql-and-user-authentication)
 * [Deploy Your React App on Github Pages](https://medium.com/@hannawerman/deploy-your-react-app-on-github-pages-a1d4cfdc88e9)
 * [FLEXBOX FROGGY](http://flexboxfroggy.com/#id)
