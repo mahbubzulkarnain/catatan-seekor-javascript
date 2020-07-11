@@ -92,6 +92,7 @@ fmt.Println(output) // "true"
 * [Hot Example](https://golang.hotexamples.com/)
 * [Implementasi Kafka menggunakan Golang + Testing](https://medium.com/easyread/implementasi-kafka-menggunakan-golang-testing-db183e0b3c29)
 * [Lambdas with GoLang — a technical guide](https://cloudnative.ly/lambdas-with-golang-a-technical-guide-6f381284897b)
+* [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
 * [Membangun Realtime Canvas Drawing Dengan Go, Websocket dan P5.js](https://medium.com/@wuriyantomusobar/membangun-realtime-canvas-drawing-dengan-go-websocket-dan-p5-js-672c799d3044)
 * [Regular Expression to Check Indonesian MobilePhone Provider](https://edwin.baculsoft.com/2014/08/regular-expression-to-check-indonesian-mobilephone-provider/)
 * [Solving the "does not support indexing" error in a Go program](https://flaviocopes.com/golang-does-not-support-indexing/)
