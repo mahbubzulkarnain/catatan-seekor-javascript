@@ -79,6 +79,7 @@ fmt.Println(output) // "true"
 
 ### Links
 
+* [A web framework written in Golang](https://golangexample.com/a-web-framework-written-in-golang/)
 * [An Example of Using NSQ From Go](http://tleyden.github.io/blog/2014/11/12/an-example-of-using-nsq-from-go/)
 * [API Resources for Go Developers](https://www.moesif.com/blog/api-guide/development/api-resources-for-go-developers/)
 * [BogoToBogo](https://www.bogotobogo.com/GoLang/GoLang_HelloWorld.php)
