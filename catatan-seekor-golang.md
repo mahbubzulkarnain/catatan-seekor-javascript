@@ -85,6 +85,7 @@ fmt.Println(output) // "true"
 * [BogoToBogo](https://www.bogotobogo.com/GoLang/GoLang_HelloWorld.php)
 * [Dasar Pemrograman Golang](https://dasarpemrogramangolang.novalagung.com/)
 * [Deploying a Go application on AWS EC2](https://hackernoon.com/deploying-a-go-application-on-aws-ec2-76390c09c2c5)
+* [Getting Started with Kafka in Golang](https://medium.com/@yusufs/getting-started-with-kafka-in-golang-14ccab5fa26)
 * [Getting Started with Serverless Go](https://dev.to/yos/getting-started-with-serverless-go--1lff)
 * [Golang Bot](https://golangbot.com/)
 * [Golang Code](https://golangcode.com/)
