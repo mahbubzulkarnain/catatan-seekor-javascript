@@ -10,6 +10,7 @@ description: 'Linus Torvalds ( December 28, 1969 )'
 netstat -ntulp
 ```
 
+* [Enable SSH Server on Debian](https://linuxhint.com/enable-ssh-server-debian/)
 * \*\*\*\*[How do I change permissions for a folder and all of its subfolders and files in one step in Linux? \[closed\]](https://stackoverflow.com/questions/3740152/how-do-i-change-permissions-for-a-folder-and-all-of-its-subfolders-and-files-in)
 * [Fix ‘E: Could not get lock /var/lib/dpkg/lock’ Error in Ubuntu \[Quick Tip\]](https://itsfoss.com/could-not-get-lock-error/)
 * [How to kill a process running on particular port in Linux?](https://stackoverflow.com/questions/11583562/how-to-kill-a-process-running-on-particular-port-in-linux)
