@@ -98,6 +98,7 @@ fmt.Println(output) // "true"
 * [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
 * [Membangun Realtime Canvas Drawing Dengan Go, Websocket dan P5.js](https://medium.com/@wuriyantomusobar/membangun-realtime-canvas-drawing-dengan-go-websocket-dan-p5-js-672c799d3044)
 * [Regular Expression to Check Indonesian MobilePhone Provider](https://edwin.baculsoft.com/2014/08/regular-expression-to-check-indonesian-mobilephone-provider/)
+* [SOAP - WSDL request in Go Language](https://medium.com/eaciit-engineering/soap-wsdl-request-in-go-language-3861cfb5949e)
 * [Solving the "does not support indexing" error in a Go program](https://flaviocopes.com/golang-does-not-support-indexing/)
 * [Tutorial Edge](https://tutorialedge.net/course/golang/)
 * [Writing Great Go Code](https://scene-si.org/2018/07/24/writing-great-go-code/)
