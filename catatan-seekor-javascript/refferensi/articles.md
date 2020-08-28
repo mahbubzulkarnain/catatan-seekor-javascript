@@ -46,6 +46,7 @@
 * [Solved by Flexbox](https://philipwalton.github.io/solved-by-flexbox/)
 * [Start testing your GraphQL Schema, Queries and, Mutations!](https://hackernoon.com/start-testing-your-graphql-schema-queries-and-mutations-b514911b1368)
 * [Static vs Unit vs Integration vs E2E Testing for Frontend Apps](https://kentcdodds.com/blog/unit-vs-integration-vs-e2e-tests)
+* [Simple String.format\(\) in javascript](https://coderwall.com/p/flonoa/simple-string-format-in-javascript)
 * [Testing React Components with Enzyme and Jest](https://scotch.io/tutorials/testing-react-components-with-enzyme-and-jest)
 * [Testing a Queue Jobs \(kue\) in Node JS](https://medium.com/helpful-tips/stubbing-a-job-queue-kue-with-sinon-js-3e293c9eb519)
 * [Understanding Classes in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript)
