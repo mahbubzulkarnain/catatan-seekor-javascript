@@ -13,6 +13,11 @@ description: 'Rasmus Lerdorf ( Nov 22, 1968 )'
 * [Cross-Site Scripting \(XSS\)](https://riptutorial.com/php/example/11883/cross-site-scripting--xss-)
 * [Extension gd is missing from your system - laravel composer Update](https://stackoverflow.com/questions/39384644/extension-gd-is-missing-from-your-system-laravel-composer-update)
 * [How to Allow IP Addresses with a .htaccess File](https://serverpilot.io/docs/how-to-allow-ip-addresses-with-an-htaccess-file/)
+* [How To Install and Use Composer on Debian 9](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-debian-9)
+* [How to Install PHP ext-zip extension?](https://www.compulsivecoders.com/tech/how-to-install-php-ext-zip-extension/)
+
+  [Symptoms](https://www.compulsivecoders.com/tech/how-to-install-php-ext-zip-extension/)
+
 * [Learn web scraping using php!](https://blog.usejournal.com/learn-web-scraping-using-php-12356332873e)
 * [Linux 25 PHP Security Best Practices For Sys Admins](https://www.cyberciti.biz/tips/php-security-best-practices-tutorial.html)
 * [PHP7 : install ext-dom issue](https://stackoverflow.com/questions/43408604/php7-install-ext-dom-issue)
