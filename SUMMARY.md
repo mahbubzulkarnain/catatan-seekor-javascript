@@ -46,4 +46,5 @@
 * [Catatan Seekor: SOFTWARE](catatan-seekor-software.md)
 * [Catatan Seekor: SEO](catatan-seekor-seo.md)
 * [Catatan Seekor: SWIFT](catatan-seekor-swift.md)
+* [Catatan Seekor: TOOL](catatan-seekor-tool.md)
 
