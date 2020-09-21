@@ -1,0 +1,33 @@
+# Catatan Seekor: RUBY
+
+#### Link
+
+* [Ruby on Rails Tutorial](https://www.railstutorial.org/book)
+* [An introduction to Ruby’s \*Splat and double \*\*Splat operators](https://www.freecodecamp.org/news/rubys-splat-and-double-splat-operators-ceb753329a78/)
+* [Set Current Locale in your Rails App](https://translation.io/blog/set-current-locale-in-your-rails-app)
+* [Social Meta Tags Setup in Rails](https://www.lewagon.com/blog/setup-meta-tags-rails)
+* [Meta robots tag: noindex, nofollow, noarchive, noodp & noydir](https://beginnersbook.com/2013/01/meta-robots-tag-noindex-nofollow-noarchive-noodp-noydir/)
+* [Ruby on Rails Cheatsheet](https://owasp.org/www-project-cheat-sheets/cheatsheets/Ruby_on_Rails_Cheatsheet)
+* [belajarrubyonrails](http://www.belajarrubyonrails.com/p/daftar-isi.html)
+* [How to map and remove nil values in Ruby](https://stackoverflow.com/questions/13485468/how-to-map-and-remove-nil-values-in-ruby)
+* [Rails 4 render json nested objects](https://stackoverflow.com/questions/20619560/rails-4-render-json-nested-objects)
+* [Same Model for Two belongs\_to Associations](https://stackoverflow.com/questions/5294775/same-model-for-two-belongs-to-associations)
+* [Best practice about empty belongs\_to association](https://stackoverflow.com/questions/10462676/best-practice-about-empty-belongs-to-association)
+* [Rails - associate two different fields from one model as one association](https://stackoverflow.com/questions/20106711/rails-associate-two-different-fields-from-one-model-as-one-association)
+* [Running validations when using \`update\_all\`](https://stackoverflow.com/questions/39644646/running-validations-when-using-update-all)
+* [You must use Bundler 2 or greater with this lockfile](https://github.com/rubygems/bundler/issues/6784)
+* [How to delete specific characters from a string in Ruby?](https://stackoverflow.com/questions/19637677/how-to-delete-specific-characters-from-a-string-in-ruby)
+* [ruby on rails find\_or\_initialize](https://stackoverflow.com/questions/12319832/ruby-on-rails-find-or-initialize)
+* [Setup and test Rails 6.0 with RSpec, FactoryBot, and Devise](https://matthewhoelter.com/2019/09/12/setting-up-and-testing-rails-6.0-with-rspec-factorybot-and-devise.html)
+* [How to use .nil? .empty? .blank? .present? in Rails 5](https://medium.com/le-wagon/how-to-use-nil-blank-present-exists-in-rails-5-fe03e78ab979)
+* [How to reset postgres' primary key sequence when it falls out of sync?](https://stackoverflow.com/questions/244243/how-to-reset-postgres-primary-key-sequence-when-it-falls-out-of-sync)
+* [How to check a checkbox in capybara?](https://stackoverflow.com/questions/8297624/how-to-check-a-checkbox-in-capybara)
+* [Capybara \(and Selenium\) with RSpec & Rails 3: quick tutorial](http://www.opinionatedprogrammer.com/2011/02/capybara-and-selenium-with-rspec-and-rails-3/#comment-220)
+* [Using Named Scopes Across Models with ActiveRecord\#Merge](https://gorails.com/blog/activerecord-merge)
+* [How to Use link\_to in Rails](https://mixandgo.com/learn/how-to-use-link_to-in-rails)
+* [JavaScript file per view in Rails](https://stackoverflow.com/questions/602147/javascript-file-per-view-in-rails)
+* [The RSpec Tutorial](https://tutorials.railsapps.org/tutorials/rspec-quickstart)
+* [Rails Role-Based Authorization](https://tutorials.railsapps.org/tutorials/rails-devise-roles)
+* [Devise Quickstart Guide](https://tutorials.railsapps.org/tutorials/devise-quickstart)
+* [Rails 5.2 credentials](https://medium.com/cedarcode/rails-5-2-credentials-9b3324851336)
+
