@@ -19,6 +19,7 @@ description: 'Rasmus Lerdorf ( Nov 22, 1968 )'
 
   [Symptoms](https://www.compulsivecoders.com/tech/how-to-install-php-ext-zip-extension/)
 
+* [How to save a PNG image server-side, from a base64 data string](https://stackoverflow.com/questions/11511511/how-to-save-a-png-image-server-side-from-a-base64-data-string)
 * [Learn web scraping using php!](https://blog.usejournal.com/learn-web-scraping-using-php-12356332873e)
 * [Linux 25 PHP Security Best Practices For Sys Admins](https://www.cyberciti.biz/tips/php-security-best-practices-tutorial.html)
 * [PHP7 : install ext-dom issue](https://stackoverflow.com/questions/43408604/php7-install-ext-dom-issue)
