@@ -44,6 +44,7 @@
 ## DATABASE
 
 * [Catatan Seekor: POSTGRESQL](database/catatan-seekor-postgresql.md)
+* [Catatan Seekor: MySQL](database/catatan-seekor-mysql.md)
 
 ## DEVOPS <a id="devops-1"></a>
 
