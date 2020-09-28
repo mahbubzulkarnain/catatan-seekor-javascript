@@ -53,7 +53,8 @@
 
 * [Catatan Seekor: Docker](devops-1/catatan-seekor-docker.md)
 * [Catatan Seekor: DEVOPS](devops-1/devops/README.md)
-  * [List Response Code](devops-1/devops/list-response-code.md)
+  * [List Response Code HTTP](devops-1/devops/list-response-code.md)
+  * [List Transaction Code](devops-1/devops/list-transaction-code.md)
 * [Catatan Seekor: AWS](devops-1/catatan-seekor-aws.md)
 
 ## VERSIONING
