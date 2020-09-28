@@ -9,6 +9,7 @@
 * [Top 10 Docker Logging Gotchas](https://dzone.com/articles/top-10-docker-logging-gotchas)
 * [Quick DevOps](https://www.quickdevops.com/)
 * [Membuat VPS di Google Cloud Platform](https://medium.com/@yunusmuhammad007/membuat-vps-di-google-cloud-platform-2be081c91d74)
+* [How to Install Rancher Docker Container Manager on CentOS 7](https://www.howtoforge.com/tutorial/centos-rancher-docker-container-management-platform/)
 
 #### Tools
 
