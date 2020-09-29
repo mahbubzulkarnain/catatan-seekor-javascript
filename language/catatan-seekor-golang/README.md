@@ -59,6 +59,7 @@ fmt.Println(output) // "true"
 * [Golang Code](https://golangcode.com/)
 * [Golang Programs](https://www.golangprograms.com)
 * [Hot Example](https://golang.hotexamples.com/)
+* [How to use RegEx in GoLang](https://www.educative.io/edpresso/how-to-use-regex-in-golang)
 * [Implementasi Kafka menggunakan Golang + Testing](https://medium.com/easyread/implementasi-kafka-menggunakan-golang-testing-db183e0b3c29)
 * [Lambdas with GoLang — a technical guide](https://cloudnative.ly/lambdas-with-golang-a-technical-guide-6f381284897b)
 * [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
