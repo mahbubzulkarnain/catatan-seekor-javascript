@@ -10,6 +10,7 @@
 * [Quick DevOps](https://www.quickdevops.com/)
 * [Membuat VPS di Google Cloud Platform](https://medium.com/@yunusmuhammad007/membuat-vps-di-google-cloud-platform-2be081c91d74)
 * [How to Install Rancher Docker Container Manager on CentOS 7](https://www.howtoforge.com/tutorial/centos-rancher-docker-container-management-platform/)
+* [Cara Install Dan Setup Rancher 2.x \(Latest\), Kubernetes/Docker Di Linux](https://www.ayies.com/cara-install-dan-setup-rancher-2-x-latest-kubernetes-docker-di-linux/)
 
 #### Tools
 
