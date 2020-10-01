@@ -6,12 +6,13 @@ description: 'Rasmus Lerdorf ( Nov 22, 1968 )'
 
 ### Links
 
-* [Deny all, allow only one IP through htaccess](https://stackoverflow.com/questions/4400154/deny-all-allow-only-one-ip-through-htaccess)
+* [CakePHP cache was unable to write in Centos 7](https://stackoverflow.com/questions/30412433/cakephp-cache-was-unable-to-write-in-centos-7)
 * [Can't install with iconv on Mac OSX](https://github.com/phpbrew/phpbrew/issues/857#issuecomment-635343635)
 * [CodeIgniter Form Validation: From Start to Finish](https://code.tutsplus.com/tutorials/codeigniter-form-validation-from-start-to-finish--cms-28768)
 * [CodeIgniter htaccess and URL rewrite issues](https://stackoverflow.com/questions/14783666/codeigniter-htaccess-and-url-rewrite-issues)
 * [Console google drive API](https://console.developers.google.com/flows/enableapi?apiid=drive)
 * [Cross-Site Scripting \(XSS\)](https://riptutorial.com/php/example/11883/cross-site-scripting--xss-)
+* [Deny all, allow only one IP through htaccess](https://stackoverflow.com/questions/4400154/deny-all-allow-only-one-ip-through-htaccess)
 * [Extension gd is missing from your system - laravel composer Update](https://stackoverflow.com/questions/39384644/extension-gd-is-missing-from-your-system-laravel-composer-update)
 * [How to Allow IP Addresses with a .htaccess File](https://serverpilot.io/docs/how-to-allow-ip-addresses-with-an-htaccess-file/)
 * [How To Install and Use Composer on Debian 9](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-debian-9)
