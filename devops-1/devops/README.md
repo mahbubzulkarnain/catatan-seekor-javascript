@@ -14,6 +14,7 @@
 * [How do I find my SSH public key on Windows server? \[closed\]](https://stackoverflow.com/questions/44135974/how-do-i-find-my-ssh-public-key-on-windows-server)
 * [How to install Apache, PHP 7.3 and MySQL on CentOS 7.6](https://www.howtoforge.com/tutorial/centos-lamp-server-apache-mysql-php/)
 * [How to Install and Use PHP Composer on CentOS 7](https://linuxize.com/post/how-to-install-and-use-composer-on-centos-7/)
+* [How To Import and Export Databases in MySQL or MariaDB](https://www.digitalocean.com/community/tutorials/how-to-import-and-export-databases-in-mysql-or-mariadb)
 
 #### Tools
 
