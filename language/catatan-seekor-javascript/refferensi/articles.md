@@ -10,6 +10,7 @@
 * [Best Practices for Serverless Development](https://medium.com/serverlessguru/best-practices-for-serverless-development-d13061b3593e)
 * [Build a Health Tracking App with React, GraphQL, and User Authentication](https://scotch.io/tutorials/build-a-health-tracking-app-with-react-graphql-and-user-authentication)
 * [Deploy Your React App on Github Pages](https://medium.com/@hannawerman/deploy-your-react-app-on-github-pages-a1d4cfdc88e9)
+* [Event handler not working in Internet Explorer](https://stackoverflow.com/questions/10112431/event-handler-not-working-in-internet-explorer)
 * [FLEXBOX FROGGY](http://flexboxfroggy.com/#id)
 * [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
 * [GraphQL Best Practices](https://graphql.org/learn/best-practices/)
