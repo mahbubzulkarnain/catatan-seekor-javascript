@@ -10,7 +10,47 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+
+  ebook:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [ 10.x ]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install gitbook-cli
+        run: npm install -g gitbook-cli
+      - name: Install svgexport
+        run: npm install -g svgexport
+      - name: Install calibre
+        run: sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+      - name: Build source
+        run: |
+          mkdir _ebook
+          gitbook install
+      - name: Generate PDF
+        run: gitbook pdf ./ ./_ebook/catatan-seekor-the-series.pdf
+      - name: Generate EPub
+        run: gitbook epub ./ ./_ebook/catatan-seekor-the-series.epub
+      - name: Generate Mobi
+        run: gitbook mobi ./ ./_ebook/catatan-seekor-the-series.mobi
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_ebook
+          publish_branch: download
+          full_commit_message: ${{ github.event.head_commit.message }}
+
+
+  website:
 
     runs-on: ubuntu-latest
 
@@ -37,12 +77,6 @@ jobs:
           rm -rf .gitignore
           rm -rf .github
           rm -rf *.md
-      - name: Generate PDF
-        run: gitbook pdf ./ ./catatan-seekor-the-series.pdf
-      - name: Generate EPub
-        run: gitbook epub ./ ./catatan-seekor-the-series.epub
-      - name: Generate Mobi
-        run: gitbook mobi ./ ./catatan-seekor-the-series.mobi
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
