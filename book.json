@@ -1,0 +1,43 @@
+{
+  "plugins": [
+    "ga",
+    "disqus",
+    "meta",
+    "sitemap"
+  ],
+  "pluginsConfig": {
+    "sitemap": {
+      "hostname": "https://mahbubzulkarnain.github.io/catatan-seekor-the-series/"
+    },
+    "ga": {
+      "token": "UA-139611330-1"
+    },
+    "disqus": {
+      "shortName": "catatanseekor"
+    },
+    "meta": {
+      "data": [
+        {
+          "name": "author",
+          "content": "Mahbub Zulkarnain"
+        },
+        {
+          "name": "twitter:site",
+          "content": "@mahbub_z"
+        },
+        {
+          "name": "og:image",
+          "content": ""
+        },
+        {
+          "name": "twitter:image",
+          "content": ""
+        },
+        {
+          "name": "og:locale",
+          "content": "id_ID"
+        }
+      ]
+    }
+  }
+}
