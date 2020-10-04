@@ -81,5 +81,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_ebook
+          publish_dir: ./_book
           full_commit_message: ${{ github.event.head_commit.message }}
