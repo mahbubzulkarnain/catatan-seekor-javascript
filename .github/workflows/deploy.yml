@@ -34,6 +34,7 @@ jobs:
       - name: Build source
         run: |
           mkdir _ebook
+          gitbook init
           gitbook install
       - name: Generate PDF
         run: gitbook pdf ./ ./_ebook/catatan-seekor-the-series.pdf
@@ -68,6 +69,7 @@ jobs:
         run: npm install -g gitbook-cli
       - name: Build source
         run: |
+          gitbook init
           gitbook install
           gitbook build
           cd _book
