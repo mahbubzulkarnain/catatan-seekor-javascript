@@ -1,6 +1,0 @@
-# Async/Await
-
-```javascript
-
-```
-
