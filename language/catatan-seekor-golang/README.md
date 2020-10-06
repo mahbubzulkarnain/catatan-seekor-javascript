@@ -43,6 +43,7 @@ fmt.Println(output) // "true"
 ### Links
 
 * [5 Ways to Live Reloading Go Applications](https://techinscribed.com/5-ways-to-live-reloading-go-applications/)
+* [Allocation efficiency in high-performance Go services](https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/)
 * [Awesome Docker](https://awesome-docker.netlify.app/)
 * [A web framework written in Golang](https://golangexample.com/a-web-framework-written-in-golang/)
 * [An Example of Using NSQ From Go](http://tleyden.github.io/blog/2014/11/12/an-example-of-using-nsq-from-go/)
