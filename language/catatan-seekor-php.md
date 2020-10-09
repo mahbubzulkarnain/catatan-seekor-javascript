@@ -15,6 +15,7 @@ description: 'Rasmus Lerdorf ( Nov 22, 1968 )'
 * [Deny all, allow only one IP through htaccess](https://stackoverflow.com/questions/4400154/deny-all-allow-only-one-ip-through-htaccess)
 * [Extension gd is missing from your system - laravel composer Update](https://stackoverflow.com/questions/39384644/extension-gd-is-missing-from-your-system-laravel-composer-update)
 * [Facing a file permission error while running CakePHP in Ubuntu 10.4](https://stackoverflow.com/questions/8879614/facing-a-file-permission-error-while-running-cakephp-in-ubuntu-10-4)
+* [Fatal error: Call to undefined function ldap\_connect\(\) in ubuntu](https://stackoverflow.com/questions/5725815/fatal-error-call-to-undefined-function-ldap-connect-in-ubuntu)
 * [How to Allow IP Addresses with a .htaccess File](https://serverpilot.io/docs/how-to-allow-ip-addresses-with-an-htaccess-file/)
 * [How To Install and Use Composer on Debian 9](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-debian-9)
 * [How to Install PHP ext-zip extension?](https://www.compulsivecoders.com/tech/how-to-install-php-ext-zip-extension/)
