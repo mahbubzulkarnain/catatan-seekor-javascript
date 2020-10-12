@@ -51,6 +51,10 @@
 * [Catatan Seekor: MongoDB](database/catatan-seekor-mongodb/README.md)
   * [Refferensi](database/catatan-seekor-mongodb/refferensi.md)
 
+## Messaging
+
+* [Catatan Seekor: RabbitMQ](messaging/catatan-seekor-rabbitmq.md)
+
 ## DEVOPS
 
 * [Catatan Seekor: Docker](devops/catatan-seekor-docker.md)
