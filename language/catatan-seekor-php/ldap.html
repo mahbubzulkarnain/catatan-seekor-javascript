@@ -4,9 +4,9 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Catatan Seekor: GOLANG · GitBook</title>
+        <title>LDAP · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="Robert Griesemer, Rob Pike, and Ken Thompson.">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
         
         
@@ -74,10 +74,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="fundamental/" />
+    <link rel="next" href="../catatan-seekor-ruby.html" />
     
     
-    <link rel="prev" href="../catatan-seekor-javascript/tips-and-tricks/regexp.html" />
+    <link rel="prev" href="./" />
     
 
 
@@ -502,9 +502,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="2.2" data-path="./">
+        <li class="chapter " data-level="2.2" data-path="../catatan-seekor-golang/">
             
-                <a href="./">
+                <a href="../catatan-seekor-golang/">
             
                     
                     Catatan Seekor: GOLANG
@@ -516,9 +516,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.2.1" data-path="fundamental/">
+        <li class="chapter " data-level="2.2.1" data-path="../catatan-seekor-golang/fundamental/">
             
-                <a href="fundamental/">
+                <a href="../catatan-seekor-golang/fundamental/">
             
                     
                     Fundamental
@@ -530,9 +530,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.2.1.1" data-path="fundamental/variables.html">
+        <li class="chapter " data-level="2.2.1.1" data-path="../catatan-seekor-golang/fundamental/variables.html">
             
-                <a href="fundamental/variables.html">
+                <a href="../catatan-seekor-golang/fundamental/variables.html">
             
                     
                     Variables
@@ -543,9 +543,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.2.1.2" data-path="fundamental/data-types.html">
+        <li class="chapter " data-level="2.2.1.2" data-path="../catatan-seekor-golang/fundamental/data-types.html">
             
-                <a href="fundamental/data-types.html">
+                <a href="../catatan-seekor-golang/fundamental/data-types.html">
             
                     
                     Data Types
@@ -630,9 +630,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.5" data-path="../catatan-seekor-php/">
+        <li class="chapter " data-level="2.5" data-path="./">
             
-                <a href="../catatan-seekor-php/">
+                <a href="./">
             
                     
                     Catatan Seekor: PHP
@@ -644,9 +644,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.5.1" data-path="../catatan-seekor-php/ldap.html">
+        <li class="chapter active" data-level="2.5.1" data-path="ldap.html">
             
-                <a href="../catatan-seekor-php/ldap.html">
+                <a href="ldap.html">
             
                     
                     LDAP
@@ -1059,7 +1059,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >Catatan Seekor: GOLANG</a>
+        <a href="../.." >LDAP</a>
     </h1>
 </div>
 
@@ -1074,95 +1074,53 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="catatan-seekor-golang">Catatan Seekor: GOLANG</h1>
-<h4 id="conditional">Conditional</h4>
-<h4 id="the-if-statement">The <em>if</em> Statement</h4>
-<pre><code class="lang-go"><span class="hljs-keyword">const</span> conditional = <span class="hljs-literal">true</span>
-<span class="hljs-keyword">const</span> isTrue = <span class="hljs-string">&quot;text true&quot;</span>
-
-<span class="hljs-keyword">if</span> conditional {
-    fmt.Println(isTrue)
-}
-
-<span class="hljs-comment">// Output: &quot;text true&quot;</span>
-</code></pre>
-<h3 id="looping">Looping</h3>
-<h4 id="the-for-statement">The <em>for</em> Statement</h4>
-<pre><code class="lang-go">input := [...] <span class="hljs-keyword">string</span> {<span class="hljs-string">&quot;t&quot;</span>,<span class="hljs-string">&quot;&quot;</span>,<span class="hljs-string">&quot;r&quot;</span>,<span class="hljs-string">&quot;&quot;</span>,<span class="hljs-string">&quot;u&quot;</span>,<span class="hljs-string">&quot;&quot;</span>,<span class="hljs-string">&quot;e&quot;</span>,<span class="hljs-string">&quot;1&quot;</span>,<span class="hljs-string">&quot;2&quot;</span>}
-
-<span class="hljs-keyword">var</span> output <span class="hljs-keyword">string</span>
-<span class="hljs-keyword">for</span> i := <span class="hljs-number">0</span>; i &lt; <span class="hljs-built_in">len</span>(input); i++ {
-    <span class="hljs-keyword">if</span> input[i] == <span class="hljs-string">&quot;&quot;</span> {
-        <span class="hljs-keyword">continue</span>
-    }
-    <span class="hljs-keyword">if</span> <span class="hljs-built_in">len</span>(output) &gt; <span class="hljs-number">3</span> {
-        <span class="hljs-keyword">break</span>
-    }
-    output += input[i]
-}
-
-fmt.Println(output) <span class="hljs-comment">// &quot;true&quot;</span>
-</code></pre>
-<h3 id="links">Links</h3>
-<ul>
-<li><a href="https://techinscribed.com/5-ways-to-live-reloading-go-applications/" target="_blank">5 Ways to Live Reloading Go Applications</a></li>
-<li><a href="https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/" target="_blank">Allocation efficiency in high-performance Go services</a></li>
-<li><a href="https://awesome-docker.netlify.app/" target="_blank">Awesome Docker</a></li>
-<li><a href="https://golangexample.com/a-web-framework-written-in-golang/" target="_blank">A web framework written in Golang</a></li>
-<li><a href="http://tleyden.github.io/blog/2014/11/12/an-example-of-using-nsq-from-go/" target="_blank">An Example of Using NSQ From Go</a></li>
-<li><a href="https://www.moesif.com/blog/api-guide/development/api-resources-for-go-developers/" target="_blank">API Resources for Go Developers</a></li>
-<li><a href="https://auth0.com/blog/beating-json-performance-with-protobuf/" target="_blank">Beating JSON performance with Protobuf</a></li>
-<li><a href="https://www.bogotobogo.com/GoLang/GoLang_HelloWorld.php" target="_blank">BogoToBogo</a></li>
-<li><a href="https://astaxie.gitbooks.io/build-web-application-with-golang/en/" target="_blank">Build Web Application with Golang</a></li>
-<li><a href="https://www.callicoder.com/docker-golang-image-container-example/" target="_blank">Building Docker Containers for Go Applications</a></li>
-<li><a href="https://dasarpemrogramangolang.novalagung.com/" target="_blank">Dasar Pemrograman Golang</a></li>
-<li><a href="https://hackernoon.com/deploying-a-go-application-on-aws-ec2-76390c09c2c5" target="_blank">Deploying a Go application on AWS EC2</a></li>
-<li><a href="https://medium.com/@yusufs/getting-started-with-kafka-in-golang-14ccab5fa26" target="_blank">Getting Started with Kafka in Golang</a></li>
-<li><a href="https://dev.to/yos/getting-started-with-serverless-go--1lff" target="_blank">Getting Started with Serverless Go</a></li>
-<li><a href="https://levelup.gitconnected.com/golang-soap-based-services-ccc4b3e3ee2e" target="_blank">Golang &amp; SOAP Based Services</a></li>
-<li><a href="https://golangbot.com/" target="_blank">Golang Bot</a></li>
-<li><a href="https://golangcode.com/" target="_blank">Golang Code</a></li>
-<li><a href="https://www.golangprograms.com" target="_blank">Golang Programs</a></li>
-<li><a href="https://dave.cheney.net/high-performance-go-workshop/dotgo-paris.html" target="_blank">High Performance Go Workshop</a></li>
-<li><a href="https://golang.hotexamples.com/" target="_blank">Hot Example</a></li>
-<li><a href="https://www.educative.io/edpresso/how-to-use-regex-in-golang" target="_blank">How to use RegEx in GoLang</a></li>
-<li><a href="https://medium.com/easyread/implementasi-kafka-menggunakan-golang-testing-db183e0b3c29" target="_blank">Implementasi Kafka menggunakan Golang + Testing</a></li>
-<li><a href="https://cloudnative.ly/lambdas-with-golang-a-technical-guide-6f381284897b" target="_blank">Lambdas with GoLang &#x2014; a technical guide</a></li>
-<li><a href="https://quii.gitbook.io/learn-go-with-tests/" target="_blank">Learn Go with Tests</a></li>
-<li><a href="https://medium.com/@wuriyantomusobar/membangun-realtime-canvas-drawing-dengan-go-websocket-dan-p5-js-672c799d3044" target="_blank">Membangun Realtime Canvas Drawing Dengan Go, Websocket dan P5.js</a></li>
-<li><a href="https://edwin.baculsoft.com/2014/08/regular-expression-to-check-indonesian-mobilephone-provider/" target="_blank">Regular Expression to Check Indonesian MobilePhone Provider</a></li>
-<li><a href="https://medium.com/eaciit-engineering/soap-wsdl-request-in-go-language-3861cfb5949e" target="_blank">SOAP - WSDL request in Go Language</a></li>
-<li><a href="https://flaviocopes.com/golang-does-not-support-indexing/" target="_blank">Solving the &quot;does not support indexing&quot; error in a Go program</a></li>
-<li><a href="https://tutorialedge.net/course/golang/" target="_blank">Tutorial Edge</a></li>
-<li><a href="https://scene-si.org/2018/07/24/writing-great-go-code/" target="_blank">Writing Great Go Code</a></li>
-</ul>
-<h4 id="architecture">Architecture</h4>
-<ul>
-<li><a href="https://dev.to/eminetto/clean-architecture-using-golang-5791" target="_blank">Clean Architecture using Golang</a> by <a href="https://github.com/eminetto" target="_blank">Elton Minetto</a></li>
-<li><a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html" target="_blank">The Clean Code Blog</a> by <a href="https://github.com/unclebob" target="_blank">Robert C. Martin ( Uncle Bob )</a></li>
-<li><a href="https://hackernoon.com/golang-clean-archithecture-efd6d7c43047" target="_blank">Trying Clean Architecture on Golang</a> by <a href="https://github.com/bxcodec" target="_blank">Iman Tumorang</a></li>
-</ul>
-<h4 id="stackoverflow">Stackoverflow</h4>
-<ul>
-<li><a href="https://stackoverflow.com/questions/31048557/assigning-null-to-json-fields-instead-of-empty-strings" target="_blank">Assigning null to JSON fields instead of empty strings</a></li>
-<li><a href="https://stackoverflow.com/questions/26161541/docker-go-get-from-a-private-github-repo" target="_blank">Docker: go get from a private GitHub repo</a></li>
-<li><a href="https://stackoverflow.com/questions/34046194/how-to-pass-arguments-to-router-handlers-in-golang-using-gin-web-framework" target="_blank">How to pass arguments to router handlers in Golang using Gin web framework?</a></li>
-<li><a href="https://stackoverflow.com/questions/29707689/how-to-use-go-with-a-private-gitlab-repo" target="_blank">How to use Go with a private GitLab repo</a></li>
-<li><a href="https://stackoverflow.com/questions/40397781/gometalinter-errcheck-returns-a-warning-on-deferring-a-func-which-returns-a-va" target="_blank">gometalinter / errcheck returns a warning on deferring a func which returns a variable</a></li>
-<li><a href="https://stackoverflow.com/questions/26722450/remove-diacritics-using-go" target="_blank">Remove diacritics using Go</a></li>
-</ul>
-<h4 id="cicd">CI/CD</h4>
-<ul>
-<li><a href="https://golangci.com/" target="_blank">GolangCI</a></li>
-</ul>
-<h4 id="github">Github</h4>
-<ul>
-<li><a href="https://github.com/casbin/awesome-auth" target="_blank">awesome-auth</a></li>
-</ul>
-<h4 id="docs">Docs</h4>
-<ul>
-<li><a href="https://golang.org/doc/" target="_blank">Golang</a></li>
-</ul>
+                                <h1 id="ldap">LDAP</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">CODE</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">uid</td>
+<td style="text-align:left">UserID</td>
+</tr>
+<tr>
+<td style="text-align:left">cn</td>
+<td style="text-align:left">Common Name</td>
+</tr>
+<tr>
+<td style="text-align:left">sn</td>
+<td style="text-align:left">Sure Name</td>
+</tr>
+<tr>
+<td style="text-align:left">l</td>
+<td style="text-align:left">Location</td>
+</tr>
+<tr>
+<td style="text-align:left">ou</td>
+<td style="text-align:left">Organizational Unit</td>
+</tr>
+<tr>
+<td style="text-align:left">o</td>
+<td style="text-align:left">Organization</td>
+</tr>
+<tr>
+<td style="text-align:left">dc</td>
+<td style="text-align:left">Domain Component</td>
+</tr>
+<tr>
+<td style="text-align:left">st</td>
+<td style="text-align:left">State</td>
+</tr>
+<tr>
+<td style="text-align:left">c</td>
+<td style="text-align:left">Country</td>
+</tr>
+</tbody>
+</table>
 
                                 
                                 </section>
@@ -1190,12 +1148,12 @@ fmt.Println(output) <span class="hljs-comment">// &quot;true&quot;</span>
 
             
                 
-                <a href="../catatan-seekor-javascript/tips-and-tricks/regexp.html" class="navigation navigation-prev " aria-label="Previous page: RegExp">
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Catatan Seekor: PHP">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="fundamental/" class="navigation navigation-next " aria-label="Next page: Fundamental">
+                <a href="../catatan-seekor-ruby.html" class="navigation navigation-next " aria-label="Next page: Catatan Seekor: RUBY">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1206,7 +1164,7 @@ fmt.Println(output) <span class="hljs-comment">// &quot;true&quot;</span>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"description":"Robert Griesemer, Rob Pike, and Ken Thompson.","title":"Catatan Seekor: GOLANG","level":"2.2","depth":1,"next":{"title":"Fundamental","level":"2.2.1","depth":2,"path":"language/catatan-seekor-golang/fundamental/README.md","ref":"language/catatan-seekor-golang/fundamental/README.md","articles":[{"title":"Variables","level":"2.2.1.1","depth":3,"path":"language/catatan-seekor-golang/fundamental/variables.md","ref":"language/catatan-seekor-golang/fundamental/variables.md","articles":[]},{"title":"Data Types","level":"2.2.1.2","depth":3,"path":"language/catatan-seekor-golang/fundamental/data-types.md","ref":"language/catatan-seekor-golang/fundamental/data-types.md","articles":[]}]},"previous":{"title":"RegExp","level":"2.1.6.1","depth":3,"path":"language/catatan-seekor-javascript/tips-and-tricks/regexp.md","ref":"language/catatan-seekor-javascript/tips-and-tricks/regexp.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["ga","disqus","meta","sitemap"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"catatanseekor"},"meta":{"content":"","data":[{"name":"author","content":"Mahbub Zulkarnain"},{"name":"twitter:site","content":"@mahbub_z"},{"name":"og:image","content":""},{"name":"twitter:image","content":""},{"name":"og:locale","content":"id_ID"}],"name":""},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sitemap":{"hostname":"https://mahbubzulkarnain.github.io/catatan-seekor-the-series/"},"ga":{"configuration":"auto","token":"UA-139611330-1"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"language/catatan-seekor-golang/README.md","mtime":"2020-10-12T05:49:46.614Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-10-12T05:50:27.169Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"LDAP","level":"2.5.1","depth":2,"next":{"title":"Catatan Seekor: RUBY","level":"2.6","depth":1,"path":"language/catatan-seekor-ruby.md","ref":"language/catatan-seekor-ruby.md","articles":[]},"previous":{"title":"Catatan Seekor: PHP","level":"2.5","depth":1,"path":"language/catatan-seekor-php/README.md","ref":"language/catatan-seekor-php/README.md","articles":[{"title":"LDAP","level":"2.5.1","depth":2,"path":"language/catatan-seekor-php/ldap.md","ref":"language/catatan-seekor-php/ldap.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["ga","disqus","meta","sitemap"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"catatanseekor"},"meta":{"content":"","data":[{"name":"author","content":"Mahbub Zulkarnain"},{"name":"twitter:site","content":"@mahbub_z"},{"name":"og:image","content":""},{"name":"twitter:image","content":""},{"name":"og:locale","content":"id_ID"}],"name":""},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sitemap":{"hostname":"https://mahbubzulkarnain.github.io/catatan-seekor-the-series/"},"ga":{"configuration":"auto","token":"UA-139611330-1"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"language/catatan-seekor-php/ldap.md","mtime":"2020-10-12T05:49:46.618Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-10-12T05:50:27.169Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
