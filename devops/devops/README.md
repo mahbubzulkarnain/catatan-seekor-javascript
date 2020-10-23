@@ -16,6 +16,8 @@
 * [How to Install and Use PHP Composer on CentOS 7](https://linuxize.com/post/how-to-install-and-use-composer-on-centos-7/)
 * [How To Import and Export Databases in MySQL or MariaDB](https://www.digitalocean.com/community/tutorials/how-to-import-and-export-databases-in-mysql-or-mariadb)
 * [Ultimate list of Cheat Sheet for System Administrator](https://geekflare.com/cheat-sheet-system-admin/)
+* [Make RESTful API calls in Rancher/Docker without a port](https://stackoverflow.com/questions/49758202/make-restful-api-calls-in-rancher-docker-without-a-port)
+* \*\*\*\*[**Docker orchestration with Rancher**](https://medium.com/@griggheo/docker-orchestration-with-rancher-1e573cc45707)\*\*\*\*
 
 #### Tools
 
