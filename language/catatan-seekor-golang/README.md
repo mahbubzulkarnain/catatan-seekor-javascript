@@ -60,6 +60,7 @@ fmt.Println(output) // "true"
 * [Golang Bot](https://golangbot.com/)
 * [Golang Code](https://golangcode.com/)
 * [Golang Programs](https://www.golangprograms.com)
+* [Gomock — unit testing made easy](https://medium.com/@duythhuynh/gomock-unit-testing-made-easy-b59a0e947ba7)
 * [High Performance Go Workshop](https://dave.cheney.net/high-performance-go-workshop/dotgo-paris.html)
 * [Hot Example](https://golang.hotexamples.com/)
 * [How to use RegEx in GoLang](https://www.educative.io/edpresso/how-to-use-regex-in-golang)
@@ -70,6 +71,7 @@ fmt.Println(output) // "true"
 * [Regular Expression to Check Indonesian MobilePhone Provider](https://edwin.baculsoft.com/2014/08/regular-expression-to-check-indonesian-mobilephone-provider/)
 * [SOAP - WSDL request in Go Language](https://medium.com/eaciit-engineering/soap-wsdl-request-in-go-language-3861cfb5949e)
 * [Solving the "does not support indexing" error in a Go program](https://flaviocopes.com/golang-does-not-support-indexing/)
+* [Testing with GoMock: A Tutorial](https://blog.codecentric.de/en/2017/08/gomock-tutorial/)
 * [Tutorial Edge](https://tutorialedge.net/course/golang/)
 * [Writing Great Go Code](https://scene-si.org/2018/07/24/writing-great-go-code/)
 

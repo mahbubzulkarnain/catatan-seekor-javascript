@@ -17,7 +17,11 @@
 * [How To Import and Export Databases in MySQL or MariaDB](https://www.digitalocean.com/community/tutorials/how-to-import-and-export-databases-in-mysql-or-mariadb)
 * [Ultimate list of Cheat Sheet for System Administrator](https://geekflare.com/cheat-sheet-system-admin/)
 * [Make RESTful API calls in Rancher/Docker without a port](https://stackoverflow.com/questions/49758202/make-restful-api-calls-in-rancher-docker-without-a-port)
-* \*\*\*\*[**Docker orchestration with Rancher**](https://medium.com/@griggheo/docker-orchestration-with-rancher-1e573cc45707)\*\*\*\*
+* [Docker orchestration with Rancher](https://medium.com/@griggheo/docker-orchestration-with-rancher-1e573cc45707)
+* [CentOS 7 VirtualBox no internet access](https://superuser.com/questions/915536/centos-7-virtualbox-no-internet-access)
+* [How To Install / Enable OpenSSH On CentOS 7](https://phoenixnap.com/kb/how-to-enable-ssh-centos-7)
+* [Update: Rancher 2.5 alone install k3s and can't start without privileged](https://github.com/rancher/rancher/issues/29513)
+* [Reset \(clean up\) a Rancher Docker Host](https://www.claudiokuenzler.com/blog/674/reset-clean-up-a-rancher-docker-host)
 
 #### Tools
 
