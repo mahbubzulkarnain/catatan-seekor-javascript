@@ -54,6 +54,7 @@ fmt.Println(output) // "true"
 * [Building Docker Containers for Go Applications](https://www.callicoder.com/docker-golang-image-container-example/)
 * [Dasar Pemrograman Golang](https://dasarpemrogramangolang.novalagung.com/)
 * [Deploying a Go application on AWS EC2](https://hackernoon.com/deploying-a-go-application-on-aws-ec2-76390c09c2c5)
+* [Firebase: Introducing the Cloud Messaging batch APIs in the Admin SDK](https://hiranya911.medium.com/firebase-introducing-the-cloud-messaging-batch-apis-in-the-admin-sdk-2a3443c412d3)
 * [Getting Started with Kafka in Golang](https://medium.com/@yusufs/getting-started-with-kafka-in-golang-14ccab5fa26)
 * [Getting Started with Serverless Go](https://dev.to/yos/getting-started-with-serverless-go--1lff)
 * [Golang & SOAP Based Services](https://levelup.gitconnected.com/golang-soap-based-services-ccc4b3e3ee2e)
