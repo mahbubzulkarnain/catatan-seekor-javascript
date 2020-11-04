@@ -50,6 +50,7 @@ fmt.Println(output) // "true"
 * [API Resources for Go Developers](https://www.moesif.com/blog/api-guide/development/api-resources-for-go-developers/)
 * [Beating JSON performance with Protobuf](https://auth0.com/blog/beating-json-performance-with-protobuf/)
 * [BogoToBogo](https://www.bogotobogo.com/GoLang/GoLang_HelloWorld.php)
+* [Build app server send requests](https://firebase.google.com/docs/cloud-messaging/send-message)
 * [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/en/)
 * [Building Docker Containers for Go Applications](https://www.callicoder.com/docker-golang-image-container-example/)
 * [Dasar Pemrograman Golang](https://dasarpemrogramangolang.novalagung.com/)
