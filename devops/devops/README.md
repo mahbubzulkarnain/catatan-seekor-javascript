@@ -27,3 +27,8 @@
 
 * [CloudCraft](https://www.cloudcraft.co/)
 
+#### Testing
+
+* [JMeter](https://jmeter.apache.org/usermanual/get-started.html)
+* [Vegeta](https://pkg.go.dev/github.com/tsenart/vegeta/)
+

@@ -4,7 +4,6 @@
 * [Apium](http://appium.io/)
 * [BlazeMeter](https://www.blazemeter.com/)
 * [Burp Suite](https://portswigger.net/burp)
-* [JMeter](https://jmeter.apache.org/usermanual/get-started.html)
 * [K6](https://k6.io)
 * [Load Impact](https://loadimpact.com)
 * [New Relic](https://newrelic.com)

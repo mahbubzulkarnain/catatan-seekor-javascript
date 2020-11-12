@@ -1,4 +1,4 @@
-# Tips and Tricks
+# Tricks
 
 ```javascript
 // Get random item from array
