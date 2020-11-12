@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Android · GitBook</title>
+        <title>Tricks · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -74,10 +74,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../catatan-seekor-php/" />
+    <link rel="next" href="../catatan-seekor-python/" />
     
     
-    <link rel="prev" href="./" />
+    <link rel="prev" href="tools.html" />
     
 
 
@@ -502,9 +502,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.2" data-path="../catatan-seekor-golang/">
+        <li class="chapter " data-level="2.2" data-path="./">
             
-                <a href="../catatan-seekor-golang/">
+                <a href="./">
             
                     
                     Catatan Seekor: GOLANG
@@ -516,9 +516,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.2.1" data-path="../catatan-seekor-golang/fundamental/">
+        <li class="chapter " data-level="2.2.1" data-path="fundamental/">
             
-                <a href="../catatan-seekor-golang/fundamental/">
+                <a href="fundamental/">
             
                     
                     Fundamental
@@ -530,9 +530,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.2.1.1" data-path="../catatan-seekor-golang/fundamental/variables.html">
+        <li class="chapter " data-level="2.2.1.1" data-path="fundamental/variables.html">
             
-                <a href="../catatan-seekor-golang/fundamental/variables.html">
+                <a href="fundamental/variables.html">
             
                     
                     Variables
@@ -543,9 +543,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.2.1.2" data-path="../catatan-seekor-golang/fundamental/data-types.html">
+        <li class="chapter " data-level="2.2.1.2" data-path="fundamental/data-types.html">
             
-                <a href="../catatan-seekor-golang/fundamental/data-types.html">
+                <a href="fundamental/data-types.html">
             
                     
                     Data Types
@@ -561,9 +561,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.2.2" data-path="../catatan-seekor-golang/tools.html">
+        <li class="chapter " data-level="2.2.2" data-path="tools.html">
             
-                <a href="../catatan-seekor-golang/tools.html">
+                <a href="tools.html">
             
                     
                     Tools
@@ -574,9 +574,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.2.3" data-path="../catatan-seekor-golang/tricks.html">
+        <li class="chapter active" data-level="2.2.3" data-path="tricks.html">
             
-                <a href="../catatan-seekor-golang/tricks.html">
+                <a href="tricks.html">
             
                     
                     Tricks
@@ -624,9 +624,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.4" data-path="./">
+        <li class="chapter " data-level="2.4" data-path="../catatan-seekor-java/">
             
-                <a href="./">
+                <a href="../catatan-seekor-java/">
             
                     
                     Catatan Seekor: JAVA
@@ -638,9 +638,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="2.4.1" data-path="android.html">
+        <li class="chapter " data-level="2.4.1" data-path="../catatan-seekor-java/android.html">
             
-                <a href="android.html">
+                <a href="../catatan-seekor-java/android.html">
             
                     
                     Android
@@ -1085,7 +1085,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >Android</a>
+        <a href="../.." >Tricks</a>
     </h1>
 </div>
 
@@ -1100,18 +1100,36 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="android">Android</h1>
-<h3 id="links">Links</h3>
-<ul>
-<li><a href="https://www.tutorialspoint.com/android/android_json_parser.htm" target="_blank">Android - JSON Parser</a></li>
-<li><a href="https://code.tutsplus.com/tutorials/how-to-create-an-android-chat-app-using-firebase--cms-27397" target="_blank">How to Create an Android Chat App Using Firebase</a></li>
-<li><a href="https://www.codepolitan.com/membuat-realtime-chat-sederhana-menggunakan-android-studio-dengan-database-firebase-57cd28c69a642-14500" target="_blank">Membuat Realtime Chat Sederhana Menggunakan Android Studio Dengan Database Firebase</a></li>
-<li><a href="https://firebase.google.com/docs/cloud-messaging/android/send-multiple" target="_blank">Send messages to multiple devices</a></li>
-</ul>
-<h4 id="website">Website</h4>
-<ul>
-<li><a href="https://www.androidhive.info" target="_blank">Android Hive</a> by Ravi Tamada</li>
-</ul>
+                                <h1 id="tricks">Tricks</h1>
+<pre><code class="lang-go"><span class="hljs-keyword">func</span> GetFuncName(fn <span class="hljs-keyword">interface</span>{}) <span class="hljs-keyword">string</span> {
+    <span class="hljs-keyword">return</span> runtime.FuncForPC(reflect.ValueOf(fn).Pointer()).Name()
+}
+</code></pre>
+<pre><code class="lang-go"><span class="hljs-keyword">func</span> CallFuncWithParams(jobFunc <span class="hljs-keyword">interface</span>{}, params []<span class="hljs-keyword">interface</span>{}) ([]reflect.Value, error) {
+    f := reflect.ValueOf(jobFunc)
+    <span class="hljs-keyword">if</span> <span class="hljs-built_in">len</span>(params) != f.Type().NumIn() {
+        <span class="hljs-keyword">return</span> <span class="hljs-literal">nil</span>, errors.New(<span class="hljs-string">&quot;the number of params is not adapted&quot;</span>)
+    }
+
+    in := <span class="hljs-built_in">make</span>([]reflect.Value, <span class="hljs-built_in">len</span>(params))
+    <span class="hljs-keyword">for</span> k, param := <span class="hljs-keyword">range</span> params {
+        in[k] = reflect.ValueOf(param)
+    }
+
+    <span class="hljs-keyword">return</span> f.Call(in), <span class="hljs-literal">nil</span>
+}
+</code></pre>
+<pre><code class="lang-go"><span class="hljs-keyword">func</span> Currency(nominal <span class="hljs-keyword">interface</span>{}) <span class="hljs-keyword">string</span> {
+    p := message.NewPrinter(language.Indonesian)
+    <span class="hljs-keyword">return</span> fmt.Sprintf(<span class="hljs-string">&quot;IDR %v&quot;</span>, p.Sprint(nominal))
+}
+</code></pre>
+<pre><code class="lang-go"><span class="hljs-keyword">func</span> FNCheck(fn <span class="hljs-keyword">func</span>() error) {
+    <span class="hljs-keyword">if</span> err := fn(); err != <span class="hljs-literal">nil</span> {
+        fmt.Println(err.Error())
+    }
+}
+</code></pre>
 
                                 
                                 </section>
@@ -1139,12 +1157,12 @@
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Catatan Seekor: JAVA">
+                <a href="tools.html" class="navigation navigation-prev " aria-label="Previous page: Tools">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../catatan-seekor-php/" class="navigation navigation-next " aria-label="Next page: Catatan Seekor: PHP">
+                <a href="../catatan-seekor-python/" class="navigation navigation-next " aria-label="Next page: Catatan Seekor: PYTHON">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1155,7 +1173,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Android","level":"2.4.1","depth":2,"next":{"title":"Catatan Seekor: PHP","level":"2.5","depth":1,"path":"language/catatan-seekor-php/README.md","ref":"language/catatan-seekor-php/README.md","articles":[{"title":"LDAP","level":"2.5.1","depth":2,"path":"language/catatan-seekor-php/ldap.md","ref":"language/catatan-seekor-php/ldap.md","articles":[]}]},"previous":{"title":"Catatan Seekor: JAVA","level":"2.4","depth":1,"path":"language/catatan-seekor-java/README.md","ref":"language/catatan-seekor-java/README.md","articles":[{"title":"Android","level":"2.4.1","depth":2,"path":"language/catatan-seekor-java/android.md","ref":"language/catatan-seekor-java/android.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["ga","disqus","meta","sitemap"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"catatanseekor"},"meta":{"content":"","data":[{"name":"author","content":"Mahbub Zulkarnain"},{"name":"twitter:site","content":"@mahbub_z"},{"name":"og:image","content":""},{"name":"twitter:image","content":""},{"name":"og:locale","content":"id_ID"}],"name":""},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sitemap":{"hostname":"https://mahbubzulkarnain.github.io/catatan-seekor-the-series/"},"ga":{"configuration":"auto","token":"UA-139611330-1"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"language/catatan-seekor-java/android.md","mtime":"2020-11-12T07:34:32.326Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-11-12T07:35:10.933Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Tricks","level":"2.2.3","depth":2,"next":{"title":"Catatan Seekor: PYTHON","level":"2.3","depth":1,"path":"language/catatan-seekor-python/README.md","ref":"language/catatan-seekor-python/README.md","articles":[{"title":"Django","level":"2.3.1","depth":2,"path":"language/catatan-seekor-python/django.md","ref":"language/catatan-seekor-python/django.md","articles":[]}]},"previous":{"title":"Tools","level":"2.2.2","depth":2,"path":"language/catatan-seekor-golang/tools.md","ref":"language/catatan-seekor-golang/tools.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["ga","disqus","meta","sitemap"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"catatanseekor"},"meta":{"content":"","data":[{"name":"author","content":"Mahbub Zulkarnain"},{"name":"twitter:site","content":"@mahbub_z"},{"name":"og:image","content":""},{"name":"twitter:image","content":""},{"name":"og:locale","content":"id_ID"}],"name":""},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sitemap":{"hostname":"https://mahbubzulkarnain.github.io/catatan-seekor-the-series/"},"ga":{"configuration":"auto","token":"UA-139611330-1"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"language/catatan-seekor-golang/tricks.md","mtime":"2020-11-12T07:34:32.326Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-11-12T07:35:10.933Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
