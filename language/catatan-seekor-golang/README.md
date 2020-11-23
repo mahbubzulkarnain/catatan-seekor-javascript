@@ -58,6 +58,7 @@ fmt.Println(output) // "true"
 * [Firebase: Introducing the Cloud Messaging batch APIs in the Admin SDK](https://hiranya911.medium.com/firebase-introducing-the-cloud-messaging-batch-apis-in-the-admin-sdk-2a3443c412d3)
 * [Getting Started with Kafka in Golang](https://medium.com/@yusufs/getting-started-with-kafka-in-golang-14ccab5fa26)
 * [Getting Started with Serverless Go](https://dev.to/yos/getting-started-with-serverless-go--1lff)
+* [Go tools and GitLab: How to do continuous integration like a boss](https://about.gitlab.com/blog/2017/11/27/go-tools-and-gitlab-how-to-do-continuous-integration-like-a-boss/)
 * [Golang & SOAP Based Services](https://levelup.gitconnected.com/golang-soap-based-services-ccc4b3e3ee2e)
 * [Golang Bot](https://golangbot.com/)
 * [Golang Code](https://golangcode.com/)
