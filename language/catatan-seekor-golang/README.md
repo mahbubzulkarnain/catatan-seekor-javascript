@@ -60,6 +60,7 @@ fmt.Println(output) // "true"
 * [Getting Started with Serverless Go](https://dev.to/yos/getting-started-with-serverless-go--1lff)
 * [Go tools and GitLab: How to do continuous integration like a boss](https://about.gitlab.com/blog/2017/11/27/go-tools-and-gitlab-how-to-do-continuous-integration-like-a-boss/)
 * [Golang & SOAP Based Services](https://levelup.gitconnected.com/golang-soap-based-services-ccc4b3e3ee2e)
+* [Golang and Gitlab continuous integration](https://stackoverflow.com/questions/57115037/golang-and-gitlab-continuous-integration)
 * [Golang Bot](https://golangbot.com/)
 * [Golang Code](https://golangcode.com/)
 * [Golang Programs](https://www.golangprograms.com)
