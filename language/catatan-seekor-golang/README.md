@@ -73,6 +73,7 @@ fmt.Println(output) // "true"
 * [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
 * [Membangun Realtime Canvas Drawing Dengan Go, Websocket dan P5.js](https://medium.com/@wuriyantomusobar/membangun-realtime-canvas-drawing-dengan-go-websocket-dan-p5-js-672c799d3044)
 * [Menggunakan MongoDB pada GOLANG](https://medium.com/programmer-geek/menggunakan-mysql-pada-golang-27f3148d0c66?source=your_stories_page---------------------------)
+* [Practical Go: Real world advice for writing maintainable Go programs](https://dave.cheney.net/practical-go/presentations/qcon-china.html)
 * [Regular Expression to Check Indonesian MobilePhone Provider](https://edwin.baculsoft.com/2014/08/regular-expression-to-check-indonesian-mobilephone-provider/)
 * [Response caching with Gin and Golang](https://www.saturnfive.io/blog/response-caching-with-gin-and-golang)
 * [SOAP - WSDL request in Go Language](https://medium.com/eaciit-engineering/soap-wsdl-request-in-go-language-3861cfb5949e)
