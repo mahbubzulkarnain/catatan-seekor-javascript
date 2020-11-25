@@ -59,6 +59,7 @@ fmt.Println(output) // "true"
 * [Getting Started with Kafka in Golang](https://medium.com/@yusufs/getting-started-with-kafka-in-golang-14ccab5fa26)
 * [Getting Started with Serverless Go](https://dev.to/yos/getting-started-with-serverless-go--1lff)
 * [Go tools and GitLab: How to do continuous integration like a boss](https://about.gitlab.com/blog/2017/11/27/go-tools-and-gitlab-how-to-do-continuous-integration-like-a-boss/)
+* [Golang : Unit Test with Mocking Technique](https://budimanokky93.medium.com/golang-unit-test-mocking-technique-4d9225d1dc76)
 * [Golang & SOAP Based Services](https://levelup.gitconnected.com/golang-soap-based-services-ccc4b3e3ee2e)
 * [Golang and Gitlab continuous integration](https://stackoverflow.com/questions/57115037/golang-and-gitlab-continuous-integration)
 * [Golang Bot](https://golangbot.com/)
@@ -80,6 +81,8 @@ fmt.Println(output) // "true"
 * [Solving the "does not support indexing" error in a Go program](https://flaviocopes.com/golang-does-not-support-indexing/)
 * [Testing with GoMock: A Tutorial](https://blog.codecentric.de/en/2017/08/gomock-tutorial/)
 * [Tutorial Edge](https://tutorialedge.net/course/golang/)
+* [Unit Test \(SQL\) in Golang](https://medium.com/easyread/unit-test-sql-in-golang-5af19075e68e)
+* [Unit Test in Golang](https://medium.com/tunaiku-tech/unit-test-in-golang-57a2a896d90d)
 * [Writing Great Go Code](https://scene-si.org/2018/07/24/writing-great-go-code/)
 
 #### Architecture
