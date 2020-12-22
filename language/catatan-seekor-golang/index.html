@@ -556,12 +556,109 @@
             
         </li>
     
+        <li class="chapter " data-level="2.2.1.3" data-path="fundamental/conditional.html">
+            
+                <a href="fundamental/conditional.html">
+            
+                    
+                    Conditional
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.4" data-path="fundamental/looping.html">
+            
+                <a href="fundamental/looping.html">
+            
+                    
+                    Looping
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
         </li>
     
-        <li class="chapter " data-level="2.2.2" data-path="tools.html">
+        <li class="chapter " data-level="2.2.2" data-path="refferensi/">
+            
+                <a href="refferensi/">
+            
+                    
+                    Refferensi
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.2.1" data-path="refferensi/article.html">
+            
+                <a href="refferensi/article.html">
+            
+                    
+                    Article
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2.2" data-path="refferensi/docs.html">
+            
+                <a href="refferensi/docs.html">
+            
+                    
+                    Docs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2.3" data-path="refferensi/github.html">
+            
+                <a href="refferensi/github.html">
+            
+                    
+                    Github
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2.4" data-path="refferensi/stackoverflow.html">
+            
+                <a href="refferensi/stackoverflow.html">
+            
+                    
+                    Stackoverflow
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="tools.html">
             
                 <a href="tools.html">
             
@@ -574,7 +671,7 @@
             
         </li>
     
-        <li class="chapter " data-level="2.2.3" data-path="tricks.html">
+        <li class="chapter " data-level="2.2.4" data-path="tricks.html">
             
                 <a href="tricks.html">
             
@@ -1101,114 +1198,6 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="catatan-seekor-golang">Catatan Seekor: GOLANG</h1>
-<h4 id="conditional">Conditional</h4>
-<h4 id="the-if-statement">The <em>if</em> Statement</h4>
-<pre><code class="lang-go"><span class="hljs-keyword">const</span> conditional = <span class="hljs-literal">true</span>
-<span class="hljs-keyword">const</span> isTrue = <span class="hljs-string">&quot;text true&quot;</span>
-
-<span class="hljs-keyword">if</span> conditional {
-    fmt.Println(isTrue)
-}
-
-<span class="hljs-comment">// Output: &quot;text true&quot;</span>
-</code></pre>
-<h3 id="looping">Looping</h3>
-<h4 id="the-for-statement">The <em>for</em> Statement</h4>
-<pre><code class="lang-go">input := [...] <span class="hljs-keyword">string</span> {<span class="hljs-string">&quot;t&quot;</span>,<span class="hljs-string">&quot;&quot;</span>,<span class="hljs-string">&quot;r&quot;</span>,<span class="hljs-string">&quot;&quot;</span>,<span class="hljs-string">&quot;u&quot;</span>,<span class="hljs-string">&quot;&quot;</span>,<span class="hljs-string">&quot;e&quot;</span>,<span class="hljs-string">&quot;1&quot;</span>,<span class="hljs-string">&quot;2&quot;</span>}
-
-<span class="hljs-keyword">var</span> output <span class="hljs-keyword">string</span>
-<span class="hljs-keyword">for</span> i := <span class="hljs-number">0</span>; i &lt; <span class="hljs-built_in">len</span>(input); i++ {
-    <span class="hljs-keyword">if</span> input[i] == <span class="hljs-string">&quot;&quot;</span> {
-        <span class="hljs-keyword">continue</span>
-    }
-    <span class="hljs-keyword">if</span> <span class="hljs-built_in">len</span>(output) &gt; <span class="hljs-number">3</span> {
-        <span class="hljs-keyword">break</span>
-    }
-    output += input[i]
-}
-
-fmt.Println(output) <span class="hljs-comment">// &quot;true&quot;</span>
-</code></pre>
-<h3 id="links">Links</h3>
-<ul>
-<li><a href="https://techinscribed.com/5-ways-to-live-reloading-go-applications/" target="_blank">5 Ways to Live Reloading Go Applications</a></li>
-<li><a href="https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/" target="_blank">Allocation efficiency in high-performance Go services</a></li>
-<li><a href="https://awesome-docker.netlify.app/" target="_blank">Awesome Docker</a></li>
-<li><a href="https://golangexample.com/a-web-framework-written-in-golang/" target="_blank">A web framework written in Golang</a></li>
-<li><a href="http://tleyden.github.io/blog/2014/11/12/an-example-of-using-nsq-from-go/" target="_blank">An Example of Using NSQ From Go</a></li>
-<li><a href="https://www.moesif.com/blog/api-guide/development/api-resources-for-go-developers/" target="_blank">API Resources for Go Developers</a></li>
-<li><a href="https://dev.to/techschoolguru/series/7172" target="_blank">Backend master class Series&apos; Articles</a></li>
-<li><a href="https://auth0.com/blog/beating-json-performance-with-protobuf/" target="_blank">Beating JSON performance with Protobuf</a></li>
-<li><a href="https://www.bogotobogo.com/GoLang/GoLang_HelloWorld.php" target="_blank">BogoToBogo</a></li>
-<li><a href="https://firebase.google.com/docs/cloud-messaging/send-message" target="_blank">Build app server send requests</a></li>
-<li><a href="https://astaxie.gitbooks.io/build-web-application-with-golang/en/" target="_blank">Build Web Application with Golang</a></li>
-<li><a href="https://www.callicoder.com/docker-golang-image-container-example/" target="_blank">Building Docker Containers for Go Applications</a></li>
-<li><a href="https://dasarpemrogramangolang.novalagung.com/" target="_blank">Dasar Pemrograman Golang</a></li>
-<li><a href="https://hackernoon.com/deploying-a-go-application-on-aws-ec2-76390c09c2c5" target="_blank">Deploying a Go application on AWS EC2</a></li>
-<li><a href="https://stackoverflow.com/questions/35681595/escape-variables-with-printf" target="_blank">Escape Variables with Printf</a></li>
-<li><a href="https://medium.com/rungo/everything-you-need-to-know-about-packages-in-go-b8bac62b74cc" target="_blank">Everything you need to know about Packages in Go</a></li>
-<li><a href="https://hiranya911.medium.com/firebase-introducing-the-cloud-messaging-batch-apis-in-the-admin-sdk-2a3443c412d3" target="_blank">Firebase: Introducing the Cloud Messaging batch APIs in the Admin SDK</a></li>
-<li><a href="https://medium.com/@yusufs/getting-started-with-kafka-in-golang-14ccab5fa26" target="_blank">Getting Started with Kafka in Golang</a></li>
-<li><a href="https://dev.to/yos/getting-started-with-serverless-go--1lff" target="_blank">Getting Started with Serverless Go</a></li>
-<li><a href="https://about.gitlab.com/blog/2017/11/27/go-tools-and-gitlab-how-to-do-continuous-integration-like-a-boss/" target="_blank">Go tools and GitLab: How to do continuous integration like a boss</a></li>
-<li><a href="https://budimanokky93.medium.com/golang-unit-test-mocking-technique-4d9225d1dc76" target="_blank">Golang : Unit Test with Mocking Technique</a></li>
-<li><a href="https://levelup.gitconnected.com/golang-soap-based-services-ccc4b3e3ee2e" target="_blank">Golang &amp; SOAP Based Services</a></li>
-<li><a href="https://stackoverflow.com/questions/57115037/golang-and-gitlab-continuous-integration" target="_blank">Golang and Gitlab continuous integration</a></li>
-<li><a href="https://golangbot.com/" target="_blank">Golang Bot</a></li>
-<li><a href="https://golangcode.com/" target="_blank">Golang Code</a></li>
-<li><a href="https://www.golangprograms.com" target="_blank">Golang Programs</a></li>
-<li><a href="https://medium.com/@duythhuynh/gomock-unit-testing-made-easy-b59a0e947ba7" target="_blank">Gomock &#x2014; unit testing made easy</a></li>
-<li><a href="https://dave.cheney.net/high-performance-go-workshop/dotgo-paris.html" target="_blank">High Performance Go Workshop</a></li>
-<li><a href="https://golang.hotexamples.com/" target="_blank">Hot Example</a></li>
-<li><a href="https://www.educative.io/edpresso/how-to-use-regex-in-golang" target="_blank">How to use RegEx in GoLang</a></li>
-<li><a href="https://medium.com/easyread/implementasi-kafka-menggunakan-golang-testing-db183e0b3c29" target="_blank">Implementasi Kafka menggunakan Golang + Testing</a></li>
-<li><a href="https://sal.as/post/install-golan-on-wsl/" target="_blank">Install Golang on WSL</a></li>
-<li><a href="https://cloudnative.ly/lambdas-with-golang-a-technical-guide-6f381284897b" target="_blank">Lambdas with GoLang &#x2014; a technical guide</a></li>
-<li><a href="https://quii.gitbook.io/learn-go-with-tests/" target="_blank">Learn Go with Tests</a></li>
-<li><a href="https://medium.com/@wuriyantomusobar/membangun-realtime-canvas-drawing-dengan-go-websocket-dan-p5-js-672c799d3044" target="_blank">Membangun Realtime Canvas Drawing Dengan Go, Websocket dan P5.js</a></li>
-<li><a href="https://medium.com/programmer-geek/menggunakan-mysql-pada-golang-27f3148d0c66?source=your_stories_page---------------------------" target="_blank">Menggunakan MongoDB pada GOLANG</a></li>
-<li><a href="https://dave.cheney.net/practical-go/presentations/qcon-china.html" target="_blank">Practical Go: Real world advice for writing maintainable Go programs</a></li>
-<li><a href="https://medium.com/swlh/protect-image-file-using-encryption-written-in-go-7d016c5a4719" target="_blank">Protect Image File Using Encryption (Written in Go)</a></li>
-<li><a href="https://edwin.baculsoft.com/2014/08/regular-expression-to-check-indonesian-mobilephone-provider/" target="_blank">Regular Expression to Check Indonesian MobilePhone Provider</a></li>
-<li><a href="https://www.saturnfive.io/blog/response-caching-with-gin-and-golang" target="_blank">Response caching with Gin and Golang</a></li>
-<li><a href="https://proandroiddev.com/security-best-practices-symmetric-encryption-with-aes-in-java-7616beaaade9" target="_blank">Security Best Practices: Symmetric Encryption with AES in Java and Android</a></li>
-<li><a href="https://medium.com/@betakuang/setup-go-development-environment-with-vs-code-and-wsl-on-windows-62bd4625c6a7" target="_blank">Setup Go Development Environment with VS Code and WSL on Windows</a></li>
-<li><a href="https://medium.com/swlh/setup-windows-10-with-wsl-for-golang-development-a284c279d885" target="_blank">Setup Windows 10 With WSL for Golang Development</a></li>
-<li><a href="https://medium.com/eaciit-engineering/soap-wsdl-request-in-go-language-3861cfb5949e" target="_blank">SOAP - WSDL request in Go Language</a></li>
-<li><a href="https://flaviocopes.com/golang-does-not-support-indexing/" target="_blank">Solving the &quot;does not support indexing&quot; error in a Go program</a></li>
-<li><a href="https://blog.codecentric.de/en/2017/08/gomock-tutorial/" target="_blank">Testing with GoMock: A Tutorial</a></li>
-<li><a href="https://tutorialedge.net/course/golang/" target="_blank">Tutorial Edge</a></li>
-<li><a href="https://medium.com/easyread/unit-test-sql-in-golang-5af19075e68e" target="_blank">Unit Test (SQL) in Golang</a></li>
-<li><a href="https://medium.com/tunaiku-tech/unit-test-in-golang-57a2a896d90d" target="_blank">Unit Test in Golang</a></li>
-<li><a href="https://scene-si.org/2018/07/24/writing-great-go-code/" target="_blank">Writing Great Go Code</a></li>
-</ul>
-<h4 id="architecture">Architecture</h4>
-<ul>
-<li><a href="https://dev.to/eminetto/clean-architecture-using-golang-5791" target="_blank">Clean Architecture using Golang</a> by <a href="https://github.com/eminetto" target="_blank">Elton Minetto</a></li>
-<li><a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html" target="_blank">The Clean Code Blog</a> by <a href="https://github.com/unclebob" target="_blank">Robert C. Martin ( Uncle Bob )</a></li>
-<li><a href="https://hackernoon.com/golang-clean-archithecture-efd6d7c43047" target="_blank">Trying Clean Architecture on Golang</a> by <a href="https://github.com/bxcodec" target="_blank">Iman Tumorang</a></li>
-</ul>
-<h4 id="stackoverflow">Stackoverflow</h4>
-<ul>
-<li><a href="https://stackoverflow.com/questions/31048557/assigning-null-to-json-fields-instead-of-empty-strings" target="_blank">Assigning null to JSON fields instead of empty strings</a></li>
-<li><a href="https://stackoverflow.com/questions/26161541/docker-go-get-from-a-private-github-repo" target="_blank">Docker: go get from a private GitHub repo</a></li>
-<li><a href="https://stackoverflow.com/questions/34046194/how-to-pass-arguments-to-router-handlers-in-golang-using-gin-web-framework" target="_blank">How to pass arguments to router handlers in Golang using Gin web framework?</a></li>
-<li><a href="https://stackoverflow.com/questions/29707689/how-to-use-go-with-a-private-gitlab-repo" target="_blank">How to use Go with a private GitLab repo</a></li>
-<li><a href="https://stackoverflow.com/questions/40397781/gometalinter-errcheck-returns-a-warning-on-deferring-a-func-which-returns-a-va" target="_blank">gometalinter / errcheck returns a warning on deferring a func which returns a variable</a></li>
-<li><a href="https://stackoverflow.com/questions/26722450/remove-diacritics-using-go" target="_blank">Remove diacritics using Go</a></li>
-</ul>
-<h4 id="cicd">CI/CD</h4>
-<ul>
-<li><a href="https://golangci.com/" target="_blank">GolangCI</a></li>
-</ul>
-<h4 id="github">Github</h4>
-<ul>
-<li><a href="https://github.com/casbin/awesome-auth" target="_blank">awesome-auth</a></li>
-</ul>
-<h4 id="docs">Docs</h4>
-<ul>
-<li><a href="https://golang.org/doc/" target="_blank">Golang</a></li>
-</ul>
 
                                 
                                 </section>
@@ -1252,7 +1241,7 @@ fmt.Println(output) <span class="hljs-comment">// &quot;true&quot;</span>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"description":"Robert Griesemer, Rob Pike, and Ken Thompson.","title":"Catatan Seekor: GOLANG","level":"2.2","depth":1,"next":{"title":"Fundamental","level":"2.2.1","depth":2,"path":"language/catatan-seekor-golang/fundamental/README.md","ref":"language/catatan-seekor-golang/fundamental/README.md","articles":[{"title":"Variables","level":"2.2.1.1","depth":3,"path":"language/catatan-seekor-golang/fundamental/variables.md","ref":"language/catatan-seekor-golang/fundamental/variables.md","articles":[]},{"title":"Data Types","level":"2.2.1.2","depth":3,"path":"language/catatan-seekor-golang/fundamental/data-types.md","ref":"language/catatan-seekor-golang/fundamental/data-types.md","articles":[]}]},"previous":{"title":"RegExp","level":"2.1.6.1","depth":3,"path":"language/catatan-seekor-javascript/tips-and-tricks/regexp.md","ref":"language/catatan-seekor-javascript/tips-and-tricks/regexp.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["ga","disqus","meta","sitemap"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"catatanseekor"},"meta":{"content":"","data":[{"name":"author","content":"Mahbub Zulkarnain"},{"name":"twitter:site","content":"@mahbub_z"},{"name":"og:image","content":""},{"name":"twitter:image","content":""},{"name":"og:locale","content":"id_ID"}],"name":""},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sitemap":{"hostname":"https://mahbubzulkarnain.github.io/catatan-seekor-the-series/"},"ga":{"configuration":"auto","token":"UA-139611330-1"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"language/catatan-seekor-golang/README.md","mtime":"2020-12-22T15:10:48.838Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-22T15:11:32.149Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"description":"Robert Griesemer, Rob Pike, and Ken Thompson.","title":"Catatan Seekor: GOLANG","level":"2.2","depth":1,"next":{"title":"Fundamental","level":"2.2.1","depth":2,"path":"language/catatan-seekor-golang/fundamental/README.md","ref":"language/catatan-seekor-golang/fundamental/README.md","articles":[{"title":"Variables","level":"2.2.1.1","depth":3,"path":"language/catatan-seekor-golang/fundamental/variables.md","ref":"language/catatan-seekor-golang/fundamental/variables.md","articles":[]},{"title":"Data Types","level":"2.2.1.2","depth":3,"path":"language/catatan-seekor-golang/fundamental/data-types.md","ref":"language/catatan-seekor-golang/fundamental/data-types.md","articles":[]},{"title":"Conditional","level":"2.2.1.3","depth":3,"path":"language/catatan-seekor-golang/fundamental/conditional.md","ref":"language/catatan-seekor-golang/fundamental/conditional.md","articles":[]},{"title":"Looping","level":"2.2.1.4","depth":3,"path":"language/catatan-seekor-golang/fundamental/looping.md","ref":"language/catatan-seekor-golang/fundamental/looping.md","articles":[]}]},"previous":{"title":"RegExp","level":"2.1.6.1","depth":3,"path":"language/catatan-seekor-javascript/tips-and-tricks/regexp.md","ref":"language/catatan-seekor-javascript/tips-and-tricks/regexp.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["ga","disqus","meta","sitemap"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"catatanseekor"},"meta":{"content":"","data":[{"name":"author","content":"Mahbub Zulkarnain"},{"name":"twitter:site","content":"@mahbub_z"},{"name":"og:image","content":""},{"name":"twitter:image","content":""},{"name":"og:locale","content":"id_ID"}],"name":""},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sitemap":{"hostname":"https://mahbubzulkarnain.github.io/catatan-seekor-the-series/"},"ga":{"configuration":"auto","token":"UA-139611330-1"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"language/catatan-seekor-golang/README.md","mtime":"2020-12-22T15:22:33.019Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-22T15:23:14.924Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
