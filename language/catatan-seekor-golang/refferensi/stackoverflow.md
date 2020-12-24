@@ -1,6 +1,7 @@
 # Stackoverflow
 
 * [Assigning null to JSON fields instead of empty strings](https://stackoverflow.com/questions/31048557/assigning-null-to-json-fields-instead-of-empty-strings)
+* [cmd/go: cannot get anything from a private repository, x509: certificate signed by unknown authority on OS X](https://github.com/golang/go/issues/29059)
 * [Docker: go get from a private GitHub repo](https://stackoverflow.com/questions/26161541/docker-go-get-from-a-private-github-repo)
 * [How to pass arguments to router handlers in Golang using Gin web framework?](https://stackoverflow.com/questions/34046194/how-to-pass-arguments-to-router-handlers-in-golang-using-gin-web-framework)
 * [How to use Go with a private GitLab repo](https://stackoverflow.com/questions/29707689/how-to-use-go-with-a-private-gitlab-repo)
