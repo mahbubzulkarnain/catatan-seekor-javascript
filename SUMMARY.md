@@ -86,6 +86,7 @@
 
 * [Catatan Seekor: LINUX](os/catatan-seekor-linux.md)
 * [Catatan Seekor: MACBOOK](os/catatan-seekor-macbook.md)
+* [...](os/....md)
 
 ## DESIGN
 
