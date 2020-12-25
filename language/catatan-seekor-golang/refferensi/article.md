@@ -37,6 +37,7 @@
 * [Install Golang on WSL](https://sal.as/post/install-golan-on-wsl/)
 * [Lambdas with GoLang — a technical guide](https://cloudnative.ly/lambdas-with-golang-a-technical-guide-6f381284897b)
 * [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
+* [Level up your Go Presentations](https://medium.com/@drashti.ved_84172/level-up-your-go-presentations-b4d06fc495e5)
 * [Membangun Realtime Canvas Drawing Dengan Go, Websocket dan P5.js](https://medium.com/@wuriyantomusobar/membangun-realtime-canvas-drawing-dengan-go-websocket-dan-p5-js-672c799d3044)
 * [Menggunakan MongoDB pada GOLANG](https://medium.com/programmer-geek/menggunakan-mysql-pada-golang-27f3148d0c66?source=your_stories_page---------------------------)
 * [gitlab-runner x509: certificate signed by unknown authority](https://stackoverflow.com/questions/55622960/gitlab-runner-x509-certificate-signed-by-unknown-authority)
