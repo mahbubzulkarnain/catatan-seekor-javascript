@@ -5,6 +5,7 @@
 * [Adding Alias to Create React Native App \(CRNA\) in 2 minutes](https://medium.com/@sterlingcobb/adding-alias-to-create-react-native-app-crna-in-2-minutes-45574f4a7729)
 * [Advanced GraphQL Queries, Error Handling, Data Loader](https://code-maze.com/advanced-graphql-queries/)
 * [An Introduction To Storybook: Organize How You Build JS Components](https://scotch.io/tutorials/an-introduction-to-storybook-organize-how-you-build-js-components)
+* [Angular 10 CRUD Application example with Web API](https://bezkoder.com/angular-10-crud-app/)
 * [Application State Management with React](https://kentcdodds.com/blog/application-state-management-with-react)
 * [Authentication and Authorization in GraphQL \(and how GraphQL-Modules can help\)](https://medium.com/the-guild/authentication-and-authorization-in-graphql-and-how-graphql-modules-can-help-fadc1ee5b0c2)
 * [Best Practices for Serverless Development](https://medium.com/serverlessguru/best-practices-for-serverless-development-d13061b3593e)
