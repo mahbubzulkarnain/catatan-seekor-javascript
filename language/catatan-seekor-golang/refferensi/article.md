@@ -46,6 +46,7 @@
 * [Regular Expression to Check Indonesian MobilePhone Provider](https://edwin.baculsoft.com/2014/08/regular-expression-to-check-indonesian-mobilephone-provider/)
 * [Response caching with Gin and Golang](https://www.saturnfive.io/blog/response-caching-with-gin-and-golang)
 * [Security Best Practices: Symmetric Encryption with AES in Java and Android](https://proandroiddev.com/security-best-practices-symmetric-encryption-with-aes-in-java-7616beaaade9)
+* [SEMAKIN BOTAK DAN KAYA DENGAN ISO-8583](https://ahmadsyafiih.wordpress.com/2016/11/04/semakin-botak-dan-kaya-dengan-iso-8583/)
 * [Setup Go Development Environment with VS Code and WSL on Windows](https://medium.com/@betakuang/setup-go-development-environment-with-vs-code-and-wsl-on-windows-62bd4625c6a7)
 * [Setup Windows 10 With WSL for Golang Development](https://medium.com/swlh/setup-windows-10-with-wsl-for-golang-development-a284c279d885)
 * [SOAP - WSDL request in Go Language](https://medium.com/eaciit-engineering/soap-wsdl-request-in-go-language-3861cfb5949e)
