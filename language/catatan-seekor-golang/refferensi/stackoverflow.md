@@ -11,6 +11,7 @@
 * [How to use Go with a private GitLab repo](https://stackoverflow.com/questions/29707689/how-to-use-go-with-a-private-gitlab-repo)
 * [int16 to byte array](https://stackoverflow.com/questions/17260107/int16-to-byte-array)
 * [Remove diacritics using Go](https://stackoverflow.com/questions/26722450/remove-diacritics-using-go)
+* [Repeat code if an error occured](https://stackoverflow.com/questions/47606761/repeat-code-if-an-error-occured)
 
 #### 
 
