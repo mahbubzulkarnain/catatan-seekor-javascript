@@ -22,6 +22,7 @@
 * [How To Install / Enable OpenSSH On CentOS 7](https://phoenixnap.com/kb/how-to-enable-ssh-centos-7)
 * [Update: Rancher 2.5 alone install k3s and can't start without privileged](https://github.com/rancher/rancher/issues/29513)
 * [Reset \(clean up\) a Rancher Docker Host](https://www.claudiokuenzler.com/blog/674/reset-clean-up-a-rancher-docker-host)
+* [Docker-Based Build Pipelines \(Part 2\) - Continuous Deployment](https://rancher.com/continuous-deployment)
 
 #### Tools
 
