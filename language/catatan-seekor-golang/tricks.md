@@ -38,3 +38,8 @@ func FNCheck(fn func() error) {
 }
 ```
 
+```go
+// for run main go background process
+go run main.go &
+```
+
