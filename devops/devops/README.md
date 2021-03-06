@@ -1,4 +1,4 @@
-# Catatan Seekor: DEVOPS
+# Catatan Seekor: DevOps
 
 * [8 Tips for Containerizing Django Apps](https://hackernoon.com/8-tips-for-containerizing-django-apps-5340647632a4)
 * [A Complete List of HTTP Status Lines](https://www.lifewire.com/http-status-lines-2623465)
