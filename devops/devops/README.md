@@ -24,6 +24,7 @@
 * [Reset \(clean up\) a Rancher Docker Host](https://www.claudiokuenzler.com/blog/674/reset-clean-up-a-rancher-docker-host)
 * [Docker-based build pipelines \(Part 1\) - Continuous Integration and Testing](https://rancher.com/docker-based-build-pipelines-part-1-continuous-integration-and-testing/)
 * [Docker-Based Build Pipelines \(Part 2\) - Continuous Deployment](https://rancher.com/continuous-deployment)
+* [Initial Server Setup with CentOS 7](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-centos-7)
 
 #### Tools
 
