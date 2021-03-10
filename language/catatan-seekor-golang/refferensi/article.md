@@ -1,12 +1,13 @@
 # Article
 
 * [5 Ways to Live Reloading Go Applications](https://techinscribed.com/5-ways-to-live-reloading-go-applications/)
-* [Allocation efficiency in high-performance Go services](https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/)
-* [Awesome Docker](https://awesome-docker.netlify.app/)
+* [A clean way to implement database transaction in Golang](https://dev.to/techschoolguru/a-clean-way-to-implement-database-transaction-in-golang-2ba)
 * [A Microservices Workflow with Golang and Gitlab CI](https://imti.co/gitlabci-golang-microservices/)
 * [A web framework written in Golang](https://golangexample.com/a-web-framework-written-in-golang/)
+* [Allocation efficiency in high-performance Go services](https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/)
 * [An Example of Using NSQ From Go](http://tleyden.github.io/blog/2014/11/12/an-example-of-using-nsq-from-go/)
 * [API Resources for Go Developers](https://www.moesif.com/blog/api-guide/development/api-resources-for-go-developers/)
+* [Awesome Docker](https://awesome-docker.netlify.app/)
 * [Backend master class Series' Articles](https://dev.to/techschoolguru/series/7172)
 * [Beating JSON performance with Protobuf](https://auth0.com/blog/beating-json-performance-with-protobuf/)
 * [BogoToBogo](https://www.bogotobogo.com/GoLang/GoLang_HelloWorld.php)
