@@ -14,6 +14,8 @@
 * [Build app server send requests](https://firebase.google.com/docs/cloud-messaging/send-message)
 * [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/en/)
 * [Building Docker Containers for Go Applications](https://www.callicoder.com/docker-golang-image-container-example/)
+* [Clean Architecture, 2 years later](https://eltonminetto.dev/en/post/2020-07-06-clean-architecture-2years-later/)
+* [Creating test mocks using GoMock](https://eltonminetto.dev/en/post/2019-12-19-gomock/)
 * [Dasar Pemrograman Golang](https://dasarpemrogramangolang.novalagung.com/)
 * [Deploying a Go application on AWS EC2](https://hackernoon.com/deploying-a-go-application-on-aws-ec2-76390c09c2c5)
 * [Escape Variables with Printf](https://stackoverflow.com/questions/35681595/escape-variables-with-printf)
