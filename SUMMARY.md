@@ -61,6 +61,10 @@
 * [Catatan Seekor: MongoDB](database/catatan-seekor-mongodb/README.md)
   * [Refferensi](database/catatan-seekor-mongodb/refferensi.md)
 
+## CACHE
+
+* [Catatan Seekor: REDIS](cache/catatan-seekor-redis.md)
+
 ## Messaging
 
 * [Catatan Seekor: RabbitMQ](messaging/catatan-seekor-rabbitmq.md)
