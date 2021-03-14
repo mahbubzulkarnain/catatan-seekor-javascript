@@ -57,6 +57,7 @@
 * [SOAP - WSDL request in Go Language](https://medium.com/eaciit-engineering/soap-wsdl-request-in-go-language-3861cfb5949e)
 * [Solving the "does not support indexing" error in a Go program](https://flaviocopes.com/golang-does-not-support-indexing/)
 * [Testing with GoMock: A Tutorial](https://blog.codecentric.de/en/2017/08/gomock-tutorial/)
+* [Try and Catch in Golang](https://dzone.com/articles/try-and-catch-in-golang)
 * [Tutorial Edge](https://tutorialedge.net/course/golang/)
 * [Unit Test \(SQL\) in Golang](https://medium.com/easyread/unit-test-sql-in-golang-5af19075e68e)
 * [Unit Test in Golang](https://medium.com/tunaiku-tech/unit-test-in-golang-57a2a896d90d)
