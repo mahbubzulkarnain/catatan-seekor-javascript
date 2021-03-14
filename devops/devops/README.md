@@ -17,6 +17,7 @@
 * [How to install Apache, PHP 7.3 and MySQL on CentOS 7.6](https://www.howtoforge.com/tutorial/centos-lamp-server-apache-mysql-php/)
 * [How to Install and Use PHP Composer on CentOS 7](https://linuxize.com/post/how-to-install-and-use-composer-on-centos-7/)
 * [How to Install Rancher Docker Container Manager on CentOS 7](https://www.howtoforge.com/tutorial/centos-rancher-docker-container-management-platform/)
+* \*\*\*\*[How to switch user in Centos](https://stackoverflow.com/questions/21882645/how-to-switch-user-in-centos)
 * [Initial Server Setup with CentOS 7](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-centos-7)
 * [Install Production Kubernetes Cluster with Rancher RKE](https://computingforgeeks.com/install-kubernetes-production-cluster-using-rancher-rke/)
 * [Interface IP address is removed automatically on CentOs running inside VirtualBox](https://serverfault.com/questions/514340/interface-ip-address-is-removed-automatically-on-centos-running-inside-virtualbo)
