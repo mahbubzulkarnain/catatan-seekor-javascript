@@ -21,6 +21,7 @@
 * [Deploying a Go application on AWS EC2](https://hackernoon.com/deploying-a-go-application-on-aws-ec2-76390c09c2c5)
 * [Escape Variables with Printf](https://stackoverflow.com/questions/35681595/escape-variables-with-printf)
 * [Everything you need to know about Packages in Go](https://medium.com/rungo/everything-you-need-to-know-about-packages-in-go-b8bac62b74cc)
+* [Fast Golang API Performance with In Memory Key Value Storing Cache](https://adityarama1210.medium.com/fast-golang-api-performance-with-in-memory-key-value-storing-cache-1b248c182bdb)
 * [Firebase: Introducing the Cloud Messaging batch APIs in the Admin SDK](https://hiranya911.medium.com/firebase-introducing-the-cloud-messaging-batch-apis-in-the-admin-sdk-2a3443c412d3)
 * [Getting Started with Kafka in Golang](https://medium.com/@yusufs/getting-started-with-kafka-in-golang-14ccab5fa26)
 * [Getting Started with Serverless Go](https://dev.to/yos/getting-started-with-serverless-go--1lff)
