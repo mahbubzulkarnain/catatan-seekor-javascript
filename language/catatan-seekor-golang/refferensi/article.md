@@ -59,6 +59,7 @@
 * [Setup Windows 10 With WSL for Golang Development](https://medium.com/swlh/setup-windows-10-with-wsl-for-golang-development-a284c279d885)
 * [SOAP - WSDL request in Go Language](https://medium.com/eaciit-engineering/soap-wsdl-request-in-go-language-3861cfb5949e)
 * [Solving the "does not support indexing" error in a Go program](https://flaviocopes.com/golang-does-not-support-indexing/)
+* [Storing Go Structs in Redis using ReJSON](https://itnext.io/storing-go-structs-in-redis-using-rejson-dab7f8fc0053)
 * [Testing with GoMock: A Tutorial](https://blog.codecentric.de/en/2017/08/gomock-tutorial/)
 * [Try and Catch in Golang](https://dzone.com/articles/try-and-catch-in-golang)
 * [Tutorial Edge](https://tutorialedge.net/course/golang/)
