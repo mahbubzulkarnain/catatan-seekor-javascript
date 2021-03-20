@@ -24,6 +24,7 @@
 * [Fast Golang API Performance with In Memory Key Value Storing Cache](https://adityarama1210.medium.com/fast-golang-api-performance-with-in-memory-key-value-storing-cache-1b248c182bdb)
 * [Firebase: Introducing the Cloud Messaging batch APIs in the Admin SDK](https://hiranya911.medium.com/firebase-introducing-the-cloud-messaging-batch-apis-in-the-admin-sdk-2a3443c412d3)
 * [Getting Started with Kafka in Golang](https://medium.com/@yusufs/getting-started-with-kafka-in-golang-14ccab5fa26)
+* [Getting Started with Redis and Go - Tutorial](https://tutorialedge.net/golang/go-redis-tutorial/)
 * [Getting Started with Serverless Go](https://dev.to/yos/getting-started-with-serverless-go--1lff)
 * [Go Microservice with Clean Architecture: Application Layout](https://medium.com/@jfeng45/go-micro-service-with-clean-architecture-application-layout-e6216dbb835a)
 * [Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/)
