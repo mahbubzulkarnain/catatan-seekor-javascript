@@ -49,6 +49,7 @@
 * [Level up your Go Presentations](https://medium.com/@drashti.ved_84172/level-up-your-go-presentations-b4d06fc495e5)
 * [Membangun Realtime Canvas Drawing Dengan Go, Websocket dan P5.js](https://medium.com/@wuriyantomusobar/membangun-realtime-canvas-drawing-dengan-go-websocket-dan-p5-js-672c799d3044)
 * [Menggunakan MongoDB pada GOLANG](https://medium.com/programmer-geek/menggunakan-mysql-pada-golang-27f3148d0c66?source=your_stories_page---------------------------)
+* [Most Popular Golang String Functions](https://www.golangprograms.com/golang/string-functions/)
 * [gitlab-runner x509: certificate signed by unknown authority](https://stackoverflow.com/questions/55622960/gitlab-runner-x509-certificate-signed-by-unknown-authority)
 * [Practical Go: Real world advice for writing maintainable Go programs](https://dave.cheney.net/practical-go/presentations/qcon-china.html)
 * [Protect Image File Using Encryption \(Written in Go\)](https://medium.com/swlh/protect-image-file-using-encryption-written-in-go-7d016c5a4719)
