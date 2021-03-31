@@ -14,6 +14,7 @@
 * [Build app server send requests](https://firebase.google.com/docs/cloud-messaging/send-message)
 * [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/en/)
 * [Building A Containerized Microservice in Golang: A Step-by-step Guide](https://www.velotio.com/engineering-blog/build-a-containerized-microservice-in-golang)
+* [Building a Microservices Ecosystem with Kafka Streams and KSQL](https://www.confluent.io/blog/building-a-microservices-ecosystem-with-kafka-streams-and-ksql/)
 * [Building Docker Containers for Go Applications](https://www.callicoder.com/docker-golang-image-container-example/)
 * [Clean Architecture, 2 years later](https://eltonminetto.dev/en/post/2020-07-06-clean-architecture-2years-later/)
 * [Creating test mocks using GoMock](https://eltonminetto.dev/en/post/2019-12-19-gomock/)
