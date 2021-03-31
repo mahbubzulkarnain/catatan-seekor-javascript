@@ -103,5 +103,7 @@
 * [Catatan Seekor: ALGORITHM](other/catatan-seekor-algorithm.md)
 * [Catatan Seekor: KYUBI](other/catatan-seekor-kyubi.md)
 * [Catatan Seekor: SOFTWARE](other/catatan-seekor-software.md)
+* [Catatan Seekor: Warehouse](other/catatan-seekor-warehouse/README.md)
+  * [Tools](other/catatan-seekor-warehouse/tools.md)
 * [...](other/....md)
 
