@@ -17,6 +17,7 @@
 * [Building a Microservices Ecosystem with Kafka Streams and KSQL](https://www.confluent.io/blog/building-a-microservices-ecosystem-with-kafka-streams-and-ksql/)
 * [Building Docker Containers for Go Applications](https://www.callicoder.com/docker-golang-image-container-example/)
 * [Clean Architecture, 2 years later](https://eltonminetto.dev/en/post/2020-07-06-clean-architecture-2years-later/)
+* [Create Golang API Doc with Swag](https://www.ribice.ba/swagger-golang/)
 * [Creating test mocks using GoMock](https://eltonminetto.dev/en/post/2019-12-19-gomock/)
 * [Dasar Pemrograman Golang](https://dasarpemrogramangolang.novalagung.com/)
 * [Deploying a Go application on AWS EC2](https://hackernoon.com/deploying-a-go-application-on-aws-ec2-76390c09c2c5)
