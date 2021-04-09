@@ -11,6 +11,7 @@
 * [Docker-Based Build Pipelines \(Part 2\) - Continuous Deployment](https://rancher.com/continuous-deployment)
 * [Docker orchestration with Rancher](https://medium.com/@griggheo/docker-orchestration-with-rancher-1e573cc45707)
 * [Docker Reference Architecture: Docker Logging Design and Best Practices](https://success.docker.com/article/logging-best-practices)
+* [Gitlab CI to Slack integration](https://faun.pub/gitlab-to-slack-integration-c58555116973)
 * [How do I find my SSH public key on Windows server? \[closed\]](https://stackoverflow.com/questions/44135974/how-do-i-find-my-ssh-public-key-on-windows-server)
 * [How To Import and Export Databases in MySQL or MariaDB](https://www.digitalocean.com/community/tutorials/how-to-import-and-export-databases-in-mysql-or-mariadb)
 * [How To Install / Enable OpenSSH On CentOS 7](https://phoenixnap.com/kb/how-to-enable-ssh-centos-7)
