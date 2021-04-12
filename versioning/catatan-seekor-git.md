@@ -3,6 +3,7 @@
 #### Link
 
 * [Caching your GitHub password in Git](https://help.github.com/en/articles/caching-your-github-password-in-git#platform-linux)
+* [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)
 * \*\*\*\*[error: could not lock config file filepath/../.git/config :permission denied](https://stackoverflow.com/questions/32084684/error-could-not-lock-config-file-filepath-git-config-permission-denied)
 * [Error : Solving GIT Error Setting Certificate Verify Locations](https://adelomar.wordpress.com/2018/04/17/error-solving-git-error-setting-certificate-verify-locations/)
 * [error setting certificate verify locations](https://www.programmersought.com/article/29672360520/)

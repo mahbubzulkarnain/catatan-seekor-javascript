@@ -29,6 +29,7 @@
 * [Getting Started with Redis and Go - Tutorial](https://tutorialedge.net/golang/go-redis-tutorial/)
 * [Getting Started with Serverless Go](https://dev.to/yos/getting-started-with-serverless-go--1lff)
 * [Go, Kafka, gRPC and MongoDB microservice with metrics and tracing ](https://dev.to/aleksk1ng/go-kafka-grpc-and-mongodb-microservice-with-metrics-and-tracing-448d)
+* [Go database/sql tutorial](http://go-database-sql.org/index.html)
 * [Go Microservice with Clean Architecture: Application Layout](https://medium.com/@jfeng45/go-micro-service-with-clean-architecture-application-layout-e6216dbb835a)
 * [Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/)
 * [Go tools and GitLab: How to do continuous integration like a boss](https://about.gitlab.com/blog/2017/11/27/go-tools-and-gitlab-how-to-do-continuous-integration-like-a-boss/)
@@ -70,6 +71,7 @@
 * [Tutorial Edge](https://tutorialedge.net/course/golang/)
 * [Unit Test \(SQL\) in Golang](https://medium.com/easyread/unit-test-sql-in-golang-5af19075e68e)
 * [Unit Test in Golang](https://medium.com/tunaiku-tech/unit-test-in-golang-57a2a896d90d)
+* [Writing a pre-commit git hook for Go files.](https://medium.com/@radlinskii/writing-the-pre-commit-git-hook-for-go-files-810f8d5f1c6f)
 * [Writing Great Go Code](https://scene-si.org/2018/07/24/writing-great-go-code/)
 
 #### Architecture
