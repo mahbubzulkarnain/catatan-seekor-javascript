@@ -12,6 +12,7 @@
 * [int16 to byte array](https://stackoverflow.com/questions/17260107/int16-to-byte-array)
 * [Remove diacritics using Go](https://stackoverflow.com/questions/26722450/remove-diacritics-using-go)
 * [Repeat code if an error occured](https://stackoverflow.com/questions/47606761/repeat-code-if-an-error-occured)
+* [write: broken pipe](https://github.com/gin-gonic/gin/issues/1975)
 
 #### 
 
