@@ -27,6 +27,7 @@
 * [Jira DVCS connector](https://docs.gitlab.com/ee/integration/jira/dvcs.html)
 * [Make RESTful API calls in Rancher/Docker without a port](https://stackoverflow.com/questions/49758202/make-restful-api-calls-in-rancher-docker-without-a-port)
 * [Membuat VPS di Google Cloud Platform](https://medium.com/@yunusmuhammad007/membuat-vps-di-google-cloud-platform-2be081c91d74)
+* [Process issues with smart commits](https://support.atlassian.com/jira-software-cloud/docs/process-issues-with-smart-commits/)
 * [Reset \(clean up\) a Rancher Docker Host](https://www.claudiokuenzler.com/blog/674/reset-clean-up-a-rancher-docker-host)
 * [Top 10 Docker Logging Gotchas](https://dzone.com/articles/top-10-docker-logging-gotchas)
 * [Ultimate list of Cheat Sheet for System Administrator](https://geekflare.com/cheat-sheet-system-admin/)
