@@ -78,6 +78,7 @@
   * [List Transaction Code](devops/devops/list-transaction-code.md)
 * [Catatan Seekor: Docker](devops/catatan-seekor-docker.md)
 * [Catatan Seekor: GCN](devops/catatan-seekor-gcn.md)
+* [Catatan Seekor: Rancher](devops/catatan-seekor-rancher.md)
 
 ## VERSIONING
 
