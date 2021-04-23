@@ -1,5 +1,19 @@
 # Catatan Seekor: GIT
 
+#### Branch
+
+| Pattern | Example |
+| :--- | :--- |
+| {stage}-{version}-{feature}-{function}-{username} | dev-1.0.0-login-jwt-generator-john |
+
+#### Commit Message
+
+* \*\*\*\*[Conventional Commits](https://www.conventionalcommits.org/)
+
+#### Versioning
+
+* [Semantic Versioning](https://semver.org/)
+
 #### Link
 
 * [Caching your GitHub password in Git](https://help.github.com/en/articles/caching-your-github-password-in-git#platform-linux)
