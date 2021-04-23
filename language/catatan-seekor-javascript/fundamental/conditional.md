@@ -130,7 +130,7 @@ console.log((() => {
 })()); // 'With case 2'
 ```
 
-## The _try catch finally_ Statement
+## The _try-catch-finally_ Statement
 
 ```javascript
 try {
