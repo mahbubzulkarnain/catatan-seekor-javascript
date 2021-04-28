@@ -82,7 +82,8 @@
 
 ## VERSIONING
 
-* [Catatan Seekor: GIT](versioning/catatan-seekor-git.md)
+* [Catatan Seekor: GIT](versioning/catatan-seekor-git/README.md)
+  * [Tricks](versioning/catatan-seekor-git/tricks.md)
 
 ## TOOL
 
