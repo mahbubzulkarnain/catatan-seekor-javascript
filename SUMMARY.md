@@ -76,6 +76,7 @@
   * [List Port](devops/devops/list-port.md)
   * [List Response Code HTTP](devops/devops/list-response-code.md)
   * [List Transaction Code](devops/devops/list-transaction-code.md)
+  * [Tricks](devops/devops/tricks.md)
 * [Catatan Seekor: Docker](devops/catatan-seekor-docker.md)
 * [Catatan Seekor: GCN](devops/catatan-seekor-gcn.md)
 * [Catatan Seekor: Rancher](devops/catatan-seekor-rancher.md)
