@@ -50,6 +50,7 @@
 * [Gomock — unit testing made easy](https://medium.com/@duythhuynh/gomock-unit-testing-made-easy-b59a0e947ba7)
 * [High Performance Go Workshop](https://dave.cheney.net/high-performance-go-workshop/dotgo-paris.html)
 * [Hot Example](https://golang.hotexamples.com/)
+* [How to test TCP/UDP connections in Go - Part 1](https://dev.to/williamhgough/how-to-test-tcpudp-connections-in-go---part-1-3bga)
 * [How to use RegEx in GoLang](https://www.educative.io/edpresso/how-to-use-regex-in-golang)
 * [How to write & run database migration in Golang](https://dev.to/techschoolguru/how-to-write-run-database-migration-in-golang-5h6g)
 * [Implementasi Kafka menggunakan Golang + Testing](https://medium.com/easyread/implementasi-kafka-menggunakan-golang-testing-db183e0b3c29)
