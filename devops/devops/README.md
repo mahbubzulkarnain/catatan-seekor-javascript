@@ -14,6 +14,7 @@
 * [Gitlab CI to Slack integration](https://faun.pub/gitlab-to-slack-integration-c58555116973)
 * [How do I find my SSH public key on Windows server? \[closed\]](https://stackoverflow.com/questions/44135974/how-do-i-find-my-ssh-public-key-on-windows-server)
 * [HOW TO CREATE USERS AND GROUPS IN CENTOS7?](https://manage.accuwebhosting.com/knowledgebase/2959/How-to-create-users-and-groups-in-CentOS7.html)
+* [How to Fix “firewall-cmd: command not found” Error in RHEL/CentOS 7](https://www.tecmint.com/fix-firewall-cmd-command-not-found-error/)
 * [How To Import and Export Databases in MySQL or MariaDB](https://www.digitalocean.com/community/tutorials/how-to-import-and-export-databases-in-mysql-or-mariadb)
 * [How To Install / Enable OpenSSH On CentOS 7](https://phoenixnap.com/kb/how-to-enable-ssh-centos-7)
 * [How to install Apache, PHP 7.3 and MySQL on CentOS 7.6](https://www.howtoforge.com/tutorial/centos-lamp-server-apache-mysql-php/)
