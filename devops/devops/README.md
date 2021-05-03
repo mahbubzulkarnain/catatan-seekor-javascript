@@ -23,7 +23,7 @@
 * [How To Set Up an Elasticsearch, Fluentd and Kibana \(EFK\) Logging Stack on Kubernetes](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-elasticsearch-fluentd-and-kibana-efk-logging-stack-on-kubernetes)
 * \*\*\*\*[How to switch user in Centos](https://stackoverflow.com/questions/21882645/how-to-switch-user-in-centos)
 * [Initial Server Setup with CentOS 7](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-centos-7)
-* [Install Production Kubernetes Cluster with Rancher RKE](https://computingforgeeks.com/install-kubernetes-production-cluster-using-rancher-rke/)
+* [**Install Production Kubernetes Cluster with Rancher RKE**](https://computingforgeeks.com/install-kubernetes-production-cluster-using-rancher-rke/)\*\*\*\*
 * [Interface IP address is removed automatically on CentOs running inside VirtualBox](https://serverfault.com/questions/514340/interface-ip-address-is-removed-automatically-on-centos-running-inside-virtualbo)
 * [Jira DVCS connector](https://docs.gitlab.com/ee/integration/jira/dvcs.html)
 * [Make RESTful API calls in Rancher/Docker without a port](https://stackoverflow.com/questions/49758202/make-restful-api-calls-in-rancher-docker-without-a-port)
@@ -33,6 +33,7 @@
 * [Top 10 Docker Logging Gotchas](https://dzone.com/articles/top-10-docker-logging-gotchas)
 * [Ultimate list of Cheat Sheet for System Administrator](https://geekflare.com/cheat-sheet-system-admin/)
 * [Update: Rancher 2.5 alone install k3s and can't start without privileged](https://github.com/rancher/rancher/issues/29513)
+* [Use SSH Public Key Authentication on Linux, macOS, and Windows](https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh/)
 * [Quick DevOps](https://www.quickdevops.com/)
 
 ## Tools
