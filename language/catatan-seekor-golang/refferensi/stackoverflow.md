@@ -8,6 +8,7 @@
 * [How to convert int \(int64\) into uint16 in golang?](https://stackoverflow.com/questions/36144675/how-to-convert-int-int64-into-uint16-in-golang)
 * \*\*\*\*[How does one test net.Conn in unit tests in Golang?](https://stackoverflow.com/questions/30688685/how-does-one-test-net-conn-in-unit-tests-in-golang)
 * [How to pass arguments to router handlers in Golang using Gin web framework?](https://stackoverflow.com/questions/34046194/how-to-pass-arguments-to-router-handlers-in-golang-using-gin-web-framework)
+* [How to set different value for host in http header with host in url in golang](https://stackoverflow.com/questions/50558422/how-to-set-different-value-for-host-in-http-header-with-host-in-url-in-golang)
 * [How to set GOPRIVATE environment variable](https://stackoverflow.com/questions/58305567/how-to-set-goprivate-environment-variable)
 * [How to use Go with a private GitLab repo](https://stackoverflow.com/questions/29707689/how-to-use-go-with-a-private-gitlab-repo)
 * [int16 to byte array](https://stackoverflow.com/questions/17260107/int16-to-byte-array)
