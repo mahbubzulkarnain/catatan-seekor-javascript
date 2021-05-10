@@ -32,6 +32,7 @@
 * [Getting Started with Serverless Go](https://dev.to/yos/getting-started-with-serverless-go--1lff)
 * [Gin Validation Errors Handling](https://blog.depa.do/post/gin-validation-errors-handling)
 * [Go, Kafka, gRPC and MongoDB microservice with metrics and tracing ](https://dev.to/aleksk1ng/go-kafka-grpc-and-mongodb-microservice-with-metrics-and-tracing-448d)
+* [Go API with echo, gorm, and GraphQL](https://manakuro.medium.com/go-api-with-echo-gorm-and-graphql-1565ad921626)
 * [Go database/sql tutorial](http://go-database-sql.org/index.html)
 * [Go Microservice with Clean Architecture: Application Layout](https://medium.com/@jfeng45/go-micro-service-with-clean-architecture-application-layout-e6216dbb835a)
 * [Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/)
