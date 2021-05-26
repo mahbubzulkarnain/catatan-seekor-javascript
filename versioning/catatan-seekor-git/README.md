@@ -16,6 +16,7 @@
 
 #### Link
 
+* [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 * [Caching your GitHub password in Git](https://help.github.com/en/articles/caching-your-github-password-in-git#platform-linux)
 * [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)
 * \*\*\*\*[error: could not lock config file filepath/../.git/config :permission denied](https://stackoverflow.com/questions/32084684/error-could-not-lock-config-file-filepath-git-config-permission-denied)
