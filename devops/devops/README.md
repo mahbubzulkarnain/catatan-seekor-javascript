@@ -39,6 +39,10 @@
 * [Use SSH Public Key Authentication on Linux, macOS, and Windows](https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh/)
 * [Quick DevOps](https://www.quickdevops.com/)
 
+## Course
+
+* [Qwiklabs](https://www.qwiklabs.com/)
+
 ## Tools
 
 * [CloudCraft](https://www.cloudcraft.co/)
