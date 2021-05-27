@@ -62,6 +62,7 @@
 * [Catatan Seekor: MySQL](database/catatan-seekor-mysql.md)
 * [Catatan Seekor: MongoDB](database/catatan-seekor-mongodb/README.md)
   * [Refferensi](database/catatan-seekor-mongodb/refferensi.md)
+* [Catatan Seekor: SQL Server](database/catatan-seekor-sql-server.md)
 
 ## CACHE
 
