@@ -70,6 +70,7 @@
 
 ## Messaging
 
+* [Catatan Seekor: Kafka](messaging/catatan-seekor-kafka.md)
 * [Catatan Seekor: RabbitMQ](messaging/catatan-seekor-rabbitmq.md)
 
 ## DEVOPS
