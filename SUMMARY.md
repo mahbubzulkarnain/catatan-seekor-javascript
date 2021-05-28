@@ -58,11 +58,11 @@
 
 ## DATABASE
 
-* [Catatan Seekor: POSTGRESQL](database/catatan-seekor-postgresql.md)
+* [Catatan Seekor: PostgreSQL](database/catatan-seekor-postgresql.md)
 * [Catatan Seekor: MySQL](database/catatan-seekor-mysql.md)
 * [Catatan Seekor: MongoDB](database/catatan-seekor-mongodb/README.md)
   * [Refferensi](database/catatan-seekor-mongodb/refferensi.md)
-* [Catatan Seekor: SQL Server](database/catatan-seekor-sql-server.md)
+* [Catatan Seekor: SQLServer](database/catatan-seekor-sql-server.md)
 
 ## CACHE
 

@@ -2,7 +2,7 @@
 description: 'Michael Stonebraker ( Oct 11, 1943 ), Eugene Wong ( December 24, 1934 )'
 ---
 
-# Catatan Seekor: POSTGRESQL
+# Catatan Seekor: PostgreSQL
 
 #### Link
 

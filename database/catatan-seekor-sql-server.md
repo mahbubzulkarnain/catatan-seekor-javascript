@@ -1,4 +1,4 @@
-# Catatan Seekor: SQL Server
+# Catatan Seekor: SQLServer
 
 * [Does a Query always wait in the SUSPENDED State?](https://www.sqlpassion.at/archive/2018/06/05/does-a-query-always-wait-in-the-suspended-state/)
 * [Five SQL Server Settings to Change](https://www.brentozar.com/archive/2013/09/five-sql-server-settings-to-change/)
