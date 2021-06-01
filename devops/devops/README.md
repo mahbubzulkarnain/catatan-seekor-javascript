@@ -45,6 +45,7 @@
 
 ## Tools
 
+* [Chmod command](https://chmodcommand.com/)
 * [CloudCraft](https://www.cloudcraft.co/)
 
 ## Testing
