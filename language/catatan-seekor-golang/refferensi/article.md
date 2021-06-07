@@ -79,6 +79,7 @@
 * [Solving the "does not support indexing" error in a Go program](https://flaviocopes.com/golang-does-not-support-indexing/)
 * [Storing Go Structs in Redis using ReJSON](https://itnext.io/storing-go-structs-in-redis-using-rejson-dab7f8fc0053)
 * [Testing with GoMock: A Tutorial](https://blog.codecentric.de/en/2017/08/gomock-tutorial/)
+* [Today I Learned: Storing Emoji to Mysql with Golang](https://hackernoon.com/today-i-learned-storing-emoji-to-mysql-with-golang-204a093454b7)
 * [Try and Catch in Golang](https://dzone.com/articles/try-and-catch-in-golang)
 * [Tutorial Edge](https://tutorialedge.net/course/golang/)
 * [Unit Test \(SQL\) in Golang](https://medium.com/easyread/unit-test-sql-in-golang-5af19075e68e)
