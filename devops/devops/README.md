@@ -22,6 +22,7 @@
 * [How to install Apache, PHP 7.3 and MySQL on CentOS 7.6](https://www.howtoforge.com/tutorial/centos-lamp-server-apache-mysql-php/)
 * [How to Install and Use PHP Composer on CentOS 7](https://linuxize.com/post/how-to-install-and-use-composer-on-centos-7/)
 * [How to Install Rancher Docker Container Manager on CentOS 7](https://www.howtoforge.com/tutorial/centos-rancher-docker-container-management-platform/)
+* [How To Remove Docker Containers, Images, Volumes, and Networks](https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/)
 * [How To Secure Nginx with Let's Encrypt on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04)
 * [How to setup Rancher 2 in an airgap / offline environment](https://medium.com/@superseb/how-to-setup-rancher-2-in-an-air-gapped-environment-fd35a0aae792)
 * [How To Set Up an Elasticsearch, Fluentd and Kibana \(EFK\) Logging Stack on Kubernetes](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-elasticsearch-fluentd-and-kibana-efk-logging-stack-on-kubernetes)
