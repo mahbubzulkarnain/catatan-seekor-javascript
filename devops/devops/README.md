@@ -25,6 +25,7 @@
 * [How To Secure Nginx with Let's Encrypt on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04)
 * [How to setup Rancher 2 in an airgap / offline environment](https://medium.com/@superseb/how-to-setup-rancher-2-in-an-air-gapped-environment-fd35a0aae792)
 * [How To Set Up an Elasticsearch, Fluentd and Kibana \(EFK\) Logging Stack on Kubernetes](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-elasticsearch-fluentd-and-kibana-efk-logging-stack-on-kubernetes)
+* [How To Set Up SSH Keys on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-centos7)
 * \*\*\*\*[How to switch user in Centos](https://stackoverflow.com/questions/21882645/how-to-switch-user-in-centos)
 * [Initial Server Setup with CentOS 7](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-centos-7)
 * [**Install Production Kubernetes Cluster with Rancher RKE**](https://computingforgeeks.com/install-kubernetes-production-cluster-using-rancher-rke/)\*\*\*\*
