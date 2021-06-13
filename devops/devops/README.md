@@ -7,6 +7,7 @@
 * [Cara Install Dan Setup Rancher 2.x \(Latest\), Kubernetes/Docker Di Linux](https://www.ayies.com/cara-install-dan-setup-rancher-2-x-latest-kubernetes-docker-di-linux/)
 * [CentOS 7 VirtualBox no internet access](https://superuser.com/questions/915536/centos-7-virtualbox-no-internet-access)
 * [Configure logging drivers](https://docs.docker.com/config/containers/logging/configure/)
+* \*\*\*\*[**Copying SSH Key From Root To Another User On Same Machine**](https://askubuntu.com/questions/1218023/copying-ssh-key-from-root-to-another-user-on-same-machine)\*\*\*\*
 * \*\*\*\*[Do I Need an API Gateway if I Use a Service Mesh?](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh/)
 * [Docker-based build pipelines \(Part 1\) - Continuous Integration and Testing](https://rancher.com/docker-based-build-pipelines-part-1-continuous-integration-and-testing/)
 * [Docker-Based Build Pipelines \(Part 2\) - Continuous Deployment](https://rancher.com/continuous-deployment)
