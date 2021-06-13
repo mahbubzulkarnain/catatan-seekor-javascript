@@ -36,6 +36,7 @@
 * [Membuat VPS di Google Cloud Platform](https://medium.com/@yunusmuhammad007/membuat-vps-di-google-cloud-platform-2be081c91d74)
 * [Process issues with smart commits](https://support.atlassian.com/jira-software-cloud/docs/process-issues-with-smart-commits/)
 * [rancher \[2.2.4\] etcd/controlplane master not registering on new clusters](https://github.com/rancher/rancher/issues/21514#issuecomment-562834860)
+* [rancher Certificate Management](https://rancher.com/docs/rke/latest/en/cert-mgmt/)
 * [Reset \(clean up\) a Rancher Docker Host](https://www.claudiokuenzler.com/blog/674/reset-clean-up-a-rancher-docker-host)
 * [Top 10 Docker Logging Gotchas](https://dzone.com/articles/top-10-docker-logging-gotchas)
 * [Ultimate list of Cheat Sheet for System Administrator](https://geekflare.com/cheat-sheet-system-admin/)
