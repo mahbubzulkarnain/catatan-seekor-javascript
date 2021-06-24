@@ -53,6 +53,7 @@
 * [Gomock — unit testing made easy](https://medium.com/@duythhuynh/gomock-unit-testing-made-easy-b59a0e947ba7)
 * [High Performance Go Workshop](https://dave.cheney.net/high-performance-go-workshop/dotgo-paris.html)
 * [Hot Example](https://golang.hotexamples.com/)
+* [How to implement Elasticsearch in Go](https://www.freecodecamp.org/news/go-elasticsearch/)
 * [How To List Users in CentOS 7](https://www.liquidweb.com/kb/list-users-centos-7/)
 * [How to test TCP/UDP connections in Go - Part 1](https://dev.to/williamhgough/how-to-test-tcpudp-connections-in-go---part-1-3bga)
 * [How to use RegEx in GoLang](https://www.educative.io/edpresso/how-to-use-regex-in-golang)
