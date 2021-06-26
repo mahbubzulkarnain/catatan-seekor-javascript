@@ -38,6 +38,7 @@
 * [rancher \[2.2.4\] etcd/controlplane master not registering on new clusters](https://github.com/rancher/rancher/issues/21514#issuecomment-562834860)
 * [rancher Certificate Management](https://rancher.com/docs/rke/latest/en/cert-mgmt/)
 * [Reset \(clean up\) a Rancher Docker Host](https://www.claudiokuenzler.com/blog/674/reset-clean-up-a-rancher-docker-host)
+* \*\*\*\*[**Run Docker Registry on CentOS 7 With Let’s Encrypt SSL**](https://computingforgeeks.com/install-and-configure-docker-registry-on-centos-7/)\*\*\*\*
 * [Top 10 Docker Logging Gotchas](https://dzone.com/articles/top-10-docker-logging-gotchas)
 * [Ultimate list of Cheat Sheet for System Administrator](https://geekflare.com/cheat-sheet-system-admin/)
 * [Update: Rancher 2.5 alone install k3s and can't start without privileged](https://github.com/rancher/rancher/issues/29513)
