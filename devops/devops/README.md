@@ -44,6 +44,7 @@
 * [Update: Rancher 2.5 alone install k3s and can't start without privileged](https://github.com/rancher/rancher/issues/29513)
 * [Use SSH Public Key Authentication on Linux, macOS, and Windows](https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh/)
 * [Quick DevOps](https://www.quickdevops.com/)
+* \*\*\*\*[Where is kong.conf file?](https://stackoverflow.com/questions/56007431/where-is-kong-conf-file)
 
 ## Course
 

@@ -88,6 +88,7 @@
 * [Tutorial Edge](https://tutorialedge.net/course/golang/)
 * [Unit Test \(SQL\) in Golang](https://medium.com/easyread/unit-test-sql-in-golang-5af19075e68e)
 * [Unit Test in Golang](https://medium.com/tunaiku-tech/unit-test-in-golang-57a2a896d90d)
+* [Why is sarama so fast compared to segmentio's kafka-go? ](https://github.com/Shopify/sarama/issues/1647)
 * [Writing a pre-commit git hook for Go files.](https://medium.com/@radlinskii/writing-the-pre-commit-git-hook-for-go-files-810f8d5f1c6f)
 * [Writing Great Go Code](https://scene-si.org/2018/07/24/writing-great-go-code/)
 
