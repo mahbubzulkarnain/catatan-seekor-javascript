@@ -21,6 +21,7 @@
 * [Clean Architecture, 2 years later](https://eltonminetto.dev/en/post/2020-07-06-clean-architecture-2years-later/)
 * [Clean architecture for the rest of us](https://pusher.com/tutorials/clean-architecture-introduction)
 * [comparison of confluent-kafka-go vs sarama-cluster consumer performance](https://gist.github.com/savaki/a19dcc1e72cb5d621118fbee1db4e61f)
+* [Configuring sql.DB for Better Performance](https://www.alexedwards.net/blog/configuring-sqldb)
 * [Create Golang API Doc with Swag](https://www.ribice.ba/swagger-golang/)
 * [Create Your First Simple GraphQL Golang Application with GQLGen](https://medium.com/@ktrilaksono/create-your-first-simple-graphql-golang-application-with-go-gqlgen-793e11dc5fc4)
 * [Creating test mocks using GoMock](https://eltonminetto.dev/en/post/2019-12-19-gomock/)
