@@ -84,6 +84,7 @@
   * [Tricks](devops/devops/tricks.md)
 * [Catatan Seekor: Docker](devops/catatan-seekor-docker.md)
 * [Catatan Seekor: GCN](devops/catatan-seekor-gcn.md)
+* [Catatan Seekor: Kubernetes](devops/catatan-seekor-kubernetes.md)
 * [Catatan Seekor: Rancher](devops/catatan-seekor-rancher.md)
 
 ## VERSIONING
