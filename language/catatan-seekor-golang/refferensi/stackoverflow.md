@@ -12,6 +12,7 @@
 * [How to set GOPRIVATE environment variable](https://stackoverflow.com/questions/58305567/how-to-set-goprivate-environment-variable)
 * [How to use Go with a private GitLab repo](https://stackoverflow.com/questions/29707689/how-to-use-go-with-a-private-gitlab-repo)
 * [int16 to byte array](https://stackoverflow.com/questions/17260107/int16-to-byte-array)
+* \*\*\*\*[Recover and continue for loop if panic occur Golang](https://stackoverflow.com/questions/51113193/recover-and-continue-for-loop-if-panic-occur-golang)
 * [Remove diacritics using Go](https://stackoverflow.com/questions/26722450/remove-diacritics-using-go)
 * [Repeat code if an error occured](https://stackoverflow.com/questions/47606761/repeat-code-if-an-error-occured)
 * [write: broken pipe](https://github.com/gin-gonic/gin/issues/1975)
